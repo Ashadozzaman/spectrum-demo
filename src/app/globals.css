@@ -1,0 +1,3 @@
+/* Tailwind is intentionally not imported: its preflight reset would alter the
+   template's pixel-matched styles. Add `@import "tailwindcss";` if needed later. */
+@import "./home.css";
