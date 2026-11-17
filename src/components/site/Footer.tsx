@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { EMAIL, PHONE, PHONE_HREF, routes } from "@/lib/routes";
+import SocialLinks from "./SocialLinks";
 
 const projectSites = [
   "www.licence.gov.bd",
@@ -39,6 +40,7 @@ export default function Footer() {
             <img src="/assets/iso9001.png" alt="ISO 9001:2015" width="34" height="36" className="footer-badges__iso" />
             <img src="/assets/iso27001.png" alt="ISO 27001:2022" width="34" height="36" className="footer-badges__iso" />
           </div>
+          <SocialLinks />
         </div>
         <nav aria-label="Valuable projects" className="footer-col">
           <h2 className="footer-col__title">VALUABLE PROJECTS</h2>

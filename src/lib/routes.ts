@@ -104,3 +104,9 @@ export const PHONE = "+880 1615-900004";
 export const PHONE_HREF = "tel:+8801615900004";
 export const WHATSAPP_HREF = "https://wa.me/8801615900004";
 export const EMAIL = "contact@spectrum.com.bd";
+
+export const SOCIAL = {
+  facebook: "https://www.facebook.com/myspectrumit",
+  linkedin: "https://www.linkedin.com/company/spectrum-it-solutions-limited",
+  youtube: "https://www.youtube.com/@SpectrumITSolutionsbdLtd",
+} as const;
