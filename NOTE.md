@@ -5,6 +5,24 @@ this Next.js app in the new home-page design. Newest entries first.
 
 ---
 
+## 2026-11-17 (4): Privacy Policy, Terms of Use, Case Studies menu
+
+### What was done
+
+| Route | Source | Data |
+|---|---|---|
+| `/privacy-policy` | `privacy-policy.html` | `src/data/legal/privacy-policy.json` |
+| `/terms` | `terms.html` | `src/data/legal/terms.json` |
+
+- Shared layout `components/legal/LegalDocument.tsx`: sticky "On this page" list + numbered
+  sections. Section `body` items are a paragraph (string), `{ "list": [...] }` or `{ "heading": "..." }`
+  (type `LegalPage` in `content-types.ts`, loaded with `getLegalPage(slug)`).
+- Redirects: `privacy-policy.html` → `/privacy-policy`, `terms.html` → `/terms`.
+- Header: "Case Studies" opens a dropdown on hover/focus listing every case-study page
+  (`getCaseStudies()` = visible projects with a `projects/<slug>.json`). Mobile menu unchanged.
+
+---
+
 ## 2026-11-17 (3): About and Contact pages
 
 ### What was done
@@ -30,7 +48,7 @@ this Next.js app in the new home-page design. Newest entries first.
 ### Not done / follow-ups
 
 - No test message was sent through the form (it would email the real inbox); try one from the live site.
-- Still pending: `/privacy-policy`, `/terms` (the form links to the privacy policy).
+- ~~Still pending: `/privacy-policy`, `/terms`~~ done (see entry (4)).
 
 ---
 
@@ -66,7 +84,7 @@ this Next.js app in the new home-page design. Newest entries first.
 - 9 products have no old detail copy (access control, attendance, CCTV, GPS, alarms, kiosks,
   signage, ERP, smart city): their pages show the summary, features, support and related items.
   Add `src/data/products/<slug>.json` to give them sections.
-- Still pending: `/privacy-policy`, `/terms`.
+- ~~Still pending: `/privacy-policy`, `/terms`~~ done (see entry (4)).
 
 ---
 
@@ -144,7 +162,7 @@ All listed in `src/lib/routes.ts`:
 - `/contact` (many "Ask for a quote" / CTA links use `?product=…#contact-form`;
   the contact form should read the `product` query param and use `id="contact-form"`)
 - ~~Service pages, case studies, `/upokari`~~ done (see entry above)
-- `/privacy-policy`, `/terms`, about page (currently `/#about`)
+- ~~`/privacy-policy`, `/terms`, about page~~ done
 
 ### Ideas / follow-ups
 

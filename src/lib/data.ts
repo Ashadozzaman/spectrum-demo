@@ -2,7 +2,7 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { cache } from "react";
 import type {
-  AboutPage, ContactPage, DetailFile, Product, ProductsIndex, ProductSummary, Project, ProjectsIndex, Service, ServicesIndex,
+  AboutPage, ContactPage, DetailFile, LegalPage, Product, ProductsIndex, ProductSummary, Project, ProjectsIndex, Service, ServicesIndex,
 } from "./content-types";
 
 // Server-only module (reads the file system). Import it from Server Components and route handlers only.
@@ -140,4 +140,9 @@ export async function getAboutPage(): Promise<AboutPage> {
 
 export async function getContactPage(): Promise<ContactPage> {
   return readJson<ContactPage>("contact.json");
+}
+
+/** Legal documents: src/data/legal/<slug>.json ("privacy-policy", "terms"). */
+export async function getLegalPage(slug: "privacy-policy" | "terms"): Promise<LegalPage> {
+  return readJson<LegalPage>(`legal/${slug}.json`);
 }

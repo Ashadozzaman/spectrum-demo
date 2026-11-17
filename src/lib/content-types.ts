@@ -265,3 +265,25 @@ export type ContactPage = {
   sections: Block[];
   cta: Cta;
 };
+
+// ---- Legal pages (privacy policy, terms) ---------------------------------------
+
+/** One piece of a legal section: a paragraph (string), a bullet list, or a sub-heading. */
+export type LegalBody = string | { list: string[] } | { heading: string };
+
+export type LegalSection = {
+  /** Anchor id, used by the "On this page" list. */
+  id: string;
+  title: string;
+  body: LegalBody[];
+};
+
+export type LegalPage = {
+  seo: Seo;
+  hero: Hero;
+  /** Heading above the document. */
+  title: string;
+  updated: string;
+  intro: string[];
+  sections: LegalSection[];
+};

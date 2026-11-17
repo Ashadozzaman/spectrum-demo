@@ -23,8 +23,6 @@ export const routes = {
   projects: "/projects",
 
   contact: "/contact",
-
-  // ---- Not ported yet -------------------------------------------------------
   privacy: "/privacy-policy",
   terms: "/terms",
 

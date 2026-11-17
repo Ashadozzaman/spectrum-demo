@@ -16,6 +16,8 @@ const oldPages: Record<string, string> = {
   Projects: "/projects",
   "case-study": "/projects",
   "Case-study": "/projects",
+  "privacy-policy": "/privacy-policy",
+  terms: "/terms",
 
   // Service guides
   "digital-identity-security": "/services/digital-identity-security",
