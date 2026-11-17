@@ -1,0 +1,112 @@
+{
+  "seo": {
+    "title": "Contact Us: Software Company in Dhaka",
+    "description": "Contact Spectrum IT Solutions in Dhaka about a new project, a tender, a product quote or support for a live system. We reply within one business day.",
+    "image": "/images/og/contact.jpg"
+  },
+  "hero": {
+    "eyebrow": "Contact us",
+    "title": "Get *in touch*",
+    "lead": "Tell us about your project, ask for a demo, or get help with a system we run for you. Our team is in Dhaka and replies within one business day.",
+    "chips": [
+      { "label": "Reply within 1 business day", "icon": "Clock" },
+      { "label": "Sun–Thu, 9 AM–6 PM", "icon": "CalendarCheck" },
+      { "label": "ISO 9001 & 27001 certified", "icon": "BadgeCheck" },
+      { "label": "BASIS Member", "icon": "Award" }
+    ]
+  },
+  "reasons": [
+    {
+      "title": "New projects and tenders",
+      "icon": "FileText",
+      "text": "Digital identity, smart cards, AI, blockchain or custom software, including tenders and RFPs.",
+      "more": "Send us a message",
+      "href": "#contact-form"
+    },
+    {
+      "title": "Support for live systems",
+      "icon": "Headset",
+      "text": "Help with a system we already run for you, from a quick question to an urgent fix.",
+      "more": "Call +880 1615-900004",
+      "href": "tel:+8801615900004"
+    },
+    {
+      "title": "Partnerships",
+      "icon": "Handshake",
+      "text": "Hardware partners, joint bids and shared projects. Tell us what you have in mind.",
+      "more": "Email our team",
+      "href": "mailto:contact@spectrum.com.bd"
+    }
+  ],
+  "office": {
+    "eyebrow": "Our office",
+    "title": "Tell us what *you need*",
+    "lead": "Send a message, call, or chat on WhatsApp. A few lines are enough to get started.",
+    "address": "52/1, New Eskaton Road (Hasan Holdings Ltd., 12th Floor), Dhaka-1000, Bangladesh",
+    "directions": "https://maps.google.com/?q=Hasan+Holdings+Limited,+52/1+New+Eskaton+Road,+Dhaka",
+    "hours": "Sunday to Thursday, 9:00 AM to 6:00 PM (Bangladesh time)",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.008074018641!2d90.39395197597223!3d23.747091488902118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9330fad8b19%3A0x71a6a0b1575c404c!2sHasan%20Holdings%20Limited!5e0!3m2!1sen!2sbd!4v1694437419837!5m2!1sen!2sbd"
+  },
+  "form": {
+    "endpoint": "https://formspree.io/f/xpppovbn",
+    "subject": "New website enquiry (Contact page)",
+    "quoteTopic": "Product quote",
+    "topics": [
+      { "value": "Not sure yet", "label": "Not sure yet / general question" },
+      { "value": "Digital Identity", "label": "Digital identity and ID verification" },
+      { "value": "Smart Cards", "label": "Smart cards and card printing" },
+      { "value": "Artificial Intelligence", "label": "Artificial intelligence" },
+      { "value": "Blockchain", "label": "Blockchain and tamper-proof records" },
+      { "value": "Custom Software", "label": "Custom software" },
+      { "value": "Hardware", "label": "Hardware: biometrics, kiosks, CCTV, access control" },
+      { "value": "Product quote", "label": "A quote for one of our products" },
+      { "value": "Support", "label": "Support for a system we run for you" },
+      { "value": "Tender or RFP", "label": "Tender or RFP" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "steps",
+      "id": "next",
+      "eyebrow": "After you write",
+      "title": "What happens next",
+      "items": [
+        { "title": "We reply", "text": "Within one business day, by email or phone, whichever you gave us." },
+        { "title": "A short call", "text": "We ask a few questions to understand what you need, who will use it and your timeline." },
+        { "title": "Demo or proposal", "text": "We show you a working demo, or send a proposal with scope, timeline and cost." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "Common questions",
+      "title": "Before you write",
+      "items": [
+        { "q": "Do you work with private companies, or only with government?", "a": "Both. We work with government offices, banks, telecom operators and private companies, on anything from a single system to a national programme." },
+        { "q": "Can we see a live demo?", "a": "Yes. Say what you would like to see in your message, and we will arrange a demo, in person or online." },
+        { "q": "Do you respond to tenders and RFPs?", "a": "Yes. Send us the tender details or documents, choose \"Tender or RFP\" in the form, and our team will get back to you." },
+        { "q": "What should I write in my message?", "a": "A few lines are enough: what you want to do, roughly how many people or records it covers, and when you need it. We will ask about the rest on the call." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "certifications",
+      "eyebrow": "Quality & standards",
+      "title": "Certifications and memberships",
+      "columns": 4,
+      "items": [
+        { "title": "ISO 9001:2015", "icon": "BadgeCheck", "text": "Quality management" },
+        { "title": "ISO 27001:2022", "icon": "ShieldCheck", "text": "Information security management" },
+        { "title": "BASIS Member", "icon": "Award", "text": "Bangladesh Association of Software and Information Services" },
+        { "title": "BCS Member", "icon": "Users", "text": "Bangladesh Computer Samity" }
+      ]
+    }
+  ],
+  "cta": {
+    "eyebrow": "Prefer to talk?",
+    "title": "Call or message us.",
+    "text": "Call or message us on WhatsApp, Sunday to Thursday, 9 AM to 6 PM.",
+    "action": "Call +880 1615-900004",
+    "href": "tel:+8801615900004"
+  }
+}

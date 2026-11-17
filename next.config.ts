@@ -3,6 +3,11 @@ import type { NextConfig } from "next";
 /** Old static-site page names -> new routes. Each gets a redirect with and without `.html`. */
 const oldPages: Record<string, string> = {
   index: "/",
+  "about-us": "/about",
+  about: "/about",
+  contact: "/contact",
+  Contact: "/contact",
+  "contact-us": "/contact",
   services: "/services",
   Services: "/services",
   products: "/products",

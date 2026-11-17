@@ -5,6 +5,35 @@ this Next.js app in the new home-page design. Newest entries first.
 
 ---
 
+## 2026-11-17 (3): About and Contact pages
+
+### What was done
+
+| Route | Source | Sections |
+|---|---|---|
+| `/about` | `about-us.html` | Hero · who we are (facts + photo) · numbers · areas of work (services.json `core`) · 6 projects (projects.json) · mission & vision · how we work · chairman (full profile in a `<details>`, replaces the old modal) · home certifications/clients section · CTA |
+| `/contact` | `contact.html` | Hero · 3 "why are you writing" cards · office details + form · map · what happens next · FAQ · certifications · CTA |
+
+- Content in `src/data/about.json` and `src/data/contact.json`, read via `getAboutPage()` / `getContactPage()`
+  (types `AboutPage`, `ContactPage` in `content-types.ts`).
+- `routes.about` is now `/about` (was `/#about`), so the header, mobile menu and footer "About Us" link
+  go to the page and highlight it. Home "Read more about us" button links there too.
+- Contact form (`components/contact/ContactForm.tsx`, client) posts to the **same Formspree endpoint**
+  as the old site (`form.endpoint` in contact.json) with fetch, same fields, honeypot, "email or phone"
+  rule, success/error messages. `?product=<name>` (from `contactFor()`) pre-selects "A quote for one of
+  our products", shows the product and sets the subject. It is read on the client, so `/contact` stays static.
+- Redirects: `about-us(.html)`, `about.html` → `/about`; `contact(.html)`, `Contact.html`, `contact-us` → `/contact`.
+- Images: `public/images/about/team.webp`, `chairman.webp` (from the old site).
+- `serviceCardProps()` (LinkCard props from a services.json entry) moved to `components/ui/LinkCard.tsx`,
+  shared by `/services` and `/about`. Icons `Handshake`, `Target` added to `icons.ts`.
+
+### Not done / follow-ups
+
+- No test message was sent through the form (it would email the real inbox); try one from the live site.
+- Still pending: `/privacy-policy`, `/terms` (the form links to the privacy policy).
+
+---
+
 ## 2026-11-17 (2): Detail pages + all content as JSON
 
 ### What was done
@@ -37,7 +66,7 @@ this Next.js app in the new home-page design. Newest entries first.
 - 9 products have no old detail copy (access control, attendance, CCTV, GPS, alarms, kiosks,
   signage, ERP, smart city): their pages show the summary, features, support and related items.
   Add `src/data/products/<slug>.json` to give them sections.
-- Still pending: `/contact`, `/privacy-policy`, `/terms`, about page.
+- Still pending: `/privacy-policy`, `/terms`.
 
 ---
 

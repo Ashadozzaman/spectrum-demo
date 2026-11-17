@@ -2,7 +2,7 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { cache } from "react";
 import type {
-  DetailFile, Product, ProductsIndex, ProductSummary, Project, ProjectsIndex, Service, ServicesIndex,
+  AboutPage, ContactPage, DetailFile, Product, ProductsIndex, ProductSummary, Project, ProjectsIndex, Service, ServicesIndex,
 } from "./content-types";
 
 // Server-only module (reads the file system). Import it from Server Components and route handlers only.
@@ -124,4 +124,14 @@ export async function getProject(slug: string): Promise<Project | null> {
 export async function getProjectsBySlug(slugs: string[]) {
   const { projects } = await getProjectsIndex();
   return slugs.flatMap((s) => projects.filter((p) => p.slug === s && !p.hidden));
+}
+
+// ---- Pages ---------------------------------------------------------------------
+
+export async function getAboutPage(): Promise<AboutPage> {
+  return readJson<AboutPage>("about.json");
+}
+
+export async function getContactPage(): Promise<ContactPage> {
+  return readJson<ContactPage>("contact.json");
 }

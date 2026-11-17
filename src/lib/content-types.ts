@@ -212,3 +212,56 @@ export type Project = ProjectSummary & DetailFile & {
   /** Service guides linked under "The technology". */
   relatedServices?: string[];
 };
+
+// ---- About page ----------------------------------------------------------------
+
+type Heading = { eyebrow: string; title: string; lead?: string };
+
+export type AboutPage = {
+  seo: Seo;
+  hero: Hero;
+  /** Blocks after the hero ("who we are", numbers). */
+  intro: Block[];
+  /** Heading of the services grid (cards come from services.json "core"). */
+  areas: Heading;
+  /** Heading + project slugs (cards come from projects.json). */
+  work: Heading & { projects: string[] };
+  /** Blocks after the projects (mission & vision, how we work). */
+  values: Block[];
+  leader: Heading & {
+    name: string;
+    role: string;
+    tagline?: string;
+    image: Image;
+    summary: string[];
+    /** Full profile, shown behind "Read the full profile". */
+    profile: { title: string; body: string[] }[];
+  };
+  cta: Cta;
+};
+
+// ---- Contact page --------------------------------------------------------------
+
+export type ContactTopic = { value: string; label: string };
+
+export type ContactForm = {
+  /** Form service URL (Formspree); the form posts here with `Accept: application/json`. */
+  endpoint: string;
+  /** Email subject; becomes "Quote request: <product>" when the URL has ?product=. */
+  subject: string;
+  /** Topic pre-selected when the URL has ?product= (must be one of `topics`). */
+  quoteTopic: string;
+  topics: ContactTopic[];
+};
+
+export type ContactPage = {
+  seo: Seo;
+  hero: Hero;
+  /** "Why are you writing?" cards; href may be #contact-form, tel:, mailto:. */
+  reasons: (Item & { href: string; more: string })[];
+  office: Heading & { address: string; directions: string; hours: string; map: string };
+  form: ContactForm;
+  /** Blocks after the form (next steps, FAQ, certifications). */
+  sections: Block[];
+  cta: Cta;
+};

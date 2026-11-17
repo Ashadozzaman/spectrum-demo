@@ -26,10 +26,12 @@ export default function Header() {
         </nav>
 
         <div className="header-actions">
+          {/* EN/BN switch hidden until a Bangla version exists (styles: .lang-switch in home.css).
           <div role="group" aria-label="Language" className="lang-switch">
             <button aria-pressed="true" className="lang-switch__btn">EN</button>
             <button aria-pressed="false" lang="bn" className="lang-switch__btn lang-switch__btn--bn">বাং</button>
           </div>
+          */}
           <a href={PHONE_HREF} className="header-phone only-desktop">{PHONE}</a>
           <Link href={routes.contact} className="btn-cta-sm only-desktop" data-magnetic="">Free Consultation</Link>
           <button className="menu-btn only-compact" aria-label="Open menu" aria-expanded="false"

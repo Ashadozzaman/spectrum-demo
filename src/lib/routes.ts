@@ -16,14 +16,15 @@ export const projectHref = (slug: string) => `/projects/${slug}`;
 
 export const routes = {
   home: "/",
-  about: "/#about",
+  about: "/about",
   caseStudies: "/#case-studies",
   services: "/services",
   products: "/products",
   projects: "/projects",
 
-  // ---- Not ported yet -------------------------------------------------------
   contact: "/contact",
+
+  // ---- Not ported yet -------------------------------------------------------
   privacy: "/privacy-policy",
   terms: "/terms",
 

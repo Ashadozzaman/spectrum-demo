@@ -1,10 +1,10 @@
 import {
   Archive, Award, BadgeCheck, Banknote, Bell, Blocks, Bot, Brain, Building, CalendarCheck, Car, ChartBar,
   ChartLine, ClipboardCheck, Clock, Code, Cog, Database, Eye, Factory, FileCheck, FileSearch, FileText,
-  FingerprintPattern, Gavel, Globe, GraduationCap, HandCoins, HandHelping, Headset, Hospital, IdCard, Inbox,
+  FingerprintPattern, Gavel, Handshake, Globe, GraduationCap, HandCoins, HandHelping, Headset, Hospital, IdCard, Inbox,
   KeyRound, Landmark, Languages, LayoutDashboard, Layers, Link, Lock, Mail, MapPin, MessagesSquare, Network,
   Package, PenLine, Pill, Plug, Pointer, Printer, QrCode, ScanFace, ScanLine, Search, Server, ShieldCheck,
-  Shirt, ShoppingCart, Siren, Smartphone, Sparkles, Store, Ticket, Truck, Tv, UserCheck, UserLock, Users, Video,
+  Shirt, ShoppingCart, Siren, Smartphone, Sparkles, Store, Target, Ticket, Truck, Tv, UserCheck, UserLock, Users, Video,
   Wheat, Wifi, Workflow, Wrench, Zap,
   type LucideIcon,
 } from "lucide-react";
@@ -19,10 +19,10 @@ import {
 const icons = {
   Archive, Award, BadgeCheck, Banknote, Bell, Blocks, Bot, Brain, Building, CalendarCheck, Car, ChartBar,
   ChartLine, ClipboardCheck, Clock, Code, Cog, Database, Eye, Factory, FileCheck, FileSearch, FileText,
-  FingerprintPattern, Gavel, Globe, GraduationCap, HandCoins, HandHelping, Headset, Hospital, IdCard, Inbox,
+  FingerprintPattern, Gavel, Handshake, Globe, GraduationCap, HandCoins, HandHelping, Headset, Hospital, IdCard, Inbox,
   KeyRound, Landmark, Languages, LayoutDashboard, Layers, Link, Lock, Mail, MapPin, MessagesSquare, Network,
   Package, PenLine, Pill, Plug, Pointer, Printer, QrCode, ScanFace, ScanLine, Search, Server, ShieldCheck,
-  Shirt, ShoppingCart, Siren, Smartphone, Sparkles, Store, Ticket, Truck, Tv, UserCheck, UserLock, Users, Video,
+  Shirt, ShoppingCart, Siren, Smartphone, Sparkles, Store, Target, Ticket, Truck, Tv, UserCheck, UserLock, Users, Video,
   Wheat, Wifi, Workflow, Wrench, Zap,
 } satisfies Record<string, LucideIcon>;
 

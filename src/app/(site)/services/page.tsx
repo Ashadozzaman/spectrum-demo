@@ -2,22 +2,9 @@ import type { Metadata } from "next";
 import { Brain, FingerprintPattern, IdCard, ShieldCheck } from "lucide-react";
 import PageHero from "@/components/ui/PageHero";
 import SectionHeading from "@/components/ui/SectionHeading";
-import LinkCard from "@/components/ui/LinkCard";
+import LinkCard, { serviceCardProps as card } from "@/components/ui/LinkCard";
 import CtaBanner from "@/components/ui/CtaBanner";
 import { getServicesIndex } from "@/lib/data";
-import { getIcon } from "@/lib/icons";
-import { resolveHref, serviceHref } from "@/lib/routes";
-import type { ServiceSummary } from "@/lib/content-types";
-
-/** LinkCard props from a services.json entry. */
-const card = (s: ServiceSummary) => ({
-  title: s.title,
-  description: s.description,
-  href: s.href ? resolveHref(s.href) : serviceHref(s.slug!),
-  more: s.more,
-  image: s.image,
-  icon: s.icon ? getIcon(s.icon) : undefined,
-});
 
 export const metadata: Metadata = {
   title: "IT and Software Services in Bangladesh",

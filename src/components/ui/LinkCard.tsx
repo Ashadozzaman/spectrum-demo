@@ -2,6 +2,19 @@
 import Link from "next/link";
 import type { LucideIcon } from "lucide-react";
 import IconTile from "./IconTile";
+import type { ServiceSummary } from "@/lib/content-types";
+import { getIcon } from "@/lib/icons";
+import { resolveHref, serviceHref } from "@/lib/routes";
+
+/** LinkCard props from a services.json entry (used on /services and /about). */
+export const serviceCardProps = (s: ServiceSummary) => ({
+  title: s.title,
+  description: s.description,
+  href: s.href ? resolveHref(s.href) : serviceHref(s.slug!),
+  more: s.more,
+  image: s.image,
+  icon: s.icon ? getIcon(s.icon) : undefined,
+});
 
 /**
  * Clickable card with tilt + spotlight border: exactly the home page's
