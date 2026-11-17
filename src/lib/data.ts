@@ -120,6 +120,12 @@ export async function getProject(slug: string): Promise<Project | null> {
   return { ...summary, ...detail };
 }
 
+/** Projects that have their own case-study page (visible, with a `projects/<slug>.json`), in list order. */
+export async function getCaseStudies() {
+  const slugs = new Set(await getProjectSlugs());
+  return (await getVisibleProjects()).filter((p) => slugs.has(p.slug));
+}
+
 /** Summaries for a list of project slugs, in that order (unknown or hidden slugs skipped). */
 export async function getProjectsBySlug(slugs: string[]) {
   const { projects } = await getProjectsIndex();
