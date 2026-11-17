@@ -1,20 +1,22 @@
 import Link from "next/link";
-import { ArrowUpRight, Check } from "lucide-react";
+import { Check } from "lucide-react";
 import IconTile from "@/components/ui/IconTile";
-import { contactFor } from "@/lib/routes";
-import type { Product } from "@/content/products";
+import ButtonLink from "@/components/ui/ButtonLink";
+import type { ProductSummary } from "@/lib/content-types";
+import { getIcon } from "@/lib/icons";
+import { contactFor, productHref } from "@/lib/routes";
 
-/** One product. Same surface as the home .svc-card. */
-export default function ProductCard({ product }: { product: Product }) {
-  const { name, kind, icon, description, specs, learnMore, external, highlight } = product;
+/** One product. Same surface as the home .svc-card. The name links to the product page. */
+export default function ProductCard({ product }: { product: ProductSummary }) {
+  const { slug, name, kind, icon, description, specs, external, highlight } = product;
   return (
     <article
-      className={`flex h-full flex-col gap-5 rounded-[20px] border bg-linear-to-b from-card to-card-deep p-7 text-fg transition-[transform,border-color,box-shadow] duration-300 ease-[cubic-bezier(.2,.7,.2,1)] hover:-translate-y-1.5 hover:shadow-[0_30px_60px_rgb(0_0_0/0.35)] ${
+      className={`relative flex h-full flex-col gap-5 rounded-[20px] border bg-linear-to-b from-card to-card-deep p-7 text-fg transition-[transform,border-color,box-shadow] duration-300 ease-[cubic-bezier(.2,.7,.2,1)] hover:-translate-y-1.5 hover:shadow-[0_30px_60px_rgb(0_0_0/0.35)] ${
         highlight ? "border-brand/60" : "border-line hover:border-line-strong"
       }`}
     >
       <div className="flex items-start justify-between gap-3">
-        <IconTile icon={icon} />
+        <IconTile icon={getIcon(icon)} />
         <span className={`font-mono text-[11px] tracking-[.12em] ${highlight ? "text-brand" : "text-fg-subtle"}`}>
           {highlight && <span className="mr-1.5 inline-block size-1.5 animate-[blink_1.6s_infinite] rounded-full bg-brand align-middle" />}
           {kind.toUpperCase()}
@@ -22,7 +24,11 @@ export default function ProductCard({ product }: { product: Product }) {
       </div>
 
       <div className="flex flex-col gap-2.5">
-        <h3 className="m-0 font-display text-xl leading-tight font-semibold tracking-[-0.015em]">{name}</h3>
+        <h3 className="m-0 font-display text-xl leading-tight font-semibold tracking-[-0.015em]">
+          <Link href={productHref(slug)} className="text-fg hover:text-brand">
+            {name}
+          </Link>
+        </h3>
         <p className="m-0 text-[15px] leading-relaxed text-pretty text-fg-muted">{description}</p>
       </div>
 
@@ -42,23 +48,14 @@ export default function ProductCard({ product }: { product: Product }) {
         >
           Ask for a quote
         </Link>
-        {learnMore && (
-          <Link href={learnMore} className="inline-flex items-center gap-1.5 text-sm font-medium text-brand hover:text-accent-soft">
-            How it works <span aria-hidden="true" className="font-mono">→</span>
-          </Link>
-        )}
-        {external && (
-          <a
-            href={external.href}
-            target="_blank"
-            rel="noopener"
-            className="inline-flex items-center gap-1 text-sm font-medium text-brand hover:text-accent-soft"
-          >
-            {external.label}
-            <ArrowUpRight aria-hidden="true" className="size-4" />
-            <span className="sr-only">(opens in a new tab)</span>
-          </a>
-        )}
+        <Link
+          href={productHref(slug)}
+          className="inline-flex items-center gap-1.5 text-sm font-medium text-brand hover:text-accent-soft"
+          aria-label={`${name}: details`}
+        >
+          Details <span aria-hidden="true" className="font-mono">→</span>
+        </Link>
+        {external && <ButtonLink href={external.href} label={external.label} variant="text" />}
       </div>
     </article>
   );

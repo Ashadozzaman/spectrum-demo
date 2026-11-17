@@ -1,0 +1,200 @@
+{
+  "seo": {
+    "title": "Anti-Counterfeit Solutions in Bangladesh",
+    "description": "A plain guide to counterfeit documents, cards and certificates: how fakes are made and how to stop them. Plus Spectrum's secure cards, QR checks and AI fake detection.",
+    "image": "/images/og/anti-counterfeit.jpg"
+  },
+  "hero": {
+    "eyebrow": "Service guide",
+    "title": "Anti-counterfeit *solutions*",
+    "lead": "How fake documents, cards and certificates are made, how to catch them, and how to stop them being made at all. Then, how Spectrum protects IDs, certificates and records from forgery.",
+    "chips": [
+      { "label": "Secure cards and certificates", "icon": "IdCard" },
+      { "label": "Check by QR in seconds", "icon": "QrCode" },
+      { "label": "AI that spots fakes", "icon": "Bot" },
+      { "label": "Digitally signed records", "icon": "PenLine" }
+    ]
+  },
+  "intro": [
+    "A fake land record behind a long court case. A forged certificate that wins someone a job. A copied benefit card used to collect someone else's rations. Counterfeits cost money, time and trust, and they are getting easier to make with a good printer and a phone. This guide explains how fakes are made, how they are caught, and the layers of protection that stop them."
+  ],
+  "sections": [
+    {
+      "type": "cards",
+      "id": "what-is",
+      "eyebrow": "The basics",
+      "title": "Counterfeiting in simple terms",
+      "lead": "A counterfeit is anything made to pass as genuine when it is not. For documents and cards, it comes in a few forms:",
+      "items": [
+        { "title": "Full fakes", "text": "A document made from scratch to look like the real one, often with a copied design and stamp." },
+        { "title": "Altered originals", "text": "A genuine document with one detail changed, such as a name, date, grade or plot number." },
+        { "title": "Copies passed as originals", "text": "A colour photocopy or print of a real document, used where only the original should count." },
+        { "title": "Photos of screens", "text": "A picture of a document on a phone or monitor, sent as if it were a scan of the paper." }
+      ],
+      "after": ["Altered originals are often the hardest to catch by eye, because almost everything on them is real."]
+    },
+    {
+      "type": "list",
+      "id": "layers",
+      "eyebrow": "How protection works",
+      "title": "Three layers of protection",
+      "lead": "No single feature stops every fake. Good protection uses three layers together:",
+      "ordered": true,
+      "items": [
+        { "title": "Physical features", "text": "that are hard to copy: holograms, fine microprint, special inks, laser engraving and chips in cards." },
+        { "title": "Digital features", "text": "that prove where a document came from: a digital signature, and a QR code that links to the original record." },
+        { "title": "Checking,", "text": "by people and by software: an app or web page that confirms a document against the issuer's record, and AI that spots signs of editing." }
+      ],
+      "after": ["The first layer makes fakes expensive to produce. The second and third make them easy to catch, even when they look perfect."]
+    },
+    {
+      "type": "list",
+      "id": "bangladesh",
+      "eyebrow": "Local context",
+      "title": "Where fakes cause harm in Bangladesh",
+      "items": [
+        { "title": "Land records.", "text": "Forged or altered Nokol, Khatian and deeds are behind many land disputes." },
+        { "title": "ID and benefit cards.", "text": "Copied or borrowed cards let people claim support meant for others." },
+        { "title": "Certificates.", "text": "Fake academic, professional and trade certificates are used for jobs, admissions and permits." },
+        { "title": "Licences and permits.", "text": "Expired or forged licences are hard to spot without a way to check them on the spot." }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "check",
+      "eyebrow": "Quick check",
+      "title": "How to check a document quickly",
+      "lead": "Before relying on an important document, ask four questions:",
+      "items": [
+        { "title": "Can I check it with the issuer?", "text": "A QR code or reference number that leads to the issuing office's own record is the strongest proof." },
+        { "title": "Is it the original?", "text": "Feel for raised print, look for holograms, and tilt it in the light. Copies are flat." },
+        { "title": "Do the details agree?", "text": "Names, dates and numbers should match across the document and any other papers." },
+        { "title": "Has anything been changed?", "text": "Look for uneven spacing, different fonts or blurred areas around key details." }
+      ],
+      "after": ["Checks by eye help, but they are not enough on their own. A fake made with care can pass all of them. That is why the issuer's record matters most."]
+    },
+    {
+      "type": "columns",
+      "id": "benefits-limits",
+      "eyebrow": "Honest view",
+      "title": "What protection can and cannot do",
+      "columns": [
+        {
+          "title": "Benefits",
+          "tone": "good",
+          "items": [
+            { "title": "Fakes are caught in seconds", "text": "by anyone with a phone, without calling the issuing office." },
+            { "title": "Altered originals show up,", "text": "because the signed record does not match." },
+            { "title": "Copies lose their value", "text": "when only a check against the record counts." },
+            { "title": "A clear record", "text": "of who checked what, and when, for audits." }
+          ]
+        },
+        {
+          "title": "Limits to know",
+          "tone": "bad",
+          "items": [
+            { "title": "Old documents", "text": "issued before protection was added still need manual checks." },
+            { "title": "People must actually check.", "text": "A QR code helps only if someone scans it." },
+            { "title": "False details at the start", "text": "stay false. Identity must be checked when a document is first issued." },
+            { "title": "Keys must be protected.", "text": "If a signing key is stolen, it must be replaced quickly." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Can a QR code be copied onto a fake?", "a": "Yes, a QR code can be copied. That is why the code must lead to the issuer's own record. If someone copies a QR code onto a fake document, the record that opens will show the real holder's details, and the mismatch is obvious." },
+        { "q": "How does AI spot a fake document?", "a": "It looks for signs a person would miss: tiny differences in fonts and spacing, edited areas, signs of a photocopy, or a photo taken of a screen. Then it compares the document with the official record where one exists." },
+        { "q": "Do we need to replace all our old documents?", "a": "No. New documents can be issued with protection from now on, while old ones are checked against your records when they are presented." },
+        { "q": "Is a hologram enough?", "a": "On its own, no. Holograms can be imitated well enough to fool most people. They work best as one layer, together with a digital signature and a way to check the record." },
+        { "q": "Can this work without internet?", "a": "Partly. Signed QR codes can be checked offline by an app that knows the issuer's public key. A full check against the latest record needs a connection." }
+      ]
+    },
+    { "type": "divider", "text": "Now that you know how counterfeiting works, here is how *Spectrum* stops it." },
+    {
+      "type": "feature",
+      "id": "spectrum",
+      "eyebrow": "Anti-counterfeit",
+      "title": "Stop fakes *before anyone relies on them*",
+      "body": [
+        "Spectrum protects documents, cards and certificates with all three layers: security features that are hard to copy, digital signatures with QR codes, and checking tools, including AI that spots edited documents.",
+        "We start by finding where fakes hurt you most, then add the simplest protection that closes the gap."
+      ],
+      "image": { "src": "/images/digital-identity/step2-forensic-card-analysis.webp", "alt": "SPECIMEN national ID card under a magnifier lamp, with a checklist for microprint, chip data and NID records" },
+      "actions": [
+        { "label": "Discuss your documents", "href": "contact:Anti-Counterfeit" },
+        { "label": "See how it works", "href": "#steps" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "steps",
+      "eyebrow": "How it works",
+      "title": "Assess, protect, verify",
+      "lead": "The same three steps for cards, certificates or records.",
+      "items": [
+        { "title": "Assess", "text": "We look at which documents get faked, how, and where they are checked today." },
+        { "title": "Protect", "text": "We add the right features: secure printing, chips, digital signatures and QR codes." },
+        { "title": "Verify", "text": "We give staff, partners and the public a quick way to check, by app, web page or API." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "what-we-build",
+      "eyebrow": "What we build",
+      "title": "Protection for every kind of document",
+      "items": [
+        { "title": "Secure smart cards", "text": "ID, staff and benefit cards with chips, laser engraving and anti-copy features.", "icon": "IdCard" },
+        { "title": "Signed QR certificates", "text": "Certificates and licences with a digital signature and a QR code anyone can check.", "icon": "QrCode" },
+        { "title": "AI fake detection", "text": "[Upokari](product:upokari) checks documents for edits, copies and photos of screens in seconds.", "icon": "Bot" },
+        { "title": "Verification portal", "text": "A web page where anyone can check a document by QR code or reference number.", "icon": "Globe" },
+        { "title": "Field checking app", "text": "An app for officers and dealers to check cards on the spot, even offline.", "icon": "Smartphone" },
+        { "title": "Verification API", "text": "Lets banks and other systems check documents automatically.", "icon": "Code" }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "proof",
+      "eyebrow": "Already in use",
+      "title": "Fakes stopped in our live systems",
+      "body": [
+        "[Upokari](product:upokari) catches forged land records, TCB smart cards and NID cards. Licences from the [National e-Licensing portal](project:e-licensing) carry a digital signature and a QR code that anyone can scan. [TCB smart cards](project:tcb-smart-card) carry a secure QR code that dealers check before every sale."
+      ],
+      "actions": [
+        { "label": "About Upokari", "href": "product:upokari" },
+        { "label": "Read the e-Licensing case study", "href": "project:e-licensing" }
+      ],
+      "stats": [
+        { "value": "3", "label": "Document types checked by Upokari" },
+        { "value": "QR", "label": "On every licence, for anyone to check" },
+        { "value": "10M+", "label": "Families with secure smart cards" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "sectors",
+      "eyebrow": "Who uses it",
+      "title": "Built for these sectors",
+      "items": [
+        { "title": "Land offices", "text": "Catch forged and altered land records before a sale or court case.", "icon": "Landmark" },
+        { "title": "Licensing authorities", "text": "Licences and permits that can be checked on the spot.", "icon": "FileCheck" },
+        { "title": "Education boards", "text": "Certificates that employers can check in seconds.", "icon": "GraduationCap" },
+        { "title": "Banks", "text": "Check customer documents before opening accounts or giving loans.", "icon": "Banknote" },
+        { "title": "Benefit programmes", "text": "Make sure support reaches the right family.", "icon": "HandHelping" },
+        { "title": "Employers", "text": "Check the certificates and IDs of new staff.", "icon": "Users" }
+      ]
+    }
+  ],
+  "relatedProjects": ["tcb-smart-card", "e-licensing", "smart-card-issuance"],
+  "cta": {
+    "eyebrow": "Tired of fake documents?",
+    "title": "Let’s make them easy to catch.",
+    "text": "Tell us which documents get faked or disputed. We will show you how they could be protected and checked in seconds.",
+    "action": "Talk to our team",
+    "href": "contact:Anti-Counterfeit"
+  }
+}

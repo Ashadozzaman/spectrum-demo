@@ -1,0 +1,121 @@
+{
+  "seo": {
+    "title": "Novotheatre eTicket: Case Study",
+    "description": "How Spectrum built online ticketing for Novotheatre: a web portal and an Android app where visitors pick a date and show, buy a ticket and enter with a barcode.",
+    "image": "/images/og/cs-novotheatre.jpg"
+  },
+  "hero": {
+    "eyebrow": "Case study",
+    "title": "Novotheatre *eTicket*",
+    "lead": "How Spectrum built Novotheatre’s online ticketing, so visitors can choose a show and buy a ticket on the web or in the app instead of queuing at the counter.",
+    "chips": [
+      { "label": "Tickets online", "icon": "Ticket" },
+      { "label": "Android app: 500+ downloads", "icon": "Smartphone" },
+      { "label": "Pick a date and show", "icon": "CalendarCheck" },
+      { "label": "Barcode tickets at the gate", "icon": "ScanLine" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "facts",
+      "id": "overview",
+      "eyebrow": "Overview",
+      "title": "At a glance",
+      "body": [
+        "Novotheatre welcomes visitors to space shows, 5D movies, virtual reality and science exhibits. Spectrum built its online ticketing: a web portal and the Novotheatre eTicket app, where visitors pick a date and a show, buy a ticket and enter with a barcode."
+      ],
+      "items": [
+        { "label": "Client", "value": "Novotheatre, Bangladesh" },
+        { "label": "Sector", "value": "Science, space and visitor attractions" },
+        { "label": "What we built", "value": "An online ticket portal and the Novotheatre eTicket app" },
+        { "label": "Live system", "value": "novo.spectrum.com.bd", "href": "https://novo.spectrum.com.bd/" },
+        { "label": "Mobile apps", "value": "Google Play", "href": "https://play.google.com/store/apps/details?id=com.spectrum.novotheatre_official" }
+      ],
+      "image": { "src": "/images/apps/novotheatre-icon.png", "alt": "Novotheatre eTicket app icon" }
+    },
+    {
+      "type": "text",
+      "id": "problem",
+      "eyebrow": "The challenge",
+      "title": "The problem",
+      "body": [
+        "Without online ticketing, visitors, school groups and families have to queue at the counter to buy tickets, without knowing in advance what is showing and when.",
+        "Counter-only sales also make it harder to plan for busy days and to keep every sale in one record."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "solution",
+      "eyebrow": "The solution",
+      "title": "What we built",
+      "intro": "Online ticketing on the web and on Android:",
+      "items": [
+        { "title": "An online ticket portal", "text": "where visitors choose a date and see each show with its time, duration and price." },
+        { "title": "The Novotheatre eTicket Android app,", "text": "in Bangla, with log in and “buy ticket online” on the home screen." },
+        { "title": "Shows and exhibits in one place,", "text": "such as the entrance ticket, 5D movies, VR and the digital and science exhibits." },
+        { "title": "Barcode tickets", "text": "that are checked at the entry gates." },
+        { "title": "Sales records", "text": "kept in one system." }
+      ]
+    },
+    {
+      "type": "app",
+      "id": "app",
+      "eyebrow": "Mobile app",
+      "title": "The Novotheatre eTicket app",
+      "app": {
+        "name": "Novotheatre eTicket",
+        "icon": "/images/apps/novotheatre-icon.png",
+        "platforms": "Android",
+        "downloads": "500+ downloads",
+        "rating": "3.8 from 10 reviews",
+        "stores": { "google": "https://play.google.com/store/apps/details?id=com.spectrum.novotheatre_official" },
+        "screenshots": [
+          { "src": "/images/apps/novotheatre/screen-1.webp", "caption": "Home: log in or buy a ticket online" },
+          { "src": "/images/apps/novotheatre/screen-2.webp", "caption": "Log in" },
+          { "src": "/images/apps/novotheatre/screen-3.webp", "caption": "Choose a date and show, such as entrance, 5D movie, VR or exhibits" }
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "From the sofa to the gate",
+      "items": [
+        { "title": "Pick a date", "text": "The visitor opens the portal or app and chooses a day." },
+        { "title": "Choose a show", "text": "Each show lists its time, duration and price." },
+        { "title": "Buy the ticket", "text": "The visitor buys online and gets a ticket with a barcode." },
+        { "title": "Enter at the gate", "text": "The barcode is checked at the gate on arrival." }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "results",
+      "eyebrow": "Impact",
+      "title": "Results",
+      "items": [
+        { "value": "500+", "label": "App downloads" },
+        { "value": "Web + app", "label": "Two ways to buy" },
+        { "value": "Barcode", "label": "Tickets checked at the gate" }
+      ],
+      "bullets": [
+        "Visitors can buy tickets before they arrive, on the web or in the app.",
+        "Each show’s time, duration and price is clear before buying.",
+        "The Novotheatre eTicket app has been downloaded more than 500 times from Google Play."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "technology",
+      "eyebrow": "Under the hood",
+      "title": "The technology, in plain words",
+      "items": [
+        { "title": "Ticket portal:", "text": "shows by date, with prices and a buy button." },
+        { "title": "Android app:", "text": "the same tickets on a phone, in Bangla." },
+        { "title": "Barcode tickets:", "text": "each ticket carries a barcode for the entry gate." },
+        { "title": "One sales record:", "text": "online and app sales in the same system." }
+      ]
+    }
+  ],
+  "relatedServices": ["mobile-apps", "business-automation"]
+}

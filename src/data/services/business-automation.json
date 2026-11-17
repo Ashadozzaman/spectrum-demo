@@ -1,0 +1,191 @@
+{
+  "seo": {
+    "title": "Business Automation Software in Bangladesh",
+    "description": "A plain guide to business automation: which office work to automate, where to start and what it saves. Plus Spectrum's online forms, approval workflows and dashboards.",
+    "image": "/images/og/business-automation.jpg"
+  },
+  "hero": {
+    "eyebrow": "Service guide",
+    "title": "Business *automation*",
+    "lead": "Which office tasks can run by themselves, where to start, and what it really saves. Then, how Spectrum turns paper-based work into fast digital workflows.",
+    "chips": [
+      { "label": "Online forms and applications", "icon": "FileText" },
+      { "label": "Approvals that move by themselves", "icon": "Workflow" },
+      { "label": "Live dashboards", "icon": "LayoutDashboard" },
+      { "label": "Digital signatures", "icon": "PenLine" }
+    ]
+  },
+  "intro": [
+    "A file that waits on a desk for a week. A form filled in by hand, then typed into a computer, then printed again. A report that takes two days to put together every month. Business automation means letting software do this kind of repetitive work, so people can spend their time on decisions instead of paperwork."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "id": "what-is",
+      "eyebrow": "The basics",
+      "title": "Automation in simple terms",
+      "body": [
+        "Automation is software that follows your rules for you. When a form is submitted, it checks it, sends it to the right person, reminds them if they forget, records the decision and tells the applicant. Nobody has to carry a file from desk to desk.",
+        "It does not replace people. It removes the waiting, copying and chasing that sit between the decisions people make."
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "what",
+      "eyebrow": "Scope",
+      "title": "What can be automated",
+      "items": [
+        { "title": "Forms and applications", "text": "Online forms that check themselves, so incomplete applications are not submitted.", "icon": "FileText" },
+        { "title": "Approvals", "text": "Requests go to the right person in the right order, with reminders and deadlines.", "icon": "Workflow" },
+        { "title": "Documents and data entry", "text": "Information is entered once and used everywhere. AI can read scanned papers.", "icon": "FileSearch" },
+        { "title": "Reports", "text": "Dashboards that update themselves, instead of reports built by hand each month.", "icon": "LayoutDashboard" }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "start",
+      "eyebrow": "Getting started",
+      "title": "Where to start",
+      "lead": "The best first processes to automate have three things in common:",
+      "items": [
+        { "title": "They happen often,", "text": "such as daily applications, requests or orders." },
+        { "title": "They follow clear rules,", "text": "so the steps can be written down." },
+        { "title": "They cause delays or complaints", "text": "today, so the benefit is easy to see." }
+      ],
+      "after": ["Common signs you are ready: staff re-type the same information into several systems, files get lost, and nobody can say where a request is right now."]
+    },
+    {
+      "type": "text",
+      "id": "bangladesh",
+      "eyebrow": "Local context",
+      "title": "Automation in Bangladesh",
+      "body": [
+        "Online payment through Bangladesh Bank's e-challan, mobile financial services and electronic signatures, which the ICT Act 2006 recognises, make it possible to run many processes fully online, from application to payment to approval.",
+        "Government offices have moved licences, court cases and certificates online. Private companies are doing the same for purchasing, HR requests, customer onboarding and field reports."
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "benefits-limits",
+      "eyebrow": "Honest view",
+      "title": "Benefits and limits",
+      "columns": [
+        {
+          "title": "Benefits",
+          "tone": "good",
+          "items": [
+            { "title": "Faster decisions.", "text": "Files no longer wait on desks." },
+            { "title": "Fewer mistakes.", "text": "Information is entered once and checked automatically." },
+            { "title": "Clear tracking.", "text": "Anyone can see where a request is." },
+            { "title": "A full record", "text": "of who did what, and when, for audits." }
+          ]
+        },
+        {
+          "title": "Limits to know",
+          "tone": "bad",
+          "items": [
+            { "title": "A bad process stays bad.", "text": "Fix the steps first, then automate them." },
+            { "title": "People need training", "text": "and time to get used to new tools." },
+            { "title": "Exceptions still need people.", "text": "Unusual cases should go to a person, not be forced through rules." },
+            { "title": "It needs looking after.", "text": "Rules change, and the system must change with them." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Will automation replace our staff?", "a": "In most cases, no. It removes repetitive tasks such as copying data and chasing files, so staff can handle more work and focus on decisions and customers." },
+        { "q": "Can it work with the software we already use?", "a": "Usually yes. New workflows can connect to accounting software, ERP, payment gateways and SMS services, so information moves between them without re-typing." },
+        { "q": "Are electronic signatures legal in Bangladesh?", "a": "Yes. The ICT Act 2006 gives legal recognition to electronic signatures. Some documents have extra rules, so we check the requirements for each process." },
+        { "q": "How long does a first project take?", "a": "A single process, such as an approval workflow or an online application, can often go live in a few weeks. Larger systems are built in stages." },
+        { "q": "Can it read our old paper files?", "a": "Yes. Scanned papers can be read by AI that understands Bangla and English, so old records can be searched and used." }
+      ]
+    },
+    { "type": "divider", "text": "Now that you know what automation can do, here is how *Spectrum* builds it." },
+    {
+      "type": "feature",
+      "id": "spectrum",
+      "eyebrow": "Business automation",
+      "title": "Less paper, *faster decisions*",
+      "body": [
+        "Spectrum turns paper-based processes into online workflows: forms that check themselves, approvals that move on their own, documents signed electronically, and dashboards that show where everything is.",
+        "We have done this for licences and public complaints at national scale, and we bring the same approach to businesses and offices of any size."
+      ],
+      "image": { "src": "/images/pages/business-automation-hero.webp", "alt": "Hands on a laptop with icons for people, documents and workflows above the keyboard" },
+      "actions": [
+        { "label": "Discuss a process", "href": "contact:Business Automation" },
+        { "label": "See how it works", "href": "#steps" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "steps",
+      "eyebrow": "How it works",
+      "title": "Map, build, run",
+      "lead": "How we take a process from paper to online.",
+      "items": [
+        { "title": "Map", "text": "We sit with your team and write down how the work is done today, and where it gets stuck." },
+        { "title": "Build", "text": "We build the forms, workflows and connections, and test them with your staff." },
+        { "title": "Run", "text": "We train your team, go live, and keep improving the system as your rules change." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "what-we-build",
+      "eyebrow": "What we build",
+      "title": "The building blocks",
+      "items": [
+        { "title": "Online forms", "text": "Applications and requests that check themselves before they are submitted.", "icon": "FileText" },
+        { "title": "Approval workflows", "text": "Requests go to the right people in order, with reminders and deadlines.", "icon": "Workflow" },
+        { "title": "Electronic signatures", "text": "Approve and sign documents online, with a record of who signed what.", "icon": "PenLine" },
+        { "title": "Dashboards and reports", "text": "Live figures instead of reports built by hand.", "icon": "LayoutDashboard" },
+        { "title": "Connections", "text": "Links to payment, SMS, accounting and ERP systems.", "icon": "Plug" },
+        { "title": "AI document reading", "text": "Reads scanned Bangla and English papers, so data is not typed in by hand.", "icon": "FileSearch" }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "proof",
+      "eyebrow": "Already in use",
+      "title": "Paperless processes at national scale",
+      "body": [
+        "The [National e-Licensing portal](project:e-licensing) moved licence applications online, from forms to payment to a signed licence. The [TCB AI Contact Center](project:tcb-ai-contact-center) turns every complaint into a ticket, a report and a follow-up, without paperwork."
+      ],
+      "actions": [
+        { "label": "Read the e-Licensing case study", "href": "project:e-licensing" },
+        { "label": "Read the AI Contact Center case study", "href": "project:tcb-ai-contact-center" }
+      ],
+      "stats": [
+        { "value": "48 hours", "label": "To get a licence, down from 21 days" },
+        { "value": "100,000+", "label": "Licences issued online" },
+        { "value": "24/7", "label": "Complaints taken and tracked" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "sectors",
+      "eyebrow": "Who uses it",
+      "title": "Built for these sectors",
+      "items": [
+        { "title": "Government offices", "text": "Applications, permits and approvals online.", "icon": "Landmark" },
+        { "title": "Banks and finance", "text": "Faster customer onboarding and loan approvals.", "icon": "Banknote" },
+        { "title": "Manufacturers", "text": "Purchasing, stock and maintenance requests without paper.", "icon": "Factory" },
+        { "title": "Hospitals and clinics", "text": "Patient records, billing and approvals in one place.", "icon": "Hospital" },
+        { "title": "Schools and universities", "text": "Admissions, results and certificates online.", "icon": "GraduationCap" },
+        { "title": "NGOs", "text": "Field reports and beneficiary records collected digitally.", "icon": "HandHelping" }
+      ]
+    }
+  ],
+  "relatedProjects": ["e-licensing", "gcc-e-revenue", "presence-feedback"],
+  "cta": {
+    "eyebrow": "Which process slows you down most?",
+    "title": "Let’s move it online.",
+    "text": "Tell us about one process that causes delays today. We will show you how it could run online, and what it would take.",
+    "action": "Talk to our team",
+    "href": "contact:Business Automation"
+  }
+}

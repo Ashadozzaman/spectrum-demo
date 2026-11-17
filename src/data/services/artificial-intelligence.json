@@ -1,0 +1,218 @@
+{
+  "seo": {
+    "title": "Artificial Intelligence in Bangladesh",
+    "description": "A plain guide to AI: what it can do, how it is built, Bangla, risks and how to start. Plus the AI systems Spectrum builds in Bangladesh.",
+    "image": "/images/og/ai.jpg"
+  },
+  "hero": {
+    "eyebrow": "Service guide",
+    "title": "Artificial *intelligence*",
+    "lead": "What AI is, what it is good at, where it goes wrong and how to start an AI project that pays off. Then, the AI systems Spectrum builds for documents, faces and fraud in Bangladesh.",
+    "chips": [
+      { "label": "Reads Bangla & English documents", "icon": "FileSearch" },
+      { "label": "Face matching & liveness", "icon": "ScanFace" },
+      { "label": "Fraud & duplicate detection", "icon": "ShieldCheck" },
+      { "label": "Runs on your own servers", "icon": "Server" }
+    ]
+  },
+  "intro": [
+    "Artificial intelligence is in the news every day, and it is easy to come away thinking it can do everything, or that it is all hype. The truth is in between. AI is very good at some jobs and poor at others, and the organisations that get value from it pick the right job first. This guide explains what AI is, the main things it can do, how an AI system is built, where it goes wrong, and how to start a project that pays off."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "id": "what-is",
+      "eyebrow": "The basics",
+      "title": "AI in simple terms",
+      "body": [
+        "Artificial intelligence is software that learns to do a task from examples, instead of following rules a programmer wrote by hand. Show it thousands of genuine and forged ID cards, and it learns the differences on its own, including some that a person would never think to write down.",
+        "You will hear a few related terms. **Machine learning** is the method: the software finds patterns in data. **Deep learning** is a powerful kind of machine learning that uses large networks loosely inspired by the brain, and it is what made today's face recognition and document reading possible. **Generative AI**, such as chatbots, is a newer kind that writes text or makes images instead of only recognising them.",
+        "A simple way to think about it: normal software follows instructions. AI follows *examples*. That is why the quality of the examples, the data, matters more than anything else."
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "tasks",
+      "eyebrow": "What it does",
+      "title": "What AI can do",
+      "lead": "Most practical AI systems do one of a handful of jobs:",
+      "items": [
+        { "title": "See", "text": "Recognise faces, read number plates, count people in a queue or spot a forged stamp. This is called computer vision.", "icon": "Eye" },
+        { "title": "Read", "text": "Turn scanned forms, ID cards and court papers into searchable text and fill in the right fields automatically.", "icon": "FileSearch" },
+        { "title": "Spot the odd one out", "text": "Find duplicate claims, unusual payments or records that do not fit the pattern, among millions of entries.", "icon": "Search" },
+        { "title": "Understand and write", "text": "Answer questions, sort complaints, summarise long documents and draft replies, in Bangla and English.", "icon": "MessagesSquare" }
+      ],
+      "after": [
+        "AI can also **predict**, for example how many people will visit a service centre next week, so staff can be planned ahead. What it cannot do well is make judgement calls that need context, values or accountability. Those should stay with people."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "built",
+      "eyebrow": "How it is made",
+      "title": "How an AI system is built",
+      "lead": "Every working AI system goes through the same five stages:",
+      "ordered": true,
+      "items": [
+        { "title": "Pick one clear problem.", "text": "\"Catch forged land records\" is a good problem. \"Use AI in our office\" is not." },
+        { "title": "Collect and label examples.", "text": "Real samples of the thing to recognise, such as genuine and forged documents, each marked with the right answer." },
+        { "title": "Train the model.", "text": "The software learns from most of the examples." },
+        { "title": "Test it honestly.", "text": "Check it on examples it has never seen, and measure how often it is right, how often it misses something, and how often it raises a false alarm." },
+        { "title": "Run it and keep watching.", "text": "Real-world data changes over time, and forgers adapt, so the model's results are checked and it is retrained when needed." }
+      ],
+      "after": ["Most of the work is in steps 2 and 4. A model trained on poor or one-sided data will give poor or one-sided answers, however advanced it is."]
+    },
+    {
+      "type": "text",
+      "id": "bangla",
+      "eyebrow": "Language",
+      "title": "AI and the Bangla language",
+      "body": [
+        "Most well-known AI tools were built first for English. Bangla is harder for them for several reasons. The script joins letters into hundreds of conjunct forms, vowel signs sit above, below and on both sides of a letter, and old documents mix typed text, handwriting, stamps and signatures on the same page.",
+        "Official papers in Bangladesh add their own challenges: faded photocopies of land records, older laminated NID cards, and forms filled in partly in Bangla and partly in English. A system that reads these reliably has to be trained on local documents, not just adapted from an English tool."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "bangladesh",
+      "eyebrow": "Local context",
+      "title": "Where AI helps in Bangladesh",
+      "items": [
+        { "title": "Identity checks.", "text": "Matching a live face to an ID card photo and catching printed photos, screens and masks, for bank accounts, SIM registration and benefits." },
+        { "title": "Forged documents.", "text": "Land records, certificates and benefit cards are often faked. AI can check a document's print, layout and details in seconds." },
+        { "title": "Fairer benefits.", "text": "Finding the same family registered twice under slightly different names, so support reaches more people." },
+        { "title": "Paperwork.", "text": "Reading applications and case files so staff spend their time on decisions, not typing." },
+        { "title": "Roads and public places.", "text": "Reading number plates, counting traffic and spotting crowding from CCTV." },
+        { "title": "Customer service.", "text": "Answering common questions in Bangla, any time of day, and passing harder ones to a person." }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "benefits-risks",
+      "eyebrow": "Honest view",
+      "title": "Benefits and risks",
+      "columns": [
+        {
+          "title": "Benefits",
+          "tone": "good",
+          "items": [
+            { "title": "Speed.", "text": "Checks that take a person minutes take a second." },
+            { "title": "Consistency.", "text": "The same check, done the same way, at every branch and every hour." },
+            { "title": "Scale.", "text": "Millions of records can be compared, which no team could do by hand." },
+            { "title": "Better use of staff.", "text": "People focus on the unusual cases the system flags." }
+          ]
+        },
+        {
+          "title": "Risks",
+          "tone": "bad",
+          "items": [
+            { "title": "Confident mistakes.", "text": "AI can be wrong while sounding sure. Chatbots can even make up facts." },
+            { "title": "Bias.", "text": "A model trained mostly on one group may work worse for others." },
+            { "title": "Privacy.", "text": "Sending citizens' data to a foreign cloud service may break rules and trust." },
+            { "title": "Deepfakes.", "text": "The same technology can be used to fake faces, voices and documents." }
+          ]
+        }
+      ],
+      "after": ["The safeguard is the same in every case: keep a person in the loop for decisions that affect people's lives, measure accuracy on local data, and keep sensitive data on servers you control."]
+    },
+    {
+      "type": "list",
+      "id": "start",
+      "eyebrow": "Getting started",
+      "title": "How to start an AI project",
+      "ordered": true,
+      "items": [
+        { "title": "Start with a costly, repetitive problem,", "text": "such as forged documents or slow manual checks, where the gain is easy to measure." },
+        { "title": "Measure today's numbers first:", "text": "how long a check takes and how many mistakes slip through. Otherwise you cannot prove the AI helped." },
+        { "title": "Check your data.", "text": "Do you have enough real examples, and are you allowed to use them?" },
+        { "title": "Run a small pilot", "text": "at one office or on one document type before rolling out." },
+        { "title": "Decide what happens when the AI is unsure.", "text": "A clear route to a staff member is part of the design, not an afterthought." },
+        { "title": "Plan where the data lives.", "text": "For identity and government data, that usually means your own servers." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Will AI replace our staff?", "a": "In most projects, no. AI takes over the repetitive part, such as typing details or comparing photos, and staff handle the cases that need judgement. Teams usually get through more work with fewer errors." },
+        { "q": "How much data do we need?", "a": "It depends on the task. Some jobs can start from an existing model and a few hundred local examples. Others, such as recognising a new document type reliably, need thousands. A short data review at the start answers this for your case." },
+        { "q": "Can AI work without sending data abroad?", "a": "Yes. Models can run on your own servers or on devices such as phones and kiosks, so citizens' data never leaves your control." },
+        { "q": "How accurate is AI?", "a": "Accuracy is always for a specific task and specific data, so ask for results measured on documents or faces like yours. Look at two numbers: how often it lets a fake through, and how often it wrongly rejects a genuine case." },
+        { "q": "What is the difference between AI and automation?", "a": "Automation follows fixed rules, such as \"if the form is complete, send it on\". AI handles tasks where the rules are hard to write down, such as \"does this face match this photo?\" Most good systems use both." },
+        { "q": "Can AI read handwritten Bangla?", "a": "Yes, with the right training, though handwriting is harder than print and accuracy depends on how neat and clear it is. A good system marks fields it is unsure of so a person can check them." }
+      ]
+    },
+    { "type": "divider", "text": "Now that you know what AI can and cannot do, here is what *Spectrum* builds with it." },
+    {
+      "type": "feature",
+      "id": "spectrum",
+      "eyebrow": "Applied AI",
+      "title": "AI that does one job, *very well*",
+      "body": [
+        "Spectrum builds AI systems for specific, costly problems: forged documents, slow identity checks, duplicate claims and paperwork. Each one is trained on Bangladeshi documents and faces, and tested on real cases before it goes live.",
+        "The systems run on your own servers or devices, and anything the AI is unsure of goes to a member of your staff."
+      ],
+      "image": { "src": "/images/pages/ai-hero.webp", "alt": "A person at a laptop with an AI chip symbol and floating document panels" },
+      "actions": [
+        { "label": "Discuss your problem", "href": "contact:Artificial Intelligence" },
+        { "label": "See how we work", "href": "#steps" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "what-we-build",
+      "eyebrow": "What we build",
+      "title": "AI systems for real problems",
+      "items": [
+        { "title": "Forged document detection", "text": "Spots counterfeits, photocopies, photos of screens and edited genuine documents, then checks the details with the issuing registry.", "icon": "FileCheck" },
+        { "title": "Bangla and English document reading", "text": "Reads ID cards, forms and records, including older and faded papers, and fills in the right fields.", "icon": "Languages" },
+        { "title": "Face matching and liveness", "text": "Confirms a live person is present and matches their ID photo, and blocks printed photos, screens, masks and deepfakes.", "icon": "ScanFace" },
+        { "title": "Duplicate and fraud detection", "text": "Finds the same person or family registered twice, even under spelling variations, across millions of records.", "icon": "Users" },
+        { "title": "CCTV and video analytics", "text": "Number plate reading, people counting, queue monitoring and alerts when someone enters a restricted area.", "icon": "Video" },
+        { "title": "Decision support", "text": "Risk scores that show staff which applications, claims or payments to check first, with the reasons behind each score.", "icon": "ChartBar" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "steps",
+      "eyebrow": "How we work",
+      "title": "From problem to proven result",
+      "lead": "You see measured results on your own data before any full rollout.",
+      "items": [
+        { "title": "Define the problem", "text": "Agree on one problem, today's numbers and what success looks like." },
+        { "title": "Review the data", "text": "Check the examples you have, what is missing and what you are allowed to use." },
+        { "title": "Pilot and measure", "text": "Run it at one site, compare it with today's numbers and tune it." },
+        { "title": "Roll out and monitor", "text": "Go live on your servers, with staff review for unsure cases and regular accuracy checks." }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "upokari",
+      "eyebrow": "Live now · upokari.ai",
+      "title": "Upokari: spot forged documents *in seconds*",
+      "body": [
+        "[Upokari](product:upokari) is Spectrum's AI verification engine for the documents people are most often cheated with: **land records** (Nokol, Khatian and deeds), **TCB smart cards** and **NID cards**. It catches counterfeits, photocopies, photos taken of a screen and edited genuine documents, then cross-checks each one against the issuing registry.",
+        "**At national scale:** for the TCB smart card programme, every one of more than 10 million families was checked against NID records so each family could register only once. [Read the TCB case study](project:tcb-smart-card)."
+      ],
+      "actions": [
+        { "label": "About Upokari", "href": "product:upokari" },
+        { "label": "Visit upokari.ai", "href": "https://upokari.ai/" }
+      ],
+      "stats": [
+        { "value": "3", "label": "Document types live: land records, TCB cards and NID" },
+        { "value": "<0.1%", "label": "False accept rate" },
+        { "value": "5", "label": "Clear verdicts: genuine, counterfeit, screen replay, copy or spoof" }
+      ]
+    }
+  ],
+  "relatedProjects": ["tcb-smart-card", "tcb-ai-contact-center"],
+  "cta": {
+    "eyebrow": "Have a problem AI could solve?",
+    "title": "Tell us what costs you the most.",
+    "text": "Tell us about the check, the paperwork or the fraud that costs you the most. We will tell you honestly whether AI can help, and what a pilot would look like.",
+    "action": "Talk to our team",
+    "href": "contact:Artificial Intelligence"
+  }
+}

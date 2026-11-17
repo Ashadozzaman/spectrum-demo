@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
+import { routes } from "@/lib/routes";
 export default function CaseStudies() {
   return (
     <>
@@ -37,8 +39,8 @@ export default function CaseStudies() {
                     <span className="case-nav__title">National e-Licensing</span>
                   </button>
                 </div>
-                <a href="#" className="btn-outline-sm">Explore all projects<span aria-hidden="true"
-                    className="arrow-accent">→</span></a>
+                <Link href={routes.projects} className="btn-outline-sm">Explore all projects<span aria-hidden="true"
+                    className="arrow-accent">→</span></Link>
               </div>
     
               <div className="case-stack">
@@ -70,8 +72,8 @@ export default function CaseStudies() {
                           registered once, no duplicates</span></div>
                       <div className="impact"><span className="impact__value">99.8%</span><span className="impact__label">fewer
                           duplicate claims</span></div>
-                      <a href="#" className="case-card__link">Read the case study<span aria-hidden="true"
-                          className="mono">→</span></a>
+                      <Link href={routes.caseStudy.tcb} className="case-card__link">Read the case study<span aria-hidden="true"
+                          className="mono">→</span></Link>
                     </div>
                   </div>
                 </article>
@@ -105,8 +107,8 @@ export default function CaseStudies() {
                           scheduling delays</span></div>
                       <div className="impact"><span className="impact__value">All benches</span><span
                           className="impact__label">paperless case tracking</span></div>
-                      <a href="#" className="case-card__link">Read the case study<span aria-hidden="true"
-                          className="mono">→</span></a>
+                      <Link href={routes.caseStudy.eCourt} className="case-card__link">Read the case study<span aria-hidden="true"
+                          className="mono">→</span></Link>
                     </div>
                   </div>
                 </article>
@@ -140,8 +142,8 @@ export default function CaseStudies() {
                           no queue</span></div>
                       <div className="impact"><span className="impact__value">100%</span><span className="impact__label">of complaints
                           ticketed and followed up</span></div>
-                      <a href="#" className="case-card__link">Read the case study<span aria-hidden="true"
-                          className="mono">→</span></a>
+                      <Link href={routes.caseStudy.tcbContactCenter} className="case-card__link">Read the case study<span aria-hidden="true"
+                          className="mono">→</span></Link>
                     </div>
                   </div>
                 </article>
@@ -174,8 +176,8 @@ export default function CaseStudies() {
                           personalised every day</span></div>
                       <div className="impact"><span className="impact__value">0</span><span className="impact__label">counterfeit
                           incidents reported</span></div>
-                      <a href="#" className="case-card__link">Read the case study<span aria-hidden="true"
-                          className="mono">→</span></a>
+                      <Link href={routes.caseStudy.smartCard} className="case-card__link">Read the case study<span aria-hidden="true"
+                          className="mono">→</span></Link>
                     </div>
                   </div>
                 </article>
@@ -207,8 +209,8 @@ export default function CaseStudies() {
                           get a licence</span></div>
                       <div className="impact"><span className="impact__value">100,000+</span><span className="impact__label">licences
                           issued, QR-checkable</span></div>
-                      <a href="#" className="case-card__link">Read the case study<span aria-hidden="true"
-                          className="mono">→</span></a>
+                      <Link href={routes.caseStudy.eLicensing} className="case-card__link">Read the case study<span aria-hidden="true"
+                          className="mono">→</span></Link>
                     </div>
                   </div>
                 </article>
@@ -240,7 +242,7 @@ export default function CaseStudies() {
                   <div className="impact"><span className="case-tile__value">99.8%</span><span className="case-tile__label">fewer
                       duplicate claims</span></div>
                 </div>
-                <a href="#" className="case-tile__link">Read the case study →</a>
+                <Link href={routes.caseStudy.tcb} className="case-tile__link">Read the case study →</Link>
               </div>
             </article>
             <article className="case-tile">
@@ -259,7 +261,7 @@ export default function CaseStudies() {
                   <div className="impact"><span className="case-tile__value">All benches</span><span
                       className="case-tile__label">paperless case tracking</span></div>
                 </div>
-                <a href="#" className="case-tile__link">Read the case study →</a>
+                <Link href={routes.caseStudy.eCourt} className="case-tile__link">Read the case study →</Link>
               </div>
             </article>
             <article className="case-tile">
@@ -278,7 +280,7 @@ export default function CaseStudies() {
                   <div className="impact"><span className="case-tile__value">100%</span><span className="case-tile__label">of
                       complaints ticketed and followed up</span></div>
                 </div>
-                <a href="#" className="case-tile__link">Read the case study →</a>
+                <Link href={routes.caseStudy.tcbContactCenter} className="case-tile__link">Read the case study →</Link>
               </div>
             </article>
             <article className="case-tile">
@@ -295,7 +297,7 @@ export default function CaseStudies() {
                   <div className="impact"><span className="case-tile__value">0</span><span className="case-tile__label">counterfeit
                       incidents reported</span></div>
                 </div>
-                <a href="#" className="case-tile__link">Read the case study →</a>
+                <Link href={routes.caseStudy.smartCard} className="case-tile__link">Read the case study →</Link>
               </div>
             </article>
             <article className="case-tile">
@@ -312,7 +314,7 @@ export default function CaseStudies() {
                   <div className="impact"><span className="case-tile__value">100,000+</span><span
                       className="case-tile__label">licences issued, QR-checkable</span></div>
                 </div>
-                <a href="#" className="case-tile__link">Read the case study →</a>
+                <Link href={routes.caseStudy.eLicensing} className="case-tile__link">Read the case study →</Link>
               </div>
             </article>
           </div>

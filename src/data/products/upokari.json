@@ -1,0 +1,220 @@
+{
+  "seo": {
+    "title": "Upokari: Verification Engine, App and eCom",
+    "description": "Upokari by Spectrum: an AI engine that catches forged land records, TCB cards and NIDs, a secure mailbox and vault app (10K+ downloads), and an eCom seller app.",
+    "image": "/images/og/upokari.jpg"
+  },
+  "hero": {
+    "eyebrow": "Our own product",
+    "title": "Upokari *by Spectrum*",
+    "lead": "Spectrum’s own product family: an AI engine that catches forged documents, a secure app that delivers signed notices and keeps your documents safe, and an online marketplace with a seller app.",
+    "chips": [
+      { "label": "AI document verification", "icon": "FileCheck" },
+      { "label": "10K+ app downloads", "icon": "Smartphone" },
+      { "label": "Encrypted document vault", "icon": "Lock" },
+      { "label": "eCom seller app", "icon": "Store" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "links",
+      "id": "family",
+      "eyebrow": "One brand, three products",
+      "title": "One verified identity, *many uses*",
+      "lead": "Upokari (উপকারী) means “helpful”. It is the name of Spectrum’s own products for trust: checking documents, delivering official information safely, and selling online.",
+      "items": [
+        { "title": "Upokari Verification Engine", "text": "AI that checks land documents, TCB cards and NIDs in seconds, and catches fakes, copies and edits.", "href": "#engine", "icon": "FileCheck", "more": "Read more" },
+        { "title": "Upokari App", "text": "A secure mailbox and document vault on your phone, for signed notices, invoices and your important papers.", "href": "#app", "icon": "Inbox", "more": "Read more" },
+        { "title": "Upokari eCom", "text": "An online marketplace, with a seller app to run a shop from your phone.", "href": "#ecom", "icon": "Store", "more": "Read more" }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "engine",
+      "eyebrow": "Upokari Verification Engine",
+      "title": "Catch forged documents *in seconds*",
+      "body": [
+        "The engine at **upokari.ai** checks the documents people are most often cheated with: land records, TCB cards and National IDs. It catches counterfeit cards, photos of screens, photocopies and edited genuine originals, then checks the details against the issuing record. No paperwork and no office visit.",
+        "Each check ends with a clear verdict: **Genuine**, **Counterfeit**, **Replay** (a photo of a screen), **Copy** or **Spoof**."
+      ],
+      "actions": [
+        { "label": "Visit upokari.ai", "href": "https://upokari.ai/" },
+        { "label": "About anti-counterfeit", "href": "service:anti-counterfeit" }
+      ],
+      "stats": [
+        { "value": "3", "label": "Document types live: land records, TCB cards and NID" },
+        { "value": "5", "label": "Verdicts: Genuine, Counterfeit, Replay, Copy, Spoof" },
+        { "value": "<0.1%", "label": "False accept rate, as published on upokari.ai" }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "documents",
+      "eyebrow": "Coverage",
+      "title": "What it checks",
+      "columns": ["Document", "Status", "What is checked"],
+      "rows": [
+        ["Land documents", "Live now", "Nokol, Khatian, Dag and plot sheets, CS–RS records, mutation and deed copies. Each is sealed, then checked page by page."],
+        ["TCB cards", "Live now", "Counterfeit, cloned and altered TCB beneficiary cards, caught before any goods are handed over."],
+        ["National ID (NID)", "Live now", "Smart NID cards and printed NID copies: layout, background pattern, MRZ checksum and the holder’s photo."],
+        ["e-Passport and travel documents", "Rolling out", "Chip data, MRZ lines, laminate and holograms, compared with the sealed issuing record."],
+        ["Licences and certificates", "Rolling out", "Driving and trade licences, birth and death certificates, land-related approvals and other smart-card credentials."]
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "checks",
+      "eyebrow": "Card checks",
+      "title": "Six checks on every card",
+      "items": [
+        { "title": "Counterfeit cards", "text": "Fonts, layout, fine patterns, microprint, hologram and MRZ checksum compared with the genuine template.", "icon": "IdCard" },
+        { "title": "Photos of screens", "text": "Spots cards captured from a phone or monitor screen by the tell-tale patterns and glare they leave.", "icon": "Tv" },
+        { "title": "Photocopies and scans", "text": "Finds the toner dots, soft edges and lost detail that give away a copy.", "icon": "Printer" },
+        { "title": "Edited genuine cards", "text": "Catches a real card with a swapped photo, laid-over details or a laminated edit.", "icon": "PenLine" },
+        { "title": "Holograms", "text": "Checks holograms and colour-shifting features across angles.", "icon": "Sparkles" },
+        { "title": "Registry check", "text": "Matches the card number, holder details and seal with the issuing registry before giving a verdict.", "icon": "Database" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "sealing",
+      "eyebrow": "Land records",
+      "title": "How land records are sealed: seven steps",
+      "lead": "From fragile registry paper to a certified copy that anyone can check.",
+      "items": [
+        { "title": "Archival scan", "text": "Registry paper is scanned at 300 to 600 DPI on scanners suited to bound or fragile records." },
+        { "title": "Reading the fields", "text": "Software tuned for Bangla and English reads the Mouza, Khatian and Dag numbers, owner names, land area and dates." },
+        { "title": "Officer review", "text": "A registry officer checks the reading side by side with the scan. Nothing is approved automatically." },
+        { "title": "Sealing", "text": "Each page gets a digital fingerprint (SHA-256), chained page to page into one fingerprint for the whole document." },
+        { "title": "Watermark and QR", "text": "A watermark and a QR code on every page carry the document ID, page number and page fingerprint." },
+        { "title": "Stamp and copy code", "text": "A unique ID and an anti-copy micro-pattern are printed over the official stamp on the last page." },
+        { "title": "Issue and verify", "text": "The certified Nokol is printed from the sealed master. Anyone can scan it or upload a photo for a Genuine, Tampered or Copy verdict." }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "tamper-proof",
+      "eyebrow": "Security",
+      "title": "Built so no one can quietly change a record",
+      "items": [
+        { "title": "Page-by-page fingerprints:", "text": "every page’s SHA-256 fingerprint is chained to the next, so changing one page breaks the chain." },
+        { "title": "Anchored on a private blockchain:", "text": "document fingerprints are recorded on Hyperledger Fabric, so even a database administrator cannot alter them unnoticed. [What is a blockchain?](service:blockchain-technology)" },
+        { "title": "Keys in secure hardware:", "text": "the signing keys are sealed in a FIPS 140-3 hardware security module." },
+        { "title": "People stay in charge:", "text": "a registry officer approves every reading before a record is sealed." }
+      ]
+    },
+    {
+      "type": "app",
+      "id": "app",
+      "eyebrow": "Upokari App",
+      "title": "Your notices and documents, *safe on your phone*",
+      "app": {
+        "name": "Upokari",
+        "icon": "/images/apps/upokari-icon.png",
+        "platforms": "Android and iOS",
+        "downloads": "10K+ downloads",
+        "rating": "3.6 from 81 reviews on Google Play",
+        "version": "Version 4.6.28",
+        "text": "The Upokari app is a secure digital mailbox and document vault. Approved organisations send digitally signed, encrypted QR-coded invoices, notices and other important information straight to a person’s digital wallet, and people keep their own documents safe in the same app.",
+        "stores": {
+          "google": "https://play.google.com/store/apps/details?id=com.spectrum.upokari",
+          "apple": "https://apps.apple.com/app/upokari/id6822746182"
+        },
+        "screenshots": [
+          { "src": "/images/apps/upokari/screen-1.webp", "caption": "Your profile and NID check" },
+          { "src": "/images/apps/upokari/screen-2.webp", "caption": "Menu and services" },
+          { "src": "/images/apps/upokari/screen-3.webp", "caption": "Citizen dashboard" },
+          { "src": "/images/apps/upokari/screen-4.webp", "caption": "Secure document vault" }
+        ]
+      }
+    },
+    {
+      "type": "cards",
+      "id": "app-features",
+      "eyebrow": "Upokari App",
+      "title": "App features",
+      "items": [
+        { "title": "Digital mailbox", "text": "Receive official letters, service announcements and notices in a secure inbox.", "icon": "Inbox" },
+        { "title": "Delivery receipts", "text": "See delivery receipts, timestamps and dispatch records for every item.", "icon": "Mail" },
+        { "title": "Search and archive", "text": "Search, organise and archive your correspondence history.", "icon": "Archive" },
+        { "title": "Encrypted vault", "text": "Store ID documents, cards and certificates. Only you control who sees them.", "icon": "Lock" },
+        { "title": "Face ID, fingerprint and PIN", "text": "Lock the app with biometrics or a PIN. Checks happen on your device.", "icon": "FingerprintPattern" },
+        { "title": "Bangla and English", "text": "Switch language anywhere in the app.", "icon": "Languages" }
+      ],
+      "after": ["Upokari is built as a platform shared by many organisations, so each approved sender delivers to the same trusted wallet."]
+    },
+    {
+      "type": "app",
+      "id": "ecom",
+      "eyebrow": "Upokari eCom",
+      "title": "Run your online shop *from your phone*",
+      "app": {
+        "name": "Upokari eCom Seller",
+        "icon": "/images/apps/upokari-ecom-seller-icon.png",
+        "platforms": "Android",
+        "downloads": "50+ downloads",
+        "rating": "4.2 on Google Play",
+        "text": "Upokari eCom is an online marketplace. Its seller app lets vendors manage their store from a phone: add, update or remove products, keep stock up to date, take orders and track the shop’s performance as it happens.",
+        "stores": { "google": "https://play.google.com/store/apps/details?id=com.spectrum.ecom_seller_app" },
+        "screenshots": [
+          { "src": "/images/apps/upokari-ecom-seller/screen-1.webp", "caption": "Sales dashboard: products, orders, rating and total sales" },
+          { "src": "/images/apps/upokari-ecom-seller/screen-2.webp", "caption": "Product list with stock" },
+          { "src": "/images/apps/upokari-ecom-seller/screen-3.webp", "caption": "Point of sale for walk-in customers" },
+          { "src": "/images/apps/upokari-ecom-seller/screen-4.webp", "caption": "Adding a new product" },
+          { "src": "/images/apps/upokari-ecom-seller/screen-5.webp", "caption": "Orders with payment and delivery status" },
+          { "src": "/images/apps/upokari-ecom-seller/screen-6.webp", "caption": "Seller menu: vendors, orders, shop settings and more" }
+        ]
+      }
+    },
+    {
+      "type": "cards",
+      "id": "ecom-features",
+      "eyebrow": "Upokari eCom",
+      "title": "Seller app features",
+      "items": [
+        { "title": "Sales dashboard", "text": "Products, total orders, rating and total sales, with a daily sales chart.", "icon": "LayoutDashboard" },
+        { "title": "Products and stock", "text": "Add products with categories, photos, price and stock, then publish or unpublish them.", "icon": "Package" },
+        { "title": "Point of sale", "text": "Sell to walk-in customers with tax, shipping and discount worked out.", "icon": "ShoppingCart" },
+        { "title": "Orders", "text": "Every order with its payment status and delivery status.", "icon": "ClipboardCheck" },
+        { "title": "Vendors and shop settings", "text": "Manage vendors, digital products, uploads and shop configuration.", "icon": "Cog" },
+        { "title": "Customer chat and queries", "text": "Answer product questions, handle refunds and offer coupons.", "icon": "MessagesSquare" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "who",
+      "eyebrow": "Who it helps",
+      "title": "Built for Bangladesh",
+      "items": [
+        { "title": "Land buyers and land offices", "text": "Check a Nokol, Khatian or deed before money changes hands.", "icon": "Landmark" },
+        { "title": "TCB and benefit programmes", "text": "Stop fake and cloned cards before goods are handed over.", "icon": "HandHelping" },
+        { "title": "Banks", "text": "Check NIDs and documents before opening accounts or giving loans.", "icon": "Banknote" },
+        { "title": "Government offices", "text": "Send signed notices that people receive safely on their phone.", "icon": "Building" },
+        { "title": "Service providers", "text": "Deliver invoices and statements that cannot be faked.", "icon": "FileCheck" },
+        { "title": "Online sellers", "text": "Run a shop on Upokari eCom from a phone.", "icon": "Store" }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Is upokari.ai the same as the Upokari app?", "a": "They are part of the same family but do different jobs. upokari.ai is the verification engine that checks whether a document is genuine. The Upokari app is a secure mailbox and document vault on your phone. Upokari eCom is an online marketplace with its own seller app." },
+        { "q": "Which documents can the Verification Engine check?", "a": "Land documents (Nokol, Khatian, Dag and plot sheets, CS and RS records, mutation and deed copies), TCB cards and National ID cards are live now. e-Passports and travel documents, and licences and certificates such as driving and trade licences, are rolling out." },
+        { "q": "How does it tell a fake from a real card?", "a": "It compares fonts, layout, fine background patterns, microprint, holograms and the MRZ checksum with the genuine template, looks for signs of a photo of a screen or a photocopy, and then matches the card details with the issuing registry before giving a verdict." },
+        { "q": "Is the Upokari app available in Bangla?", "a": "Yes. You can switch between Bangla and English anywhere in the app." },
+        { "q": "How is my information protected in the app?", "a": "Documents are kept in an encrypted vault with access control, and you can lock the app with Face ID, fingerprint or a PIN." },
+        { "q": "Can our organisation send notices or invoices through Upokari?", "a": "Upokari is built as a platform shared by many organisations. Approved organisations connect as senders and deliver digitally signed, QR-coded notices and invoices to people’s wallets. [Contact us](contact:Upokari) to discuss connecting your organisation." }
+      ]
+    }
+  ],
+  "relatedProjects": ["tcb-smart-card"],
+  "cta": {
+    "eyebrow": "Want to use Upokari?",
+    "title": "Verify, deliver or sell with Upokari.",
+    "text": "Tell us whether you want to verify documents, send signed notices, or sell online. We will show you how Upokari fits.",
+    "action": "Talk to our team",
+    "href": "contact:Upokari"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "seo": {
+    "title": "TCB Smart Card: Case Study",
+    "description": "How Spectrum built the TCB Smart Card system: NID-checked family registration, QR smart cards and a dealer app, so low-price goods reach the right families.",
+    "image": "/images/og/cs-tcb.jpg"
+  },
+  "hero": {
+    "eyebrow": "Case study",
+    "title": "TCB *Smart Card*",
+    "lead": "How Spectrum helped the Trading Corporation of Bangladesh register families, issue smart cards and check every sale, so low-price goods reach the families they are meant for.",
+    "chips": [
+      { "label": "10M+ families registered", "icon": "Users" },
+      { "label": "QR smart cards", "icon": "QrCode" },
+      { "label": "TCB Card Sheba app: 100K+ downloads", "icon": "Smartphone" },
+      { "label": "All 64 districts", "icon": "MapPin" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "facts",
+      "id": "overview",
+      "eyebrow": "Overview",
+      "title": "At a glance",
+      "body": [
+        "TCB sells essential goods at low prices to families on low incomes across Bangladesh. Spectrum built the system that registers these families, gives each one a smart card, and lets dealers check the card before handing over the goods."
+      ],
+      "items": [
+        { "label": "Client", "value": "Trading Corporation of Bangladesh (TCB), Ministry of Commerce" },
+        { "label": "Sector", "value": "Social safety net and food subsidy" },
+        { "label": "What we built", "value": "Family registration, smart cards and the TCB Card Sheba app" },
+        { "label": "Live system", "value": "digital.tcbsheba.com", "href": "https://digital.tcbsheba.com/" },
+        { "label": "Mobile apps", "value": "Google Play", "href": "https://play.google.com/store/apps/details?id=com.spectrum.tcbapp" }
+      ],
+      "image": { "src": "/assets/cs-tcb1.png", "alt": "TCB Smart Card web portal home page" }
+    },
+    {
+      "type": "text",
+      "id": "problem",
+      "eyebrow": "The challenge",
+      "title": "The problem",
+      "body": [
+        "TCB supports more than 10 million families in all 64 districts. Before the smart card, distribution relied on paper coupons and manual lists.",
+        "Paper coupons were easy to copy, the same family could appear on a list more than once, and TCB had no live view of how much had been handed out, where, and to whom."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "solution",
+      "eyebrow": "The solution",
+      "title": "What we built",
+      "intro": "A national system that ties every card to a real, registered family:",
+      "items": [
+        { "title": "Family registration checked against the NID,", "text": "so each family is registered only once." },
+        { "title": "A smart card for every family,", "text": "with an encrypted QR code that cannot simply be photocopied." },
+        { "title": "The TCB Card Sheba Android app,", "text": "which dealers and authorised staff use to scan and verify each card before a sale and to activate new cards. Beneficiaries can now activate their own cards in the app too." },
+        { "title": "A live view for TCB", "text": "of stock and sales at more than 10,000 licensed dealers." }
+      ]
+    },
+    {
+      "type": "app",
+      "id": "app",
+      "eyebrow": "Mobile app",
+      "title": "The TCB Card Sheba app",
+      "app": {
+        "name": "TCB Card Sheba",
+        "icon": "/images/apps/tcb-card-sheba-icon.png",
+        "platforms": "Android",
+        "downloads": "100K+ downloads",
+        "rating": "4.2 from 876 reviews",
+        "stores": { "google": "https://play.google.com/store/apps/details?id=com.spectrum.tcbapp" },
+        "screenshots": [
+          { "src": "/images/apps/tcb-card-sheba/screen-1.webp", "caption": "Home: log in or activate a card" },
+          { "src": "/images/apps/tcb-card-sheba/screen-2.webp", "caption": "Terms shown before activation" },
+          { "src": "/images/apps/tcb-card-sheba/screen-3.webp", "caption": "Card activation, step by step" }
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "From registration to every sale",
+      "items": [
+        { "title": "Register", "text": "Each family is registered with its NID. Duplicate registrations are flagged straight away." },
+        { "title": "Issue the card", "text": "The family receives a smart card with a secure QR code." },
+        { "title": "Check at the dealer", "text": "The dealer scans the card in the TCB Card Sheba app before handing over the goods." },
+        { "title": "Track every sale", "text": "Each sale is recorded, so TCB can see stock and distribution as it happens." }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "results",
+      "eyebrow": "Impact",
+      "title": "Results",
+      "items": [
+        { "value": "10M+", "label": "Families registered" },
+        { "value": "57M+", "label": "People who benefit" },
+        { "value": "10,000+", "label": "Dealers using the app" },
+        { "value": "100K+", "label": "TCB Card Sheba app downloads" },
+        { "value": "99.8%", "label": "Fewer duplicate claims" }
+      ],
+      "bullets": [
+        "More than 10 million families registered in one database without duplicates.",
+        "Over 57 million people benefit from distribution that is open and hard to cheat.",
+        "Duplicate claims cut by 99.8%, because every sale is checked against the family record.",
+        "The TCB Card Sheba app has been downloaded more than 100,000 times from Google Play."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "technology",
+      "eyebrow": "Under the hood",
+      "title": "The technology, in plain words",
+      "items": [
+        { "title": "NID-based duplicate check:", "text": "compares each new family with everyone already registered." },
+        { "title": "Encrypted QR cards:", "text": "the code can be read by the dealer app but not forged." },
+        { "title": "Offline-ready dealer app (TCB Card Sheba):", "text": "records sales without internet and sends them when the connection returns." },
+        { "title": "Cloud system built for heavy use:", "text": "handles busy distribution days across the country." }
+      ]
+    }
+  ],
+  "relatedServices": ["smart-card-technologies", "digital-identity-security"]
+}

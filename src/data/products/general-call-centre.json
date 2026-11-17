@@ -1,0 +1,34 @@
+{
+  "intro": [
+    "Agent panel to take, make and transfer calls. IVR asks the caller type and problem first. CRM view, call history, dropped-call tracking, tickets, after-hours recordings, scheduling and an admin dashboard.",
+    "Part of Spectrum’s [AI Contact Center](service:ai-contact-center): take the whole seven-part system, or only the parts you need. Every part shares one customer record."
+  ],
+  "sections": [
+    {
+      "type": "list",
+      "id": "today",
+      "eyebrow": "Why upgrade",
+      "title": "What it fixes",
+      "items": [
+        {
+          "text": "Callers wait in a queue for the next free agent."
+        },
+        {
+          "text": "Agents search the customer record by hand while the caller waits."
+        },
+        {
+          "text": "Tickets and summaries are written by hand after the call."
+        },
+        {
+          "text": "Nobody can easily see why people are calling."
+        }
+      ],
+      "after": [
+        "With the call centre connected to the AI parts, routine contacts are answered automatically and agents get the cases that need a person, with a full summary on screen."
+      ]
+    }
+  ],
+  "relatedProjects": [
+    "tcb-ai-contact-center"
+  ]
+}

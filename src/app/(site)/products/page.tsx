@@ -7,7 +7,9 @@ import FilterTabs from "@/components/ui/FilterTabs";
 import IconTile from "@/components/ui/IconTile";
 import CtaBanner from "@/components/ui/CtaBanner";
 import ProductCard from "@/components/products/ProductCard";
-import { productCount, productGroups, whySpectrum, type ProductGroup } from "@/content/products";
+import { getProductsIndex } from "@/lib/data";
+import { getIcon } from "@/lib/icons";
+import type { ProductGroup } from "@/lib/content-types";
 import { contactFor } from "@/lib/routes";
 
 export const metadata: Metadata = {
@@ -26,7 +28,7 @@ function Group({ group }: { group: ProductGroup }) {
   return (
     <section id={group.id} aria-labelledby={`${group.id}-h`} className="flex scroll-mt-28 flex-col gap-7">
       <div className="flex items-center gap-4 border-b border-line pb-5" data-reveal="0">
-        <IconTile icon={group.icon} size="sm" />
+        <IconTile icon={getIcon(group.icon)} size="sm" />
         <div className="flex flex-col gap-1">
           <h2 id={`${group.id}-h`} className="m-0 font-display text-[clamp(24px,2.2vw,30px)] font-semibold tracking-[-0.02em] text-fg">
             {group.title}
@@ -39,7 +41,7 @@ function Group({ group }: { group: ProductGroup }) {
       </div>
       <div className={`grid grid-cols-1 gap-5 ${cols}`}>
         {group.products.map((p, i) => (
-          <div key={p.name} className="h-full" data-reveal={(i % 4) * 60}>
+          <div key={p.slug} className="h-full" data-reveal={(i % 4) * 60}>
             <ProductCard product={p} />
           </div>
         ))}
@@ -48,11 +50,13 @@ function Group({ group }: { group: ProductGroup }) {
   );
 }
 
-export default function ProductsPage() {
+export default async function ProductsPage() {
+  const { groups: productGroups, why: whySpectrum } = await getProductsIndex();
+  const productCount = productGroups.reduce((n, g) => n + g.products.length, 0);
   const options = [
     { id: "all", label: "All", icon: <Layers />, count: productCount },
     ...productGroups.map((g) => {
-      const Icon = g.icon;
+      const Icon = getIcon(g.icon);
       return { id: g.filter, label: g.title, icon: <Icon />, count: g.products.length };
     }),
   ];
@@ -64,7 +68,7 @@ export default function ProductsPage() {
         title={<>Our <em>products</em></>}
         lead="Ready-to-use devices and software for ID cards, security, self-service and running your business. We supply, install and support them across Bangladesh."
         chips={productGroups.map((g) => {
-          const Icon = g.icon;
+          const Icon = getIcon(g.icon);
           return { label: g.title, icon: <Icon />, href: `#${g.id}` };
         })}
       />
@@ -110,7 +114,7 @@ export default function ProductsPage() {
           <ul className="m-0 grid list-none grid-cols-1 gap-px overflow-hidden rounded-2xl border border-line bg-line p-0 sm:grid-cols-2">
             {whySpectrum.map((w, i) => (
               <li key={w.title} className="flex flex-col gap-4 bg-surface p-7" data-reveal={i * 70}>
-                <IconTile icon={w.icon} size="sm" />
+                <IconTile icon={getIcon(w.icon)} size="sm" />
                 <h3 className="m-0 font-display text-lg font-semibold text-fg">{w.title}</h3>
                 <p className="m-0 text-[15px] leading-relaxed text-fg-muted">{w.text}</p>
               </li>

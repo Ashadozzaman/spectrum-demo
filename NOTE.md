@@ -5,6 +5,42 @@ this Next.js app in the new home-page design. Newest entries first.
 
 ---
 
+## 2026-11-17 (2): Detail pages + all content as JSON
+
+### What was done
+
+- **Content moved to JSON** (`src/data/`), read through an API-like layer `src/lib/data.ts`.
+  `src/content/*.ts` removed. Icons are referenced by name (`src/lib/icons.ts`), links by
+  reference (`service:slug`, `project:slug`, ..., resolved by `resolveHref` in `routes.ts`).
+- **Detail pages** (all static, 91 pages in the build):
+  | Route | Count | Source |
+  |---|---|---|
+  | `/services/[slug]` | 9 | the old service guides + `mobile-apps.html` |
+  | `/projects/[slug]` | 9 | `case-study-*.html` (e-Court kept, still hidden from lists) |
+  | `/products/[slug]` | 21 | `products.json`; 12 have extra sections (`upokari.html` in full, e-KYC/biometrics/printers from the identity & smart card guides, the 7 AI Contact Center parts) |
+- One generic block renderer (`components/blocks/Blocks.tsx`) draws every section type
+  in the home design; `PageHero` gained breadcrumb trail, eyebrow, actions and image.
+- **JSON API:** `GET /api/content/{services|products|projects}` and `/api/content/<kind>/<slug>`.
+- Old URLs redirect (with and without `.html`): service guides → `/services/...`,
+  `case-study-*` → `/projects/...`, `upokari` → `/products/upokari`, `case-study` → `/projects`.
+- Images from the old site copied to `public/images/` (pages, digital-identity, apps, projects, og).
+- Home service cards, case-study links and CTA now point at real routes.
+- Product cards link to their page ("Details"); `/services` "systems" link to product pages.
+- ESLint ignores the old-site folder `spectrum-website-2026-11-12/`.
+- **Fixed: content invisible** (scroll reveal). `SiteEffects` hid `[data-reveal]` elements and
+  marked them `data-revealed`; when the effect was cleaned up before they scrolled into view
+  (Strict Mode double effects in dev, back/forward to a kept-alive page) they stayed at
+  opacity 0 forever. Cleanup now resets elements that were never revealed.
+
+### Not done / follow-ups
+
+- 9 products have no old detail copy (access control, attendance, CCTV, GPS, alarms, kiosks,
+  signage, ERP, smart city): their pages show the summary, features, support and related items.
+  Add `src/data/products/<slug>.json` to give them sections.
+- Still pending: `/contact`, `/privacy-policy`, `/terms`, about page.
+
+---
+
 ## 2026-11-17: Services, Products and Projects pages
 
 ### What was done
@@ -78,14 +114,8 @@ All listed in `src/lib/routes.ts`:
 
 - `/contact` (many "Ask for a quote" / CTA links use `?product=…#contact-form`;
   the contact form should read the `product` query param and use `id="contact-form"`)
-- Service pages: `/digital-identity-security`, `/smart-card-technologies`,
-  `/artificial-intelligence`, `/blockchain-technology`, `/anti-counterfeit`,
-  `/brand-protection`, `/business-automation`, `/ai-contact-center`, `/mobile-apps`
-- Case studies: `/case-study`, `/case-study-tcb`, `/case-study-tcb-contact-center`,
-  `/case-study-e-licensing`, `/case-study-gcc`, `/case-study-apfs`,
-  `/case-study-smart-card`, `/case-study-ocd`, `/case-study-novotheatre`,
-  `/case-study-e-court`
-- `/upokari`, `/privacy-policy`, `/terms`, about page (currently `/#about`)
+- ~~Service pages, case studies, `/upokari`~~ done (see entry above)
+- `/privacy-policy`, `/terms`, about page (currently `/#about`)
 
 ### Ideas / follow-ups
 

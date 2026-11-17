@@ -1,0 +1,142 @@
+{
+  "seo": {
+    "title": "Automated Presence and Feedback (APFS): Case Study",
+    "description": "How Spectrum built APFS, used by ministries and government offices: app-based attendance with location and photo check-in, leave, feedback and office ratings, on Android and iOS.",
+    "image": "/images/og/cs-apfs.jpg"
+  },
+  "hero": {
+    "eyebrow": "Case study",
+    "title": "Automated *Presence & Feedback*",
+    "lead": "How Spectrum built APFS, the attendance and feedback system now used by ministries and government offices, from the Ministry of Land to the Noakhali DC Office.",
+    "chips": [
+      { "label": "Check-in by location and photo", "icon": "MapPin" },
+      { "label": "Leave on the phone", "icon": "CalendarCheck" },
+      { "label": "Feedback and office ratings", "icon": "MessagesSquare" },
+      { "label": "Used by 6 government bodies", "icon": "Landmark" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "facts",
+      "id": "overview",
+      "eyebrow": "Overview",
+      "title": "At a glance",
+      "body": [
+        "Government offices need to know who is at work, and citizens want to be heard about the service they get. Spectrum built APFS, Automated Presence and Feedback, which handles both: staff check in from their phone at the office, and people rate and comment on offices. It is now used by ministries and government offices across Bangladesh."
+      ],
+      "items": [
+        { "label": "Client", "value": "Ministries, government offices and public bodies" },
+        { "label": "Sector", "value": "Government workplaces" },
+        { "label": "What we built", "value": "APFS: Android and iOS apps with a management system" },
+        { "label": "Live system", "value": "Runs for each organisation that uses it" },
+        { "label": "Google Play", "value": "Get the Android app", "href": "https://play.google.com/store/apps/details?id=com.spectrumit.afs" },
+        { "label": "App Store", "value": "Get the iOS app", "href": "https://apps.apple.com/app/automated-presence-feedback/id6816930139" }
+      ],
+      "image": { "src": "/images/apps/apfs-icon.png", "alt": "Automated Presence and Feedback app icon" }
+    },
+    {
+      "type": "text",
+      "id": "problem",
+      "eyebrow": "The challenge",
+      "title": "The problem",
+      "body": [
+        "Attendance in many offices was kept in paper registers or on machines at the door, leave requests went around on paper, and managers had no live view of who was in.",
+        "Feedback about offices and their services was hard to collect and even harder to act on."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "solution",
+      "eyebrow": "The solution",
+      "title": "What we built",
+      "intro": "One system for attendance, leave and feedback, on Android and iOS:",
+      "items": [
+        { "title": "Check-in and check-out from the phone,", "text": "confirmed by the office location and a photo. The app warns staff when they are outside the office area." },
+        { "title": "Leave management:", "text": "apply for leave, see leave balances and follow each request." },
+        { "title": "Feedback and reporting:", "text": "share suggestions, report office problems, and follow what happens to them." },
+        { "title": "Office ratings:", "text": "offices are listed with star ratings from feedback." },
+        { "title": "Helplines and services:", "text": "support directories, emergency numbers and internal service requests." },
+        { "title": "Staff directory and office map,", "text": "showing colleagues by department and the approved check-in zones." },
+        { "title": "Live data for managers", "text": "on attendance and participation, as it happens." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "where",
+      "eyebrow": "In use",
+      "title": "Where APFS is used",
+      "items": [
+        { "title": "Dhaka Novotheatre", "text": "ঢাকা নভোথিয়েটার", "icon": "Building" },
+        { "title": "Noakhali DC Office", "text": "নোয়াখালী জেলা প্রশাসকের কার্যালয়", "icon": "Building" },
+        { "title": "Ministry of Land", "text": "ভূমি মন্ত্রণালয়", "icon": "Landmark" },
+        { "title": "National Sports Council (NSC)", "text": "জাতীয় ক্রীড়া পরিষদ", "icon": "Award" },
+        { "title": "Ministry of Agriculture", "text": "কৃষি মন্ত্রণালয়", "icon": "Wheat" },
+        { "title": "BM Bhaban", "text": "বিএম ভবন", "icon": "Building" }
+      ]
+    },
+    {
+      "type": "app",
+      "id": "app",
+      "eyebrow": "Mobile app",
+      "title": "The Automated Presence & Feedback app",
+      "app": {
+        "name": "Automated Presence & Feedback",
+        "icon": "/images/apps/apfs-icon.png",
+        "platforms": "Android and iOS",
+        "rating": "4.6 on Google Play",
+        "stores": {
+          "google": "https://play.google.com/store/apps/details?id=com.spectrumit.afs",
+          "apple": "https://apps.apple.com/app/automated-presence-feedback/id6816930139"
+        },
+        "screenshots": [
+          { "src": "/images/apps/apfs/screen-1.webp", "caption": "Offices with their feedback ratings" },
+          { "src": "/images/apps/apfs/screen-2.webp", "caption": "Check in and check out, with a warning when you are outside the office" },
+          { "src": "/images/apps/apfs/screen-3.webp", "caption": "Menu: attendance, leave, feedback and more" },
+          { "src": "/images/apps/apfs/screen-4.webp", "caption": "Log in" }
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "A day with APFS",
+      "items": [
+        { "title": "Arrive and check in", "text": "At the office, staff check in on the app. The location and a photo confirm it." },
+        { "title": "Work and request leave", "text": "Leave requests and balances are handled in the same app." },
+        { "title": "Give feedback", "text": "Staff and visitors share feedback and rate the office." },
+        { "title": "Managers see it live", "text": "Attendance and feedback appear as they happen, ready for reports." }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "results",
+      "eyebrow": "Impact",
+      "title": "Results",
+      "items": [
+        { "value": "6", "label": "Government bodies using it" },
+        { "value": "2", "label": "Apps: Android and iOS" },
+        { "value": "Location + photo", "label": "For every check-in" }
+      ],
+      "bullets": [
+        "Used by six government bodies, including the Ministry of Land and the Ministry of Agriculture.",
+        "Attendance is recorded with location and photo, so it cannot simply be marked for someone else.",
+        "Leave and feedback no longer depend on paper.",
+        "Managers see attendance and feedback as they happen."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "technology",
+      "eyebrow": "Under the hood",
+      "title": "The technology, in plain words",
+      "items": [
+        { "title": "Location check:", "text": "check-in works only inside the approved office zone." },
+        { "title": "Photo confirmation:", "text": "a photo is taken with each check-in." },
+        { "title": "Android and iOS apps:", "text": "published on Google Play and the App Store." },
+        { "title": "Bangla interface:", "text": "designed for government staff across Bangladesh." }
+      ]
+    }
+  ],
+  "relatedServices": ["mobile-apps", "business-automation"]
+}

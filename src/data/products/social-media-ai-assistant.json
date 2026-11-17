@@ -1,0 +1,39 @@
+{
+  "intro": [
+    "Answers on WhatsApp, Messenger and Instagram, in text or voice notes. Every conversation links to one customer record, and reports and updates can be sent on WhatsApp.",
+    "Part of Spectrum’s [AI Contact Center](service:ai-contact-center): take the whole seven-part system, or only the parts you need. Every part shares one customer record."
+  ],
+  "sections": [
+    {
+      "type": "table",
+      "id": "first-use",
+      "eyebrow": "Good first uses",
+      "title": "Where to start on social media",
+      "columns": [
+        "Industry",
+        "Start with"
+      ],
+      "rows": [
+        [
+          "Online marketplace",
+          "Order tracking and returns on WhatsApp and website chat."
+        ],
+        [
+          "Government / public service",
+          "Complaint intake with the ticket and report flow, then escalation."
+        ],
+        [
+          "Telecom / ISP",
+          "Billing and outage questions."
+        ],
+        [
+          "Education",
+          "Admission and result questions."
+        ]
+      ]
+    }
+  ],
+  "relatedProjects": [
+    "tcb-ai-contact-center"
+  ]
+}

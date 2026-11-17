@@ -1,0 +1,288 @@
+{
+  "seo": {
+    "title": "AI Contact Center in Bangladesh",
+    "description": "A plain guide to AI contact centres: how they answer calls and chats 24/7, track complaints and show what people ask. Plus Spectrum's seven-part AI Contact Center.",
+    "image": "/images/og/ai-contact-center.jpg"
+  },
+  "hero": {
+    "eyebrow": "Service guide",
+    "title": "AI contact *center*",
+    "lead": "What an AI contact centre is, how it answers calls and messages around the clock, and what it changes for different industries. Then, the seven parts of Spectrum's AI Contact Center.",
+    "chips": [
+      { "label": "Answers 24/7, no queue", "icon": "Clock" },
+      { "label": "Phone, WhatsApp and chat", "icon": "MessagesSquare" },
+      { "label": "Tickets and reports automatically", "icon": "ClipboardCheck" },
+      { "label": "Insight on every call", "icon": "ChartBar" }
+    ]
+  },
+  "intro": [
+    "An AI-powered contact centre handles customer calls and chat messages on its own, around the clock. It listens, understands what the person needs, checks the customer record and the knowledge base, and then answers, creates a ticket, or hands the case to a human agent with a full summary. This guide explains how it works, what it changes, and how to start."
+  ],
+  "sections": [
+    {
+      "type": "cards",
+      "id": "what-is",
+      "eyebrow": "The basics",
+      "title": "The parts of an AI contact centre",
+      "lead": "An AI contact centre is not one tool. It is a set of parts that work together and share one memory of every customer:",
+      "columns": 4,
+      "items": [
+        { "title": "General Call Centre", "text": "Agent panel, IVR, call queue, CRM view, tickets and an admin dashboard.", "icon": "Headset" },
+        { "title": "AI Voice Agent", "text": "Answers calls 24/7 with no queue: listens, understands and replies by voice.", "icon": "Bot" },
+        { "title": "Chatbot", "text": "Text chat on your website or app, with the same AI brain as the voice agent.", "icon": "MessagesSquare" },
+        { "title": "Social Media Assistant", "text": "Answers on WhatsApp, Messenger and Instagram, in text or voice notes.", "icon": "Smartphone" },
+        { "title": "Contact Engine", "text": "Recognises each contact, understands the need and sends it to the right place.", "icon": "Workflow" },
+        { "title": "Insight Engine", "text": "Analyses every call and shows what people ask about most.", "icon": "ChartLine" },
+        { "title": "Customer Care Engine", "text": "Runs complaints from ticket to report to follow-up, until resolved.", "icon": "ClipboardCheck" }
+      ],
+      "after": ["For example, a caller who first asked a question by phone and later writes on WhatsApp is recognised as the same person, with the earlier conversation already on screen."]
+    },
+    {
+      "type": "list",
+      "id": "today",
+      "eyebrow": "Today",
+      "title": "How most contact centres work today",
+      "items": [
+        { "text": "Callers wait in a queue for the next free agent." },
+        { "text": "Service stops after working hours, and the phone line is the only channel." },
+        { "text": "Agents search the customer record by hand while the caller waits." },
+        { "text": "Answer quality depends on which agent picks up." },
+        { "text": "Tickets and summaries are written by hand after the call." },
+        { "text": "Nobody can easily see why people are calling." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "today-by-industry",
+      "eyebrow": "By industry",
+      "title": "What this looks like by industry",
+      "columns": ["Industry", "Typical situation today"],
+      "rows": [
+        ["Online marketplace", "Sale days flood support. Most contacts are the same order-status and refund questions, and chats on different channels are not linked."],
+        ["Bank / Fintech", "Long waits for simple card and balance queries. Fraud reports are taken by hand, slowly."],
+        ["Healthcare", "Phone lines are busy at peak hours, appointment changes take staff time, and calls after hours are missed."],
+        ["Government / public service", "Phone complaints are noted by hand, reports are late, and follow-up with authorities depends on individuals."],
+        ["Telecom / ISP", "Outages cause call spikes, and repeat callers explain the problem again to each new agent."],
+        ["Education", "Admission and result seasons overload staff, who answer the same questions again and again."]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "need",
+      "eyebrow": "The need",
+      "title": "What organisations need",
+      "items": [
+        { "title": "Instant answers", "text": "on every channel, at any hour." },
+        { "title": "Consistent answers", "text": "from one knowledge base." },
+        { "title": "Less manual work,", "text": "so agents focus on the cases that need a person." },
+        { "title": "One customer record", "text": "across phone, chat and social media." },
+        { "title": "Every complaint tracked", "text": "until it is resolved." },
+        { "title": "A clear view of what people ask,", "text": "so recurring problems are fixed at the source." }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "need-by-industry",
+      "eyebrow": "By industry",
+      "title": "Why each industry needs it",
+      "columns": ["Industry", "Main need"],
+      "rows": [
+        ["Online marketplace", "Handle sale-day volume without seasonal hiring, and resolve order and refund issues fast to keep buyers."],
+        ["Bank / Fintech", "Fast, secure self-service and fraud reporting at any hour."],
+        ["Healthcare", "Fewer missed calls and no-shows, with staff time freed for patient care."],
+        ["Government / public service", "Accountable complaint handling, with proof of reporting and clear escalation."],
+        ["Telecom / ISP", "Absorb outage spikes and cut repeat calls."],
+        ["Education", "Serve thousands of applicants and parents in peak season without long queues."]
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "Every contact, the same simple steps",
+      "lead": "Whatever the channel:",
+      "items": [
+        { "title": "Contact arrives", "text": "By phone, WhatsApp, website chat or a social media message." },
+        { "title": "AI listens", "text": "It notices when the caller has stopped speaking." },
+        { "title": "Speech to text", "text": "What the caller says is written down as they speak." },
+        { "title": "Understands the need", "text": "A question, a complaint, an order, or a request to talk to a person." },
+        { "title": "Checks the records", "text": "The caller's record, past contacts and the knowledge base." },
+        { "title": "Acts and replies", "text": "Answers, opens a ticket, sends a report, or hands over to a person with a summary." }
+      ],
+      "after": ["Afterwards, the AI writes the ticket and summary, the recording is saved, and the contact is added to the dashboard."]
+    },
+    {
+      "type": "table",
+      "id": "examples",
+      "eyebrow": "Examples",
+      "title": "A typical conversation in each industry",
+      "columns": ["Industry", "Example"],
+      "rows": [
+        ["Online marketplace", "“Where is my order?” The AI matches the phone number to the account, reads the delivery status, and offers a refund or reshipment if it is late."],
+        ["Bank / Fintech", "“Block my card.” The AI checks the caller’s identity, blocks the card, confirms and logs a ticket."],
+        ["Healthcare", "“Move my appointment.” The AI finds the booking, offers free slots and confirms by message."],
+        ["Government / public service", "A dealer complaint. The AI checks the caller and takes down the details. A ticket and PDF report go on WhatsApp to the caller and the authority, with timed follow-ups."],
+        ["Telecom / ISP", "“My internet is down.” The AI checks for an outage in the area and gives an estimate, or opens a fault ticket."],
+        ["Education", "“Is my result out?” The AI looks up the roll number and gives the result status and next steps."]
+      ]
+    },
+    {
+      "type": "table",
+      "id": "benefits",
+      "eyebrow": "Benefits",
+      "title": "Benefits and how to measure them",
+      "lead": "The return shows up as lower cost, better service and better decisions. Measure these before and after a pilot, so the numbers come from your own data:",
+      "columns": ["Benefit", "What changes", "How to measure it"],
+      "rows": [
+        ["Lower cost per contact", "AI handles routine contacts, agents handle complex ones", "Cost per contact, agent hours"],
+        ["Always available, no wait", "Service 24/7 with no time on hold", "Answered calls, abandoned calls"],
+        ["Faster resolution", "Tickets and reports created instantly", "Time to resolve, cases closed on time"],
+        ["Consistent quality", "The same knowledge base every time", "Answer accuracy, repeat contacts"],
+        ["Less admin work", "Summaries and tickets written by AI", "Minutes of after-call work per call"],
+        ["Fixing root causes", "Top questions grouped by category", "Trend of the top question categories"]
+      ]
+    },
+    {
+      "type": "table",
+      "id": "returns",
+      "eyebrow": "By industry",
+      "title": "Where the return shows up",
+      "columns": ["Industry", "Typical return"],
+      "rows": [
+        ["Online marketplace", "Fewer order-status calls reaching people, faster refunds and more repeat purchases."],
+        ["Bank / Fintech", "Lower cost per call, and faster fraud response that limits losses."],
+        ["Healthcare", "Fewer missed calls and no-shows, with more staff time for patients."],
+        ["Government / public service", "Faster complaint handling, fewer lost cases, and trend data to fix issues at the source."],
+        ["Telecom / ISP", "Fewer repeat calls during outages."],
+        ["Education", "Shorter queues in admission season, with staff freed from repeat questions."]
+      ]
+    },
+    {
+      "type": "table",
+      "id": "start",
+      "eyebrow": "Getting started",
+      "title": "How to start",
+      "lead": "Start small, prove the value, then grow. A step-by-step rollout keeps risk low and lets your team learn from real conversations:",
+      "columns": ["Phase", "Focus", "What happens"],
+      "rows": [
+        ["Phase 1", "Discover and set up", "Choose the first uses, connect the customer records, load the knowledge base, and set up the voice and chat channels."],
+        ["Phase 2", "Pilot", "Launch on one channel with the most common questions. People monitor it, and handover to a person is switched on."],
+        ["Phase 3", "Expand", "Add social media, ticketing, complaint reports, escalation and dashboards."],
+        ["Phase 4", "Improve and grow", "Review the dashboards, add new questions, fine-tune the AI and extend it to more teams."]
+      ]
+    },
+    {
+      "type": "table",
+      "id": "first-use",
+      "eyebrow": "By industry",
+      "title": "A good first use in each industry",
+      "columns": ["Industry", "Start with"],
+      "rows": [
+        ["Online marketplace", "Order tracking and returns on WhatsApp and website chat."],
+        ["Bank / Fintech", "Common questions and card services first, fraud reporting later."],
+        ["Healthcare", "Appointment booking and reminders."],
+        ["Government / public service", "Complaint intake with the ticket and report flow, then escalation."],
+        ["Telecom / ISP", "Billing and outage questions."],
+        ["Education", "Admission and result questions."]
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Does an AI contact centre replace human agents?", "a": "No. The AI handles routine questions and the paperwork around each contact. When a case needs a person, it hands over with a full summary, so the caller does not have to repeat themselves." },
+        { "q": "Which channels does it cover?", "a": "Phone calls, website or app chat, and social media: WhatsApp, Messenger and Instagram direct messages. All of them share one customer record and one history." },
+        { "q": "How are complaints tracked?", "a": "Each complaint gets a ticket automatically, with a number such as TKT-20261109-0001. A PDF report goes on WhatsApp to the caller and the responsible authority, and timed follow-ups and escalation continue until it is resolved." },
+        { "q": "How do we know it is worth it?", "a": "Measure before and after a pilot: cost per contact, answered and abandoned calls, time to resolve, repeat contacts and minutes of after-call work. Then the return comes from your own figures." },
+        { "q": "Where should we start?", "a": "With one channel and your most common questions. Humans monitor the pilot and can take over at any time. More channels, ticketing and dashboards are added once it works well." }
+      ]
+    },
+    { "type": "divider", "text": "Now that you know how an AI contact centre works, here is how *Spectrum* builds one." },
+    {
+      "type": "feature",
+      "id": "spectrum",
+      "eyebrow": "AI Contact Center",
+      "title": "One AI brain for *every call and message*",
+      "body": [
+        "Spectrum's AI Contact Center brings seven parts together: a standard call centre, an AI voice agent, a chatbot, a social media assistant, and engines for routing, insight and complaint handling, all sharing one customer record.",
+        "We roll it out in phases, starting with one channel and your most common questions, so you see results before you expand."
+      ],
+      "image": { "src": "/images/pages/ai-contact-center-hero.webp", "alt": "A smiling support agent wearing a headset" },
+      "actions": [
+        { "label": "Discuss your contact centre", "href": "contact:AI Contact Center" },
+        { "label": "See how it works", "href": "#phases" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "phases",
+      "eyebrow": "How it works",
+      "title": "Discover, pilot, expand, improve",
+      "lead": "Four phases, so risk stays low and value is proven early.",
+      "items": [
+        { "title": "Discover and set up", "text": "We choose the first uses with you, connect your records and load the knowledge base." },
+        { "title": "Pilot", "text": "We launch on one channel with the top questions, with people watching and ready to take over." },
+        { "title": "Expand", "text": "We add social media, ticketing, complaint reports, escalation and dashboards." },
+        { "title": "Improve and grow", "text": "We review the dashboards, add new questions and extend it to more teams." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "seven-parts",
+      "eyebrow": "What we build",
+      "title": "Seven parts, one system",
+      "lead": "Take the whole system, or only the parts you need. Each part has its own product page.",
+      "items": [
+        { "title": "General Call Centre", "text": "Agent panel to take, make and transfer calls. IVR asks the caller type and problem first. CRM view, call history, dropped-call tracking, tickets, after-hours recordings, scheduling and an admin dashboard. [Details](product:general-call-centre)", "icon": "Headset" },
+        { "title": "AI Voice Agent", "text": "Answers 24/7 with no queue. It notices when the caller stops, turns speech into text, finds the answer in FAQs, documents and other systems, and replies by voice on the call. [Details](product:ai-voice-agent)", "icon": "Bot" },
+        { "title": "Chatbot Engine", "text": "Text chat on your own website or app. Shares the same AI brain, knowledge base and customer record as the voice agent, and hands over to a person when needed. [Details](product:chatbot-engine)", "icon": "MessagesSquare" },
+        { "title": "Social Media AI Assistant", "text": "Answers on WhatsApp, Messenger and Instagram, in text or voice notes. Every conversation links to one customer record, and reports and updates can be sent on WhatsApp. [Details](product:social-media-ai-assistant)", "icon": "Smartphone" },
+        { "title": "AI Contact Engine", "text": "The core behind every channel. It identifies the contact, understands the need, and routes it to the right AI flow or person by caller type and category, with one shared history. [Details](product:ai-contact-engine)", "icon": "Workflow" },
+        { "title": "AI Insight Engine", "text": "Analyses every recorded call and groups questions by category. Dashboards show top concerns, the category split and repeat questions, by day, week or month, down to each call. [Details](product:ai-insight-engine)", "icon": "ChartLine" },
+        { "title": "AI Customer Care Engine", "text": "Runs each complaint from start to finish: takes the details, opens a numbered ticket, creates a PDF report and sends it on WhatsApp to the caller and the authority, then follows up and escalates until it is resolved. [Details](product:ai-customer-care-engine)", "icon": "ClipboardCheck" }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "tcb",
+      "eyebrow": "Live for TCB",
+      "title": "Answering TCB’s dealers and beneficiaries",
+      "body": [
+        "Spectrum runs an AI Contact Center for **TCB**, the organisation behind the smart cards used by more than 10 million families. Dealers and beneficiaries get answers 24/7, and every complaint is ticketed, reported to the responsible authority and followed up until it is resolved."
+      ],
+      "actions": [
+        { "label": "Read the TCB case study", "href": "project:tcb-ai-contact-center" },
+        { "label": "Our AI work", "href": "service:artificial-intelligence" }
+      ],
+      "stats": [
+        { "value": "24/7", "label": "Answers with no queue" },
+        { "value": "7", "label": "Parts in one system" },
+        { "value": "1", "label": "Ticket and report per complaint" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "sectors",
+      "eyebrow": "Who uses it",
+      "title": "Built for these sectors",
+      "items": [
+        { "title": "Online marketplaces", "text": "Order status, returns, refunds and seller disputes on phone, WhatsApp and chat.", "icon": "ShoppingCart" },
+        { "title": "Banks and fintech", "text": "Card blocks, balances, transactions and fraud reports, after checking the caller.", "icon": "Banknote" },
+        { "title": "Healthcare", "text": "Appointments, report status and reminders, with urgent cases sent to staff.", "icon": "Hospital" },
+        { "title": "Government and public service", "text": "Beneficiary and dealer complaints, with tickets and reports to the authority.", "icon": "Landmark" },
+        { "title": "Telecom and internet providers", "text": "Packages, billing and outage questions, with faults logged as tickets.", "icon": "Wifi" },
+        { "title": "Education", "text": "Admission, fee, exam and result questions for students and parents, at any hour.", "icon": "GraduationCap" }
+      ]
+    }
+  ],
+  "relatedProjects": ["tcb-ai-contact-center"],
+  "cta": {
+    "eyebrow": "Ready to answer every call?",
+    "title": "Start with one channel.",
+    "text": "Tell us how your customers reach you today and what they ask most. We will suggest a pilot that shows results on one channel first.",
+    "action": "Talk to our team",
+    "href": "contact:AI Contact Center"
+  }
+}

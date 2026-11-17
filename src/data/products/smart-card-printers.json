@@ -1,0 +1,32 @@
+{
+  "intro": [
+    "From desktop printers for an office to high-volume lines for national programmes, on PVC or polycarbonate. Chip data is signed and written using keys held in an HSM, and every card is read back before it leaves the line."
+  ],
+  "sections": [
+    {
+      "type": "list",
+      "id": "security",
+      "eyebrow": "Security you can see",
+      "title": "Anti-copy features we can add",
+      "items": [
+        { "title": "Laser engraving.", "text": "On polycarbonate cards, the photo and details are burned into the inner layers with a laser. They cannot be peeled off or printed over." },
+        { "title": "Fine-line patterns and microtext.", "text": "Wavy background lines and tiny text that blur or break up when a card is scanned and reprinted." },
+        { "title": "Ghost image.", "text": "A second, faint copy of the holder's photo, so swapping the main photo is easy to spot." },
+        { "title": "UV ink and tactile marks.", "text": "Patterns that only appear under ultraviolet light, and raised details you can feel with a finger." }
+      ],
+      "after": ["**PVC** is cheap and fine for short-life cards. **Polycarbonate** costs more but lasts around ten years, survives heat and bending, and supports laser engraving, which is why most national ID cards use it."]
+    },
+    {
+      "type": "list",
+      "id": "choose",
+      "eyebrow": "Choosing a printer",
+      "title": "Questions that decide the setup",
+      "items": [
+        { "title": "How many cards, how fast?", "text": "This decides between desktop card printers and high-volume personalisation lines." },
+        { "title": "How long should it last?", "text": "Two years suits PVC. Ten years needs polycarbonate." },
+        { "title": "Who checks the card, and where?", "text": "Counters, gates, POS terminals or officers with phones. This decides between contact, contactless or dual-interface chips." }
+      ]
+    }
+  ],
+  "relatedProjects": ["smart-card-issuance", "tcb-smart-card"]
+}

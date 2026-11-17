@@ -1,0 +1,137 @@
+{
+  "seo": {
+    "title": "Officers’ Club Dhaka: Case Study",
+    "description": "How Spectrum built the Officers’ Club Dhaka website, member portal and Android and iOS apps, with online booking and payment for halls, guest house rooms and the salon.",
+    "image": "/images/og/cs-ocd.jpg"
+  },
+  "hero": {
+    "eyebrow": "Case study",
+    "title": "Officers’ Club *Dhaka*",
+    "lead": "How Spectrum built the club’s website, member portal and mobile apps, so members can check what is free and book halls, guest house rooms and salon services online or from their phone.",
+    "chips": [
+      { "label": "Online booking calendars", "icon": "CalendarCheck" },
+      { "label": "Member login", "icon": "UserCheck" },
+      { "label": "Pay for bookings online", "icon": "HandCoins" },
+      { "label": "Android and iOS apps", "icon": "Smartphone" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "facts",
+      "id": "overview",
+      "eyebrow": "Overview",
+      "title": "At a glance",
+      "body": [
+        "Officers’ Club Dhaka, on Baily Road, has served government officers since 1967 and has about 6,600 general members. Spectrum built its website, member portal and Android and iOS apps, where members can check availability and book the club’s halls, guest house rooms and salon online."
+      ],
+      "items": [
+        { "label": "Client", "value": "Officers’ Club Dhaka" },
+        { "label": "Sector", "value": "Members’ club" },
+        { "label": "What we built", "value": "The club website, member portal and Android and iOS apps" },
+        { "label": "Live system", "value": "ocd.org.bd", "href": "https://ocd.org.bd/" },
+        { "label": "Google Play", "value": "Get the Android app", "href": "https://play.google.com/store/apps/details?id=com.spectrum.officers_club_dhaka" },
+        { "label": "App Store", "value": "Get the iOS app", "href": "https://apps.apple.com/app/officers-club-dhaka/id6818748608" }
+      ],
+      "image": { "src": "/images/apps/ocd-app-icon.png", "alt": "Officers’ Club Dhaka app icon" }
+    },
+    {
+      "type": "text",
+      "id": "problem",
+      "eyebrow": "The challenge",
+      "title": "The problem",
+      "body": [
+        "A club with thousands of members needs one place to share news and to manage bookings for its halls, guest house and services.",
+        "Without an online system, members have to phone or visit the club office to find out whether a date is free, then book and pay in person, and staff have to keep track of every request by hand."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "solution",
+      "eyebrow": "The solution",
+      "title": "What we built",
+      "intro": "A website and two mobile apps for members, with the club’s bookings built in:",
+      "items": [
+        { "title": "The club website,", "text": "with information about the club, its committees, and facilities such as the swimming pool, gym, library, cafeteria, catering and laundry." },
+        { "title": "A member login,", "text": "so members can use the services meant for them." },
+        { "title": "Hall booking", "text": "with a reservation calendar, an online booking form, a booking status check and online payment." },
+        { "title": "Guest house booking", "text": "that works the same way, from checking free dates to paying." },
+        { "title": "Salon booking and payment", "text": "online." },
+        { "title": "A notice board", "text": "on the home page for club notices, and a feedback page." },
+        { "title": "Android and iOS apps,", "text": "published on Google Play and the App Store, where members and guests can explore the club’s facilities, see notices and events, book halls, the guest house and the salon, and sign in to the member portal." },
+        { "title": "Dues and payments in the app:", "text": "members see what they owe for the club, the cafeteria and hall bookings, and pay with one tap." },
+        { "title": "Food ordering", "text": "from the cafeteria menus, with a cart, order summary and checkout." }
+      ]
+    },
+    {
+      "type": "app",
+      "id": "app",
+      "eyebrow": "Mobile app",
+      "title": "The Officers’ Club Dhaka app",
+      "app": {
+        "name": "Officers’ Club Dhaka",
+        "icon": "/images/apps/ocd-app-icon.png",
+        "platforms": "Android and iOS",
+        "downloads": "100+ downloads on Google Play",
+        "rating": "4.2 on Google Play",
+        "version": "iOS version 1.1.17",
+        "stores": {
+          "google": "https://play.google.com/store/apps/details?id=com.spectrum.officers_club_dhaka",
+          "apple": "https://apps.apple.com/app/officers-club-dhaka/id6818748608"
+        },
+        "screenshots": [
+          { "src": "/images/apps/ocd/screen-1.webp", "caption": "Home: club services at a glance" },
+          { "src": "/images/apps/ocd/screen-2.webp", "caption": "Hall booking with calendar and payment" },
+          { "src": "/images/apps/ocd/screen-3.webp", "caption": "Fees and dues, with Pay now" },
+          { "src": "/images/apps/ocd/screen-4.webp", "caption": "Food menu by category" },
+          { "src": "/images/apps/ocd/screen-5.webp", "caption": "Ordering from the lunch menu" },
+          { "src": "/images/apps/ocd/screen-6.webp", "caption": "Order summary and checkout" }
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "Booking without a phone call",
+      "items": [
+        { "title": "Check the calendar", "text": "The member sees which dates are already reserved for each hall or guest room." },
+        { "title": "Book online", "text": "They choose a free date and send the booking request online." },
+        { "title": "Pay online", "text": "The booking is paid for online, as part of the same process." },
+        { "title": "Check the status", "text": "Members can look up their booking status at any time, without calling the club." }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "results",
+      "eyebrow": "Impact",
+      "title": "Results",
+      "items": [
+        { "value": "3", "label": "Services booked online: halls, guest house, salon" },
+        { "value": "2", "label": "Mobile apps: Android and iOS" },
+        { "value": "24/7", "label": "Members can check free dates" },
+        { "value": "Online", "label": "Payment for bookings" }
+      ],
+      "bullets": [
+        "Members can see free dates at any time, without phoning the club office.",
+        "Halls, guest house rooms and salon services can be booked and paid for online.",
+        "Members can check the status of a booking themselves.",
+        "Club notices reach members in one place, on the web and in the app.",
+        "Members and guests can explore the club and book its services from their phone."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "technology",
+      "eyebrow": "Under the hood",
+      "title": "The technology, in plain words",
+      "items": [
+        { "title": "Booking calendars:", "text": "show reserved and free dates for each hall and guest room." },
+        { "title": "Online payment:", "text": "members pay for a booking in the same flow as making it." },
+        { "title": "Member login:", "text": "keeps member services separate from the public pages." },
+        { "title": "Notice board:", "text": "the club posts notices that members see on the home page." },
+        { "title": "Android and iOS apps:", "text": "the same club services on members’ phones, published by Spectrum on Google Play and the App Store." }
+      ]
+    }
+  ],
+  "relatedServices": ["business-automation", "mobile-apps"]
+}

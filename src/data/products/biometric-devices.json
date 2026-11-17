@@ -1,0 +1,31 @@
+{
+  "intro": [
+    "A strong identity check combines **something you have**, like an ID card, with **something you are**, like a face or fingerprint. Our biometric devices capture the second part reliably, and work with our [e-KYC software](product:spectrum-e-kyc) to match it against the card and the NID records."
+  ],
+  "sections": [
+    {
+      "type": "cards",
+      "id": "options",
+      "eyebrow": "Options",
+      "title": "Face, fingerprint or iris",
+      "items": [
+        { "title": "Fingerprint scanners", "text": "The customer places a finger on a scanner, and the fingerprint is matched against the NID records in the same check. Fake or rubber fingers are spotted.", "icon": "FingerprintPattern" },
+        { "title": "Iris cameras", "text": "For sites that need extra security, or for people whose fingerprints are worn, an iris scanner can be added as a third option.", "icon": "Eye" },
+        { "title": "NID card readers", "text": "Read the chip and barcode on the card, so the data can be compared with the printed details and the official record.", "icon": "IdCard" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "sectors",
+      "eyebrow": "Who uses it",
+      "title": "Where biometric checks are used",
+      "items": [
+        { "title": "Banks & mobile financial services", "text": "Open accounts, issue cards and approve loans with e-KYC, in a branch or on the customer's own phone.", "icon": "Banknote" },
+        { "title": "Telecom", "text": "Register SIM cards and eSIMs with a fingerprint check at the retail counter, in seconds.", "icon": "Wifi" },
+        { "title": "Government", "text": "Civil registration, social programme enrolment and staff identity checks, with one record per person.", "icon": "Landmark" },
+        { "title": "Police & border control", "text": "Identity checks at checkpoints and border points, matching face and fingerprint to the card in seconds.", "icon": "ShieldCheck" }
+      ]
+    }
+  ],
+  "relatedProjects": ["tcb-smart-card", "smart-card-issuance"]
+}

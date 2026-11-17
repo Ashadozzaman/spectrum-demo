@@ -1,0 +1,101 @@
+{
+  "seo": {
+    "title": "Industrial e-Court Bangladesh: Case Study",
+    "description": "How Spectrum built the Industrial e-Court system for Bangladesh's labour courts: online case filing, cause lists published online, SMS hearing alerts and digital case files.",
+    "image": "/images/og/cs-e-court.jpg"
+  },
+  "hero": {
+    "eyebrow": "Case study",
+    "title": "Industrial *e-Court* Bangladesh",
+    "lead": "How Spectrum moved Bangladesh's labour courts from paper files to an online system, so cases can be filed, scheduled and followed without visiting the court.",
+    "chips": [
+      { "label": "Online case filing", "icon": "FileText" },
+      { "label": "Cause lists published online", "icon": "CalendarCheck" },
+      { "label": "SMS hearing alerts", "icon": "Bell" },
+      { "label": "Every change logged", "icon": "ClipboardCheck" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "facts",
+      "id": "overview",
+      "eyebrow": "Overview",
+      "title": "At a glance",
+      "body": [
+        "Workers and employers take their disputes to Bangladesh's labour courts. Spectrum built the Industrial e-Court system so these cases can be filed, scheduled and followed online instead of through paper files."
+      ],
+      "items": [
+        { "label": "Client", "value": "Ministry of Labour and Employment and the Labour Courts of Bangladesh" },
+        { "label": "Sector", "value": "Courts and justice" },
+        { "label": "What we built", "value": "An online case management system for the labour courts" },
+        { "label": "Live system", "value": "ecourt.gov.bd" }
+      ],
+      "image": { "src": "/images/projects/project_4.webp", "alt": "Industrial e-Court Bangladesh portal home page" }
+    },
+    {
+      "type": "text",
+      "id": "problem",
+      "eyebrow": "The challenge",
+      "title": "The problem",
+      "body": [
+        "The labour courts ran on paper. Case files were kept in physical dockets, hearings were scheduled by hand, and summons were delivered in person, which was slow.",
+        "Factory workers often had no way to check their next hearing date without travelling to the court."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "solution",
+      "eyebrow": "The solution",
+      "title": "What we built",
+      "intro": "One online system for the whole life of a case:",
+      "items": [
+        { "title": "Online case filing,", "text": "so a case can be started without paper forms." },
+        { "title": "The daily cause list published online automatically,", "text": "showing which cases are heard and when." },
+        { "title": "Digital case files on the judge's bench,", "text": "instead of folders passed around the courtroom." },
+        { "title": "A case log that shows every change,", "text": "so records cannot be quietly altered." },
+        { "title": "SMS alerts", "text": "to tell the people involved about hearing dates and orders." }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "File, schedule, notify, hear",
+      "items": [
+        { "title": "File the case", "text": "The case is filed online with its documents." },
+        { "title": "Schedule", "text": "Hearings are scheduled and the cause list is published online every day." },
+        { "title": "Notify", "text": "Parties get SMS alerts about their hearing dates and orders." },
+        { "title": "Hear and record", "text": "The judge works from the digital file, and every order is saved to the case record." }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "results",
+      "eyebrow": "Impact",
+      "title": "Results",
+      "items": [
+        { "value": "85%", "label": "Less delay in scheduling" },
+        { "value": "100%", "label": "Paperless case tracking" },
+        { "value": "SMS", "label": "Alerts for hearing dates" }
+      ],
+      "bullets": [
+        "Scheduling delays cut by 85%, because the cause list is published online straight away.",
+        "Cases can be tracked without paper by workers, employers and lawyers across all labour court benches.",
+        "Hearing notices and orders are sent digitally, with a record of who did what and when."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "technology",
+      "eyebrow": "Under the hood",
+      "title": "The technology, in plain words",
+      "items": [
+        { "title": "Case workflow engine:", "text": "moves each case through filing, hearing and judgment in the right order." },
+        { "title": "Digital signatures (PKI):", "text": "show who approved each order and that it has not been changed." },
+        { "title": "Automatic cause lists:", "text": "built from the case records every day." },
+        { "title": "SMS gateway:", "text": "sends hearing alerts to the people involved." }
+      ]
+    }
+  ],
+  "relatedServices": ["business-automation", "blockchain-technology"]
+}

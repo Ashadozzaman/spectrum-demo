@@ -13,8 +13,8 @@ export default function SectionHeading({
   className = "",
 }: {
   id?: string;
-  eyebrow: string;
-  title: ReactNode;
+  eyebrow?: string;
+  title?: ReactNode;
   lead?: string;
   align?: "left" | "center";
   className?: string;
@@ -22,10 +22,12 @@ export default function SectionHeading({
   const center = align === "center" ? "mx-auto items-center text-center" : "";
   return (
     <div className={`flex max-w-[720px] flex-col gap-5 ${center} ${className}`}>
-      <div className="eyebrow" data-reveal="0">{eyebrow.toUpperCase()}</div>
-      <h2 id={id} className="section-title section-title--balance text-fg" data-reveal="80">
-        {title}
-      </h2>
+      {eyebrow && <div className="eyebrow" data-reveal="0">{eyebrow.toUpperCase()}</div>}
+      {title && (
+        <h2 id={id} className="section-title section-title--balance text-fg [&_em]:text-brand [&_em]:not-italic" data-reveal="80">
+          {title}
+        </h2>
+      )}
       {lead && <p className="lead lead--pretty" data-reveal="140">{lead}</p>}
     </div>
   );

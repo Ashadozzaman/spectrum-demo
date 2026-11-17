@@ -1,0 +1,101 @@
+{
+  "seo": {
+    "title": "National e-Licensing Platform: Case Study",
+    "description": "How Spectrum built a single online portal for licences and permits in Bangladesh: online applications and payment, automatic routing, e-signatures and QR-verified licences.",
+    "image": "/images/og/cs-e-licensing.jpg"
+  },
+  "hero": {
+    "eyebrow": "Case study",
+    "title": "National *e-Licensing* platform",
+    "lead": "How Spectrum replaced paper forms and long waits with one online portal where businesses apply for licences and permits, pay the fee and receive a licence anyone can verify.",
+    "chips": [
+      { "label": "Apply online", "icon": "FileText" },
+      { "label": "e-Challan payment", "icon": "HandCoins" },
+      { "label": "Approved with e-signature", "icon": "PenLine" },
+      { "label": "QR-verified licences", "icon": "QrCode" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "facts",
+      "id": "overview",
+      "eyebrow": "Overview",
+      "title": "At a glance",
+      "body": [
+        "Getting a trade licence or an import-export permit used to mean paper forms, office visits and weeks of waiting. Spectrum built one online portal where businesses apply, pay and receive their licence."
+      ],
+      "items": [
+        { "label": "Client", "value": "Government regulatory authorities and ministries" },
+        { "label": "Sector", "value": "Government licensing and permits" },
+        { "label": "What we built", "value": "A single-window portal for licences and permits" },
+        { "label": "Live system", "value": "licence.gov.bd", "href": "https://licence.gov.bd/" }
+      ],
+      "image": { "src": "/images/projects/project_3.webp", "alt": "National e-Licensing portal home page" }
+    },
+    {
+      "type": "text",
+      "id": "problem",
+      "eyebrow": "The challenge",
+      "title": "The problem",
+      "body": [
+        "Applications were made on paper and checked in person. Each one passed from desk to desk, and it could take weeks to get a decision.",
+        "Applicants could not see where their application was, and payments were hard to track."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "solution",
+      "eyebrow": "The solution",
+      "title": "What we built",
+      "intro": "A single window for the whole licence process:",
+      "items": [
+        { "title": "Online applications", "text": "with document uploads, so there is no need to visit an office." },
+        { "title": "Automatic routing", "text": "sends each application to the right officer, based on clear rules." },
+        { "title": "Approval with an electronic signature,", "text": "recorded in the system." },
+        { "title": "Online fee payment,", "text": "connected to Bangladesh Bank's e-challan." },
+        { "title": "Digitally signed licences with a QR code", "text": "that anyone can scan to check." }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "Apply, review, pay, verify",
+      "items": [
+        { "title": "Apply", "text": "The business fills in the form online and uploads its documents." },
+        { "title": "Review", "text": "The application goes to the right officer automatically, and its status is visible." },
+        { "title": "Pay", "text": "The fee is paid online through e-challan." },
+        { "title": "Receive and verify", "text": "The signed licence is issued with a QR code that anyone can check." }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "results",
+      "eyebrow": "Impact",
+      "title": "Results",
+      "items": [
+        { "value": "48 hours", "label": "Down from 21 days" },
+        { "value": "100,000+", "label": "Licences issued" },
+        { "value": "QR", "label": "On every licence" }
+      ],
+      "bullets": [
+        "The time to get a licence fell from 21 days to under 48 hours.",
+        "More than 100,000 licences issued, each one checkable by QR code.",
+        "Fees collected directly through Bangladesh Bank's e-challan."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "technology",
+      "eyebrow": "Under the hood",
+      "title": "The technology, in plain words",
+      "items": [
+        { "title": "Single-window portal:", "text": "one place to apply, pay, follow progress and download the licence." },
+        { "title": "Rule-based routing:", "text": "sends each application to the right desk without manual sorting." },
+        { "title": "Digital signatures (PKI):", "text": "prove which office issued a licence and that it has not been changed." },
+        { "title": "e-Challan link:", "text": "connects payments to Bangladesh Bank." }
+      ]
+    }
+  ],
+  "relatedServices": ["business-automation", "blockchain-technology"]
+}

@@ -85,7 +85,12 @@ export default function SiteEffects() {
     });
 
     // Scroll reveal
+    // `pending` = hidden, waiting to scroll into view. If this effect is cleaned up
+    // before they are revealed (React Strict Mode runs effects twice in dev; Next
+    // keeps visited pages alive and re-runs effects on back/forward), they must be
+    // reset, or they would stay invisible because `data-revealed` skips them.
     let io: IntersectionObserver | undefined;
+    const pending = new Set<HTMLElement>();
     if (!reduce) {
       io = new IntersectionObserver((entries) =>
         entries.forEach((e) => {
@@ -93,6 +98,7 @@ export default function SiteEffects() {
           const el = e.target as HTMLElement;
           el.style.opacity = "1";
           el.style.transform = "none";
+          pending.delete(el);
           io?.unobserve(el);
         }), { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
 
@@ -106,6 +112,7 @@ export default function SiteEffects() {
         el.style.transform = "translateY(28px)";
         el.style.transition =
           "opacity .8s cubic-bezier(.2,.7,.2,1) " + d + "ms, transform .9s cubic-bezier(.2,.7,.2,1) " + d + "ms";
+        pending.add(el);
         io?.observe(el);
       });
     }
@@ -113,6 +120,12 @@ export default function SiteEffects() {
     return () => {
       ac.abort();
       io?.disconnect();
+      pending.forEach((el) => {
+        el.style.opacity = "";
+        el.style.transform = "";
+        el.style.transition = "";
+        delete el.dataset.revealed;
+      });
     };
   }, [pathname]);
 

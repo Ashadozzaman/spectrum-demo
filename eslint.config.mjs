@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Copy of the old static site (content source only, not part of the app).
+    "spectrum-website-2026-11-12/**",
   ]),
 ]);
 

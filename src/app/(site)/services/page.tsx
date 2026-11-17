@@ -4,7 +4,20 @@ import PageHero from "@/components/ui/PageHero";
 import SectionHeading from "@/components/ui/SectionHeading";
 import LinkCard from "@/components/ui/LinkCard";
 import CtaBanner from "@/components/ui/CtaBanner";
-import { coreServices, systems, workSteps } from "@/content/services";
+import { getServicesIndex } from "@/lib/data";
+import { getIcon } from "@/lib/icons";
+import { resolveHref, serviceHref } from "@/lib/routes";
+import type { ServiceSummary } from "@/lib/content-types";
+
+/** LinkCard props from a services.json entry. */
+const card = (s: ServiceSummary) => ({
+  title: s.title,
+  description: s.description,
+  href: s.href ? resolveHref(s.href) : serviceHref(s.slug!),
+  more: s.more,
+  image: s.image,
+  icon: s.icon ? getIcon(s.icon) : undefined,
+});
 
 export const metadata: Metadata = {
   title: "IT and Software Services in Bangladesh",
@@ -13,7 +26,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/services" },
 };
 
-export default function ServicesPage() {
+export default async function ServicesPage() {
+  const { core: coreServices, systems, workSteps } = await getServicesIndex();
   return (
     <>
       <PageHero
@@ -40,7 +54,7 @@ export default function ServicesPage() {
           />
           <div className="services__grid">
             {coreServices.map((s, i) => (
-              <LinkCard key={s.title} {...s} num={i + 1} reveal={(i % 3) * 70} />
+              <LinkCard key={s.title} {...card(s)} num={i + 1} reveal={(i % 3) * 70} />
             ))}
           </div>
         </div>
@@ -54,12 +68,12 @@ export default function ServicesPage() {
             id="systems-h"
             eyebrow="Systems we install"
             title="Devices and systems, set up for you"
-            lead="We supply, install, connect and support these systems. Each links to the matching products."
+            lead="We supply, install, connect and support these systems. Each links to the matching product."
             className="mb-[clamp(40px,4vw,64px)]"
           />
           <div className="services__grid">
             {systems.map((s, i) => (
-              <LinkCard key={s.title} {...s} more={s.more ?? "See products"} reveal={(i % 3) * 70} />
+              <LinkCard key={s.title} {...card(s)} more={s.more ?? "See product"} reveal={(i % 3) * 70} />
             ))}
           </div>
         </div>

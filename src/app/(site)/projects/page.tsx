@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { FileText, IdCard, Landmark, Layers, ShieldCheck, Ticket } from "lucide-react";
+import { FileText, IdCard, Layers, ShieldCheck, Ticket } from "lucide-react";
 import PageHero from "@/components/ui/PageHero";
 import SectionHeading from "@/components/ui/SectionHeading";
 import FilterTabs from "@/components/ui/FilterTabs";
 import CtaBanner from "@/components/ui/CtaBanner";
 import ProjectCard from "@/components/projects/ProjectCard";
-import { projectCategories, projectStats, visibleProjects } from "@/content/projects";
+import { getProjectsIndex } from "@/lib/data";
+import { getIcon } from "@/lib/icons";
 
 export const metadata: Metadata = {
   title: "National & Enterprise Projects",
@@ -14,17 +15,20 @@ export const metadata: Metadata = {
   alternates: { canonical: "/projects" },
 };
 
-const categoryIcons = { identity: <IdCard />, governance: <Landmark />, portal: <Ticket /> };
-
-export default function ProjectsPage() {
+export default async function ProjectsPage() {
+  const { categories: projectCategories, stats: projectStats, projects } = await getProjectsIndex();
+  const visibleProjects = projects.filter((p) => !p.hidden);
   const options = [
     { id: "all", label: "All", icon: <Layers />, count: visibleProjects.length },
-    ...projectCategories.map((c) => ({
+    ...projectCategories.map((c) => {
+      const Icon = getIcon(c.icon);
+      return {
       id: c.id,
       label: c.label,
-      icon: categoryIcons[c.id],
+      icon: <Icon />,
       count: visibleProjects.filter((p) => p.category === c.id).length,
-    })),
+      };
+    }),
   ];
 
   return (

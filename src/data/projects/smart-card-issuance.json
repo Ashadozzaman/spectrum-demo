@@ -1,0 +1,101 @@
+{
+  "seo": {
+    "title": "Smart Card Issuance Platform: Case Study",
+    "description": "How Spectrum built a system to print, encode and issue secure smart cards such as driving licences at scale, with protected chip keys and offline checks in the field.",
+    "image": "/images/og/cs-smart-card.jpg"
+  },
+  "hero": {
+    "eyebrow": "Case study",
+    "title": "Smart card *issuance* platform",
+    "lead": "How Spectrum built the system that prints, encodes and issues secure smart cards such as driving licences in large numbers, and lets officers check them in the field.",
+    "chips": [
+      { "label": "15,000+ cards a day", "icon": "Printer" },
+      { "label": "Chip and contactless cards", "icon": "IdCard" },
+      { "label": "Keys kept in secure hardware", "icon": "KeyRound" },
+      { "label": "Offline checks in the field", "icon": "ScanLine" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "facts",
+      "id": "overview",
+      "eyebrow": "Overview",
+      "title": "At a glance",
+      "body": [
+        "Driving licences and transport cards must be hard to fake and quick to produce. Spectrum built the system that prints, encodes and issues secure smart cards in large numbers."
+      ],
+      "items": [
+        { "label": "Client", "value": "National transport and licensing authorities" },
+        { "label": "Sector", "value": "Secure ID and licence cards" },
+        { "label": "What we built", "value": "A card personalisation and issuance system" },
+        { "label": "Live system", "value": "Runs inside the client's secure network" }
+      ],
+      "image": { "src": "/images/projects/sm-card-about.webp", "alt": "A smart card being checked" }
+    },
+    {
+      "type": "text",
+      "id": "problem",
+      "eyebrow": "The challenge",
+      "title": "The problem",
+      "body": [
+        "The authorities needed to issue a very large number of cards, such as driving licences and transport cards, quickly and without mistakes.",
+        "Each card had to be very hard to copy. That meant writing secret keys onto each chip safely and adding security features that show any tampering."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "solution",
+      "eyebrow": "The solution",
+      "title": "What we built",
+      "intro": "One central system that controls every card from order to delivery:",
+      "items": [
+        { "title": "A card management system (CPMS)", "text": "that tracks each card from the data entry to the finished card." },
+        { "title": "Connected laser engraving machines and chip programmers,", "text": "so printing and encoding happen in one flow." },
+        { "title": "Hardware security modules (HSMs)", "text": "that keep the chip keys locked away, even from operators." },
+        { "title": "Fingerprint on the card,", "text": "so the card can confirm its holder by matching the finger on the card itself." },
+        { "title": "Handheld scanners", "text": "that let officers check a card on the spot, even without internet." }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "Enrol, personalise, secure, check",
+      "items": [
+        { "title": "Enrol", "text": "The holder's details and fingerprint are captured and checked." },
+        { "title": "Personalise", "text": "The card is laser engraved and its chip is encoded in one run." },
+        { "title": "Secure", "text": "Secret keys are written from the HSM, so they are never exposed." },
+        { "title": "Check in the field", "text": "Officers scan the card with a handheld reader, online or offline." }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "results",
+      "eyebrow": "Impact",
+      "title": "Results",
+      "items": [
+        { "value": "15,000+", "label": "Cards a day" },
+        { "value": "0", "label": "Counterfeit cases reported" },
+        { "value": "Offline", "label": "Checks in the field" }
+      ],
+      "bullets": [
+        "More than 15,000 smart cards personalised every day.",
+        "No counterfeit incidents reported on the issued chip cards.",
+        "Officers can check a card instantly with a handheld scanner, even offline."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "technology",
+      "eyebrow": "Under the hood",
+      "title": "The technology, in plain words",
+      "items": [
+        { "title": "Contact and contactless chips:", "text": "works with both kinds of card chip (ISO 7816 and ISO 14443)." },
+        { "title": "Laser engraving:", "text": "burns details into the card so they cannot be scraped off and reprinted." },
+        { "title": "Hardware security modules:", "text": "special devices that store the secret keys safely." },
+        { "title": "Match-on-card:", "text": "the fingerprint check happens on the card, so the fingerprint never leaves it." }
+      ]
+    }
+  ],
+  "relatedServices": ["smart-card-technologies", "anti-counterfeit"]
+}
