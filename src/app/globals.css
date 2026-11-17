@@ -1,3 +1,63 @@
-/* Tailwind is intentionally not imported: its preflight reset would alter the
-   template's pixel-matched styles. Add `@import "tailwindcss";` if needed later. */
-@import "./home.css";
+/* ==========================================================================
+   Global stylesheet
+   --------------------------------------------------------------------------
+   Layer order (later wins): theme < base < components < utilities.
+
+   - Tailwind's preflight reset is deliberately NOT imported: it would change
+     the pixel-matched home page. New pages set margins/borders explicitly
+     with utilities instead of relying on a reset.
+   - home.css (the hand-ported home page + shared header/footer styles) lives
+     in the `components` layer so Tailwind utilities can always override it.
+   - `source("..")` limits class scanning to src/, so old HTML exports lying
+     around the repo don't generate stray utilities.
+   ========================================================================== */
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities) source("..");
+@import "./home.css" layer(components);
+
+/* Design tokens, taken from the home page design (Home.dc.html).
+   Use them as `bg-bg`, `text-fg-muted`, `border-line`, `font-display`, ... */
+@theme {
+  --color-bg: #06100c;
+  --color-surface: #0a1712;
+  --color-card: #10231a;
+  --color-card-deep: #0b1914;
+  --color-brand: #3dbe5a;
+  --color-brand-deep: #0e5a2e;
+  --color-brand-soft: #cfe8d6;
+  --color-accent: #f26522;
+  --color-accent-soft: #f6a27a;
+  --color-fg: #eaf2ed;
+  --color-fg-muted: #b4c4bb;
+  --color-fg-subtle: #8fa398;
+  --color-line: rgb(120 200 150 / 0.14);
+  --color-line-strong: rgb(120 200 150 / 0.28);
+
+  --font-display: Sora, sans-serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Shared, reusable patterns for the Tailwind-built pages. */
+@layer components {
+  /* Page gutter + max width, matching the home sections. */
+  .shell {
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: clamp(20px, 5.5vw, 80px);
+  }
+
+  /* Faint dotted background used behind section intros (home: .services__dots). */
+  .bg-dots {
+    background-image: radial-gradient(rgb(120 200 150 / 0.12) 1px, transparent 1.5px);
+    background-size: 28px 28px;
+  }
+
+  /* Active item in the header nav. */
+  .main-nav a[aria-current="page"],
+  .mobile-nav__link[aria-current="page"] {
+    color: var(--color-brand);
+  }
+}

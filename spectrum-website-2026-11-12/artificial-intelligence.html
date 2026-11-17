@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artificial Intelligence in Bangladesh | Spectrum</title>
+    <meta name="description" content="A plain guide to AI: what it can do, how it is built, Bangla, risks and how to start. Plus the AI systems Spectrum builds in Bangladesh.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://spectrum.com.bd/artificial-intelligence.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Spectrum IT Solutions Ltd.">
+    <meta property="og:title" content="Artificial Intelligence in Bangladesh | Spectrum">
+    <meta property="og:description" content="A plain guide to AI: what it can do, how it is built, Bangla, risks and how to start. Plus the AI systems Spectrum builds in Bangladesh.">
+    <meta property="og:url" content="https://spectrum.com.bd/artificial-intelligence.html">
+    <meta property="og:image" content="https://spectrum.com.bd/assets/img/og/ai.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@SpectrumITSolutions">
+    <meta name="twitter:title" content="Artificial Intelligence in Bangladesh | Spectrum">
+    <meta name="twitter:description" content="A plain guide to AI: what it can do, how it is built, Bangla, risks and how to start. Plus the AI systems Spectrum builds in Bangladesh.">
+    <meta name="twitter:image" content="https://spectrum.com.bd/assets/img/og/ai.jpg">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="ard" href=".well-known/ard.json">
+    <!-- Resource Hints & Preloads -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"></noscript>
+    <link rel="preload" href="assets/webfonts/fa-solid-900.woff2?v=3" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="assets/css/fontawesome-subset.min.css?v=3">
+    <!-- Bootstrap & Site Styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/responsive-fixes.min.css?v=20261111e">
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Spectrum IT Solutions Ltd.",
+        "url": "https://spectrum.com.bd/",
+        "logo": "https://spectrum.com.bd/assets/img/logo.png",
+        "telephone": "+8801615900004",
+        "email": "contact@spectrum.com.bd",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "52/1, New Eskaton Road (Hasan Holdings Ltd., 12th Floor)",
+          "addressLocality": "Dhaka",
+          "postalCode": "1000",
+          "addressCountry": "BD"
+        },
+        "sameAs": [
+          "https://www.facebook.com/myspectrumit",
+          "https://www.linkedin.com/company/spectrum-it-solutions-limited",
+          "https://www.youtube.com/@SpectrumITSolutionsbdLtd"
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Artificial Intelligence in Bangladesh | Spectrum",
+        "description": "A plain guide to AI: what it can do, how it is built, Bangla, risks and how to start. Plus the AI systems Spectrum builds in Bangladesh.",
+        "url": "https://spectrum.com.bd/artificial-intelligence.html",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Spectrum IT Solutions Ltd.",
+          "url": "https://spectrum.com.bd/"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "What Is Artificial Intelligence?",
+        "description": "A plain guide to AI: what it can do, how it is built, Bangla, risks and how to start. Plus the AI systems Spectrum builds in Bangladesh.",
+        "datePublished": "2026-11-05",
+        "dateModified": "2026-11-05",
+        "image": "https://spectrum.com.bd/assets/img/og/ai.jpg",
+        "mainEntityOfPage": "https://spectrum.com.bd/artificial-intelligence.html",
+        "author": {
+          "@type": "Organization",
+          "name": "Spectrum IT Solutions Ltd.",
+          "url": "https://spectrum.com.bd/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Spectrum IT Solutions Ltd.",
+          "url": "https://spectrum.com.bd/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://spectrum.com.bd/assets/img/logo.png"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Applied AI Systems",
+        "serviceType": "AI for document verification, face matching and fraud detection",
+        "provider": {
+          "@type": "Organization",
+          "name": "Spectrum IT Solutions Ltd.",
+          "url": "https://spectrum.com.bd/"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Bangladesh"
+        },
+        "url": "https://spectrum.com.bd/artificial-intelligence.html"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Will AI replace our staff?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In most projects, no. AI takes over the repetitive part, such as typing details or comparing photos, and staff handle the cases that need judgement. Teams usually get through more work with fewer errors."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much data do we need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on the task. Some jobs can start from an existing model and a few hundred local examples. Others, such as recognising a new document type reliably, need thousands. A short data review at the start answers this for your case."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can AI work without sending data abroad?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Models can run on your own servers or on devices such as phones and kiosks, so citizens' data never leaves your control."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How accurate is AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Accuracy is always for a specific task and specific data, so ask for results measured on documents or faces like yours. Look at two numbers: how often it lets a fake through, and how often it wrongly rejects a genuine case."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between AI and automation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Automation follows fixed rules, such as \"if the form is complete, send it on\". AI handles tasks where the rules are hard to write down, such as \"does this face match this photo?\" Most good systems use both."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can AI read handwritten Bangla?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, with the right training, though handwriting is harder than print and accuracy depends on how neat and clear it is. A good system marks fields it is unsure of so a person can check them."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://spectrum.com.bd/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://spectrum.com.bd/services.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Artificial Intelligence",
+            "item": "https://spectrum.com.bd/artificial-intelligence.html"
+          }
+        ]
+      }
+    ]
+    </script>
+</head>
+<body>
+    <a class="visually-hidden-focusable" href="#main-content">Skip to main content</a>
+    <header>
+    <!-- Start Top bar -->
+    <div class="container-fluid bg-dark pt-2 pb-2 top_bar">
+        <div class="container text-light d-flex justify-content-between align-items-center">
+            <div class="top_social d-flex align-items-center">
+                <a class="text-light me-3" href="https://www.facebook.com/myspectrumit" target="_blank" rel="noopener" aria-label="Spectrum Facebook"><i class="fab fa-facebook-f fa-sm fa-fw"></i></a>
+                <a class="text-light me-3" href="https://www.linkedin.com/company/spectrum-it-solutions-limited" target="_blank" rel="noopener" aria-label="Spectrum LinkedIn"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                <a class="text-light" href="https://www.youtube.com/@SpectrumITSolutionsbdLtd" target="_blank" rel="noopener" aria-label="Spectrum YouTube"><i class="fab fa-youtube fa-sm fa-fw"></i></a>
+            </div>
+            <div class="top_email d-flex align-items-center">
+                <a class="top_email_badge text-decoration-none" href="mailto:contact@spectrum.com.bd">
+                    <i class="fa fa-envelope"></i>
+                    <span>contact@spectrum.com.bd</span>
+                </a>
+            </div>
+        </div> 
+    </div>
+    <!-- Close Top bar -->
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow sticky-top pt-3 pb-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <div class="logo">
+                    <a class="navbar-brand text-success align-self-center m-0 p-0" href="./">
+                        <img src="assets/img/logo.png" width="165" height="60" alt="Spectrum IT Solutions Logo">
+                    </a>
+                </div>
+                <div class="iso d-none d-lg-flex align-items-center ms-3">
+                    <img src="assets/img/ISO_9001.png" width="70" height="75" alt="ISO 9001:2015" class="me-1">
+                    <img src="assets/img/ISO_27001.png" width="70" height="75" alt="ISO 27001:2022">
+                </div>
+            </div>
+
+            <button class="navbar-toggler d-lg-none border-0 ms-auto collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="templatemo_main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex menu_list justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="case-study.html" id="caseStudyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Case Study
+                            </a>
+                            <ul class="dropdown-menu shadow-sm" aria-labelledby="caseStudyDropdown">
+                                <li><a class="dropdown-item" href="case-study.html"><i class="fas fa-layer-group me-2 text-warning"></i> All Case Studies</a></li>
+                                <li><hr class="dropdown-divider my-1"></li>
+                                <li><a class="dropdown-item" href="case-study-tcb.html"><i class="fas fa-id-card me-2 text-success"></i> TCB Smart Card</a></li>
+                                <li class="d-none"><!-- Hidden while ecourt.gov.bd is offline (not deleted). Remove "d-none" to show it again. --><a class="dropdown-item" href="case-study-e-court.html"><i class="fas fa-gavel me-2 text-primary"></i> Industrial e-Court</a></li>
+                                <li><a class="dropdown-item" href="case-study-e-licensing.html"><i class="fas fa-file-contract me-2 text-info"></i> National e-Licensing</a></li>
+                                <li><a class="dropdown-item" href="case-study-smart-card.html"><i class="fas fa-print me-2 text-warning"></i> Smart Card Issuance</a></li>
+                                <li><a class="dropdown-item" href="case-study-ocd.html"><i class="fas fa-calendar-check me-2 text-info"></i> Officers’ Club Dhaka</a></li>
+                                <li><a class="dropdown-item" href="case-study-tcb-contact-center.html"><i class="fas fa-headset me-2 text-success"></i> TCB AI Contact Center</a></li>
+                                <li><a class="dropdown-item" href="case-study-novotheatre.html"><i class="fas fa-ticket-alt me-2 text-warning"></i> Novotheatre eTicket</a></li>
+                                <li><a class="dropdown-item" href="case-study-gcc.html"><i class="fas fa-landmark me-2 text-success"></i> Gazipur City Corporation</a></li>
+                                <li><a class="dropdown-item" href="case-study-apfs.html"><i class="fas fa-user-clock me-2 text-primary"></i> Automated Presence &amp; Feedback</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="ms-lg-3">
+                    <div class="free_con d-flex align-items-center">
+                        <i class="fa fa-phone-alt mx-2 text-warning"></i>
+                        <div>
+                            <span>Free Consultant</span><br>
+                            <a href="tel:+8801615900004" style="color: inherit; text-decoration: none;"><strong>+880 1615-900004</strong></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-lg-none text-center pt-3 pb-2 border-top mt-3">
+                    <img width="26" height="28" src="assets/img/ISO_9001.png" alt="ISO 9001:2015" class="me-2" style="height: 28px;" loading="lazy">
+                    <img width="26" height="28" src="assets/img/ISO_27001.png" alt="ISO 27001:2022" style="height: 28px;" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <main id="main-content">
+
+    <!-- Page Hero Banner -->
+    <div class="page-hero-banner">
+        <div class="container position-relative text-center">
+            <div class="breadcrumb-pill">
+                <a href="./"><i class="fas fa-home me-1"></i> Home</a>
+                <span class="opacity-50">/</span>
+                <a href="services.html">Services</a>
+                <span class="opacity-50">/</span>
+                <span style="color: #f26522; font-weight: 600;">Artificial Intelligence</span>
+            </div>
+            <h1>Artificial <span>Intelligence</span></h1>
+            <p class="hero-desc">
+                What AI is, what it is good at, where it goes wrong and how to start an AI project that pays off. Then, the AI systems Spectrum builds for documents, faces and fraud in Bangladesh.
+            </p>
+            <div class="hero-features">
+                <span class="hero-feature-item">
+                    <i class="fas fa-file-alt" style="color: #4ade80;"></i> Reads Bangla &amp; English Documents
+                </span>
+                <span class="hero-feature-item">
+                    <i class="fas fa-user-check" style="color: #38bdf8;"></i> Face Matching &amp; Liveness
+                </span>
+                <span class="hero-feature-item">
+                    <i class="fas fa-search-dollar" style="color: #f26522;"></i> Fraud &amp; Duplicate Detection
+                </span>
+                <span class="hero-feature-item">
+                    <i class="fas fa-server" style="color: #fbbf24;"></i> Runs on Your Own Servers
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARTICLE: WHAT IS AI -->
+    <article class="dis-article container py-5" aria-labelledby="article-title">
+        <header class="dis-article-header">
+            <h2 id="article-title" class="dis-article-title">What Is Artificial Intelligence?</h2>
+            <p class="dis-article-updated">Last updated <time datetime="2026-11-05">5 November 2026</time></p>
+        </header>
+        <p class="dis-article-lead">
+            Artificial intelligence is in the news every day, and it is easy to come away thinking it can do everything, or that it is all hype. The truth is in between. AI is very good at some jobs and poor at others, and the organisations that get value from it pick the right job first. This guide explains what AI is, the main things it can do, how an AI system is built, where it goes wrong, and how to start a project that pays off.
+        </p>
+
+        <nav class="dis-toc" aria-label="In this article">
+            <p class="dis-toc-title">In this article</p>
+            <ol>
+                <li><a href="#what-is">AI in simple terms</a></li>
+                <li><a href="#tasks">What AI can do</a></li>
+                <li><a href="#built">How an AI system is built</a></li>
+                <li><a href="#bangla">AI and the Bangla language</a></li>
+                <li><a href="#bangladesh">Where AI helps in Bangladesh</a></li>
+                <li><a href="#benefits-risks">Benefits and risks</a></li>
+                <li><a href="#start">How to start an AI project</a></li>
+                <li><a href="#faq">Frequently asked questions</a></li>
+            </ol>
+        </nav>
+
+        <section id="what-is">
+            <h2>AI in simple terms</h2>
+            <p>
+                Artificial intelligence is software that learns to do a task from examples, instead of following rules a programmer wrote by hand. Show it thousands of genuine and forged ID cards, and it learns the differences on its own, including some that a person would never think to write down.
+            </p>
+            <p>
+                You will hear a few related terms. <strong>Machine learning</strong> is the method: the software finds patterns in data. <strong>Deep learning</strong> is a powerful kind of machine learning that uses large networks loosely inspired by the brain, and it is what made today's face recognition and document reading possible. <strong>Generative AI</strong>, such as chatbots, is a newer kind that writes text or makes images instead of only recognising them.
+            </p>
+            <p>
+                A simple way to think about it: normal software follows instructions. AI follows examples. That is why the quality of the examples, the data, matters more than anything else.
+            </p>
+        </section>
+
+        <section id="tasks">
+            <h2>What AI can do</h2>
+            <p>Most practical AI systems do one of a handful of jobs:</p>
+            <div class="dis-article-tiles">
+                <div class="dis-article-tile">
+                    <i class="fas fa-eye" aria-hidden="true"></i>
+                    <h3>See</h3>
+                    <p>Recognise faces, read number plates, count people in a queue or spot a forged stamp. This is called computer vision.</p>
+                </div>
+                <div class="dis-article-tile">
+                    <i class="fas fa-file-alt" aria-hidden="true"></i>
+                    <h3>Read</h3>
+                    <p>Turn scanned forms, ID cards and court papers into searchable text and fill in the right fields automatically.</p>
+                </div>
+                <div class="dis-article-tile">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <h3>Spot the odd one out</h3>
+                    <p>Find duplicate claims, unusual payments or records that do not fit the pattern, among millions of entries.</p>
+                </div>
+                <div class="dis-article-tile">
+                    <i class="fas fa-comments" aria-hidden="true"></i>
+                    <h3>Understand and write</h3>
+                    <p>Answer questions, sort complaints, summarise long documents and draft replies, in Bangla and English.</p>
+                </div>
+            </div>
+            <p>
+                AI can also <strong>predict</strong>, for example how many people will visit a service centre next week, so staff can be planned ahead. What it cannot do well is make judgement calls that need context, values or accountability. Those should stay with people.
+            </p>
+        </section>
+
+        <section id="built">
+            <h2>How an AI system is built</h2>
+            <p>Every working AI system goes through the same five stages:</p>
+            <ol class="dis-article-list">
+                <li><strong>Pick one clear problem.</strong> "Catch forged land records" is a good problem. "Use AI in our office" is not.</li>
+                <li><strong>Collect and label examples.</strong> Real samples of the thing to recognise, such as genuine and forged documents, each marked with the right answer.</li>
+                <li><strong>Train the model.</strong> The software learns from most of the examples.</li>
+                <li><strong>Test it honestly.</strong> Check it on examples it has never seen, and measure how often it is right, how often it misses something, and how often it raises a false alarm.</li>
+                <li><strong>Run it and keep watching.</strong> Real-world data changes over time, and forgers adapt, so the model's results are checked and it is retrained when needed.</li>
+            </ol>
+            <p>
+                Most of the work is in steps 2 and 4. A model trained on poor or one-sided data will give poor or one-sided answers, however advanced it is.
+            </p>
+        </section>
+
+        <section id="bangla">
+            <h2>AI and the Bangla language</h2>
+            <p>
+                Most well-known AI tools were built first for English. Bangla is harder for them for several reasons. The script joins letters into hundreds of conjunct forms, vowel signs sit above, below and on both sides of a letter, and old documents mix typed text, handwriting, stamps and signatures on the same page.
+            </p>
+            <p>
+                Official papers in Bangladesh add their own challenges: faded photocopies of land records, older laminated NID cards, and forms filled in partly in Bangla and partly in English. A system that reads these reliably has to be trained on local documents, not just adapted from an English tool.
+            </p>
+        </section>
+
+        <section id="bangladesh">
+            <h2>Where AI helps in Bangladesh</h2>
+            <ul class="dis-article-list">
+                <li><strong>Identity checks.</strong> Matching a live face to an ID card photo and catching printed photos, screens and masks, for bank accounts, SIM registration and benefits.</li>
+                <li><strong>Forged documents.</strong> Land records, certificates and benefit cards are often faked. AI can check a document's print, layout and details in seconds.</li>
+                <li><strong>Fairer benefits.</strong> Finding the same family registered twice under slightly different names, so support reaches more people.</li>
+                <li><strong>Paperwork.</strong> Reading applications and case files so staff spend their time on decisions, not typing.</li>
+                <li><strong>Roads and public places.</strong> Reading number plates, counting traffic and spotting crowding from CCTV.</li>
+                <li><strong>Customer service.</strong> Answering common questions in Bangla, any time of day, and passing harder ones to a person.</li>
+            </ul>
+        </section>
+
+        <section id="benefits-risks">
+            <h2>Benefits and risks</h2>
+            <div class="dis-article-compare">
+                <div class="dis-article-col dis-article-col-good">
+                    <h3><i class="fas fa-check-circle" aria-hidden="true"></i> Benefits</h3>
+                    <ul>
+                        <li><strong>Speed.</strong> Checks that take a person minutes take a second.</li>
+                        <li><strong>Consistency.</strong> The same check, done the same way, at every branch and every hour.</li>
+                        <li><strong>Scale.</strong> Millions of records can be compared, which no team could do by hand.</li>
+                        <li><strong>Better use of staff.</strong> People focus on the unusual cases the system flags.</li>
+                    </ul>
+                </div>
+                <div class="dis-article-col dis-article-col-risk">
+                    <h3><i class="fas fa-exclamation-triangle" aria-hidden="true"></i> Risks</h3>
+                    <ul>
+                        <li><strong>Confident mistakes.</strong> AI can be wrong while sounding sure. Chatbots can even make up facts.</li>
+                        <li><strong>Bias.</strong> A model trained mostly on one group may work worse for others.</li>
+                        <li><strong>Privacy.</strong> Sending citizens' data to a foreign cloud service may break rules and trust.</li>
+                        <li><strong>Deepfakes.</strong> The same technology can be used to fake faces, voices and documents.</li>
+                    </ul>
+                </div>
+            </div>
+            <p>
+                The safeguard is the same in every case: keep a person in the loop for decisions that affect people's lives, measure accuracy on local data, and keep sensitive data on servers you control.
+            </p>
+        </section>
+
+        <section id="start">
+            <h2>How to start an AI project</h2>
+            <ul class="dis-article-list">
+                <li><strong>Start with a costly, repetitive problem,</strong> such as forged documents or slow manual checks, where the gain is easy to measure.</li>
+                <li><strong>Measure today's numbers first:</strong> how long a check takes and how many mistakes slip through. Otherwise you cannot prove the AI helped.</li>
+                <li><strong>Check your data.</strong> Do you have enough real examples, and are you allowed to use them?</li>
+                <li><strong>Run a small pilot</strong> at one office or on one document type before rolling out.</li>
+                <li><strong>Decide what happens when the AI is unsure.</strong> A clear route to a staff member is part of the design, not an afterthought.</li>
+                <li><strong>Plan where the data lives.</strong> For identity and government data, that usually means your own servers.</li>
+            </ul>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently asked questions</h2>
+            <div class="dis-faq">
+                <details>
+                    <summary>Will AI replace our staff?</summary>
+                    <p>In most projects, no. AI takes over the repetitive part, such as typing details or comparing photos, and staff handle the cases that need judgement. Teams usually get through more work with fewer errors.</p>
+                </details>
+                <details>
+                    <summary>How much data do we need?</summary>
+                    <p>It depends on the task. Some jobs can start from an existing model and a few hundred local examples. Others, such as recognising a new document type reliably, need thousands. A short data review at the start answers this for your case.</p>
+                </details>
+                <details>
+                    <summary>Can AI work without sending data abroad?</summary>
+                    <p>Yes. Models can run on your own servers or on devices such as phones and kiosks, so citizens' data never leaves your control.</p>
+                </details>
+                <details>
+                    <summary>How accurate is AI?</summary>
+                    <p>Accuracy is always for a specific task and specific data, so ask for results measured on documents or faces like yours. Look at two numbers: how often it lets a fake through, and how often it wrongly rejects a genuine case.</p>
+                </details>
+                <details>
+                    <summary>What is the difference between AI and automation?</summary>
+                    <p>Automation follows fixed rules, such as "if the form is complete, send it on". AI handles tasks where the rules are hard to write down, such as "does this face match this photo?" Most good systems use both.</p>
+                </details>
+                <details>
+                    <summary>Can AI read handwritten Bangla?</summary>
+                    <p>Yes, with the right training, though handwriting is harder than print and accuracy depends on how neat and clear it is. A good system marks fields it is unsure of so a person can check them.</p>
+                </details>
+            </div>
+        </section>
+    </article>
+
+    <!-- FROM ARTICLE TO SERVICE -->
+    <div class="dis-article-bridge">
+        <div class="container text-center">
+            <p class="mb-0">Now that you know what AI can and cannot do, here is what Spectrum builds with it.</p>
+        </div>
+    </div>
+
+    <!-- SERVICE: WHAT SPECTRUM BUILDS -->
+    <div class="container py-5 dis-service">
+        <div class="row align-items-center g-5 mb-5">
+            <div class="col-lg-6">
+                <div class="d-inline-flex align-items-center px-3 py-1 rounded-pill mb-3" style="background: rgba(2, 132, 199, 0.1); border: 1px solid rgba(2, 132, 199, 0.25); color: #0369a1; font-size: 13px; font-weight: 700;">
+                    <i class="fas fa-brain me-2"></i> APPLIED AI
+                </div>
+                <h2 class="display-6 fw-bold mb-3" style="color: #2e3760; line-height: 1.25;">
+                    AI That Does One Job, Very Well
+                </h2>
+                <p class="text-muted" style="line-height: 1.8; font-size: 16px;">
+                    Spectrum builds AI systems for specific, costly problems: forged documents, slow identity checks, duplicate claims and paperwork. Each one is trained on Bangladeshi documents and faces, and tested on real cases before it goes live.
+                </p>
+                <p class="text-muted" style="line-height: 1.8; font-size: 15px;">
+                    The systems run on your own servers or devices, and anything the AI is unsure of goes to a member of your staff.
+                </p>
+                <div class="d-flex flex-wrap gap-3 pt-2">
+                    <a href="contact.html" class="btn btn-primary px-4 py-2 fw-semibold rounded-pill shadow-sm" style="background: #2e3760; border-color: #2e3760;">
+                        <i class="fas fa-calendar-check me-2"></i> Discuss Your Problem
+                    </a>
+                    <a href="#ai-how" class="btn btn-outline-secondary px-4 py-2 fw-semibold rounded-pill">
+                        <i class="fas fa-list-ol me-2"></i> See How We Work
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="dis-hero-card position-relative">
+                    <picture>
+                        <source srcset="assets/img/pages/ai-hero.webp" type="image/webp">
+                        <img width="785" height="570" src="assets/img/pages/ai-hero.jpg" alt="A person at a laptop with an AI chip symbol and floating document panels" class="img-fluid w-100" style="object-fit: cover; max-height: 440px;" loading="lazy">
+                    </picture>
+                </div>
+            </div>
+        </div>
+
+        <!-- WHAT WE BUILD -->
+        <div class="py-4">
+            <div class="text-center mb-5">
+                <span class="badge px-3 py-1 rounded-pill fw-semibold text-uppercase" style="background: #e0e7ff; color: #4338ca; font-size: 12px;">What We Build</span>
+                <h2 class="fw-bold mt-2" style="color: #2e3760;">AI Systems for Real Problems</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="dis-feature-box">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 mb-3 p-3" style="background: rgba(79, 70, 229, 0.1); color: #4338ca;">
+                            <i class="fas fa-stamp fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="h6 fw-bold" style="color: #2e3760;">Forged Document Detection</h3>
+                        <p class="text-muted small mb-0">Spots counterfeits, photocopies, photos of screens and edited genuine documents, then checks the details with the issuing registry.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="dis-feature-box">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 mb-3 p-3" style="background: rgba(2, 132, 199, 0.1); color: #0284c7;">
+                            <i class="fas fa-file-import fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="h6 fw-bold" style="color: #2e3760;">Bangla and English Document Reading</h3>
+                        <p class="text-muted small mb-0">Reads ID cards, forms and records, including older and faded papers, and fills in the right fields.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="dis-feature-box">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 mb-3 p-3" style="background: rgba(16, 185, 129, 0.1); color: #10b981;">
+                            <i class="fas fa-user-check fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="h6 fw-bold" style="color: #2e3760;">Face Matching and Liveness</h3>
+                        <p class="text-muted small mb-0">Confirms a live person is present and matches their ID photo, and blocks printed photos, screens, masks and deepfakes.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="dis-feature-box">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 mb-3 p-3" style="background: rgba(16, 185, 129, 0.1); color: #10b981;">
+                            <i class="fas fa-clone fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="h6 fw-bold" style="color: #2e3760;">Duplicate and Fraud Detection</h3>
+                        <p class="text-muted small mb-0">Finds the same person or family registered twice, even under spelling variations, across millions of records.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="dis-feature-box">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 mb-3 p-3" style="background: rgba(79, 70, 229, 0.1); color: #4338ca;">
+                            <i class="fas fa-video fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="h6 fw-bold" style="color: #2e3760;">CCTV and Video Analytics</h3>
+                        <p class="text-muted small mb-0">Number plate reading, people counting, queue monitoring and alerts when someone enters a restricted area.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="dis-feature-box">
+                        <div class="d-inline-flex align-items-center justify-content-center rounded-3 mb-3 p-3" style="background: rgba(2, 132, 199, 0.1); color: #0284c7;">
+                            <i class="fas fa-tasks fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="h6 fw-bold" style="color: #2e3760;">Decision Support</h3>
+                        <p class="text-muted small mb-0">Risk scores that show staff which applications, claims or payments to check first, with the reasons behind each score.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HOW WE WORK -->
+        <div id="ai-how" class="py-5">
+            <div class="text-center mb-5">
+                <span class="badge px-3 py-1 rounded-pill fw-semibold text-uppercase" style="background: #fef3c7; color: #b45309; font-size: 12px;">How We Work</span>
+                <h2 class="fw-bold mt-2" style="color: #2e3760;">From Problem to Proven Result</h2>
+                <p class="text-muted mx-auto" style="max-width: 680px;">
+                    You see measured results on your own data before any full rollout.
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="dis-feature-box">
+                        <span class="dis-step-num mb-3"><span class="visually-hidden">Step </span>1</span>
+                        <h3 class="h5 fw-bold" style="color: #2e3760;">Define the Problem</h3>
+                        <p class="text-muted small mb-0">Agree on one problem, today's numbers and what success looks like.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="dis-feature-box">
+                        <span class="dis-step-num mb-3" style="background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);"><span class="visually-hidden">Step </span>2</span>
+                        <h3 class="h5 fw-bold" style="color: #2e3760;">Review the Data</h3>
+                        <p class="text-muted small mb-0">Check the examples you have, what is missing and what you are allowed to use.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="dis-feature-box">
+                        <span class="dis-step-num mb-3" style="background: linear-gradient(135deg, #10b981 0%, #047857 100%);"><span class="visually-hidden">Step </span>3</span>
+                        <h3 class="h5 fw-bold" style="color: #2e3760;">Pilot and Measure</h3>
+                        <p class="text-muted small mb-0">Run it at one site, compare it with today's numbers and tune it.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="dis-feature-box">
+                        <span class="dis-step-num mb-3" style="background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%);"><span class="visually-hidden">Step </span>4</span>
+                        <h3 class="h5 fw-bold" style="color: #2e3760;">Roll Out and Monitor</h3>
+                        <p class="text-muted small mb-0">Go live on your servers, with staff review for unsure cases and regular accuracy checks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROOF: UPOKARI -->
+        <div class="card mb-5 border-0 shadow-sm" style="border-radius: 16px; background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%); color: white;">
+            <div class="card-body p-4 p-md-5">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-8">
+                        <div class="d-inline-flex align-items-center px-3 py-1 rounded-pill mb-3" style="background: rgba(129, 140, 248, 0.2); border: 1px solid rgba(129, 140, 248, 0.45); color: #a5b4fc; font-size: 13px; font-weight: 700;">
+                            <i class="fas fa-robot me-2"></i> LIVE NOW &middot; UPOKARI.AI
+                        </div>
+                        <h2 class="text-white fw-bold mb-3">Upokari: Spot Forged Documents in Seconds</h2>
+                        <p class="text-light opacity-90 mb-4" style="line-height: 1.8; font-size: 16px;">
+                            <strong>Upokari</strong> is Spectrum's AI verification engine for the documents people are most often cheated with: <strong>land records</strong> (Nokol, Khatian and deeds), <strong>TCB smart cards</strong> and <strong>NID cards</strong>. It catches counterfeits, photocopies, photos taken of a screen and edited genuine documents, then cross-checks each one against the issuing registry.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a href="https://upokari.ai/" target="_blank" rel="noopener" class="btn btn-warning px-4 py-2 fw-bold text-dark rounded-pill shadow-sm">
+                                <i class="fas fa-external-link-alt me-2"></i> Visit Upokari.ai
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <ul class="dis-tcb-stats dis-upokari-stats list-unstyled bg-white rounded-3 shadow text-dark text-start mb-0">
+                            <li>
+                                <span class="dis-tcb-num">3</span>
+                                <span class="dis-tcb-label">Document types live: land records, TCB cards and NID</span>
+                            </li>
+                            <li>
+                                <span class="dis-tcb-num">&lt;0.1%</span>
+                                <span class="dis-tcb-label">False accept rate</span>
+                            </li>
+                            <li>
+                                <span class="dis-tcb-num">5</span>
+                                <span class="dis-tcb-label">Clear verdicts: genuine, counterfeit, screen replay, copy or spoof</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROOF: TCB DUPLICATES -->
+        <div class="d-flex align-items-start align-items-md-center gap-3 p-3 p-md-4 rounded-3 mb-4" style="background: #ecfdf5; border: 1px solid #a7f3d0;">
+            <i class="fas fa-users fa-2x text-success flex-shrink-0" aria-hidden="true"></i>
+            <p class="mb-0" style="color: #2e3760; line-height: 1.7;">
+                <strong>At national scale:</strong> for the TCB smart card programme, every one of more than 10 million families was checked against NID records so each family could register only once. <a href="case-study-tcb.html" class="fw-bold" style="color: #047857;">Read the TCB case study</a>.
+            </p>
+        </div>
+    </div>
+
+    <!-- SECTION: CALL TO ACTION -->
+    <div class="container-fluid py-5 cta-banner-section">
+        <div class="container text-center py-4 position-relative" style="z-index: 2;">
+            <h2 class="display-6 fw-bold text-white mb-3">Have a Problem AI Could Solve?</h2>
+            <p class="mx-auto mb-4" style="max-width: 650px; font-size: 16px; line-height: 1.7; color: rgba(255, 255, 255, 0.85);">
+                Tell us about the check, the paperwork or the fraud that costs you the most. We will tell you honestly whether AI can help, and what a pilot would look like.
+            </p>
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-3 pt-2">
+                <a href="contact.html" class="cta-primary-btn">
+                    <i class="fas fa-paper-plane me-2"></i> Talk to Our Team
+                </a>
+                <a href="tel:+8801615900004" class="cta-secondary-btn">
+                    <i class="fas fa-phone-alt me-2"></i> Call +880 1615-900004
+                </a>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+    <!-- Footer start -->
+    <footer>
+    <div class="footer-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 mb-4 footer-col-about">
+                    <div class="footer-about">
+                        <a href="./"><img src="assets/img/logo.png" width="165" height="60" class="img-fluid mb-3" alt="Spectrum IT Solutions Logo" loading="lazy"></a>
+                        <p>A Dhaka software company building secure digital services for government and business since 2012.</p>
+                        <div class="mt-3 footer-social-icons">
+                            <a class="text-light" href="https://www.facebook.com/myspectrumit" target="_blank" rel="noopener" aria-label="Spectrum Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a class="text-light" href="https://www.linkedin.com/company/spectrum-it-solutions-limited" target="_blank" rel="noopener" aria-label="Spectrum LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a class="text-light" href="https://www.youtube.com/@SpectrumITSolutionsbdLtd" target="_blank" rel="noopener" aria-label="Spectrum YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <a href="https://basis.org.bd/company-profile/21-04-024" target="_blank" rel="noopener"><img src="assets/img/basis_logo.png" width="214" height="54" class="img-fluid" style="padding-top: 30px; padding-bottom: 30px;" alt="BASIS Member" loading="lazy"></a>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <h3 class="text-white mb-3" style="font-size: 1.25rem;">Valuable Projects</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="https://licence.gov.bd/" target="_blank" rel="noopener" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> www.licence.gov.bd</a></li>
+                        <li class="mb-2"><a href="https://ocd.org.bd/" target="_blank" rel="noopener" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> www.ocd.org.bd</a></li>
+                        <li class="mb-2"><a href="http://www.tcbsheba.com/" target="_blank" rel="noopener" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> www.tcbsheba.com</a></li>
+                        <li class="mb-2 d-none"><!-- Hidden while ecourt.gov.bd is offline (not deleted). Remove "d-none" to show it again. --><a href="http://www.ecourt.gov.bd/" target="_blank" rel="noopener" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> www.ecourt.gov.bd</a></li>
+                        <li class="mb-2"><a href="https://novo.spectrum.com.bd/" target="_blank" rel="noopener" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> www.sobticket.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-4 footer-col-links">
+                    <h3 class="text-white mb-3" style="font-size: 1.25rem;">Quick Link</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="artificial-intelligence.html" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> Artificial Intelligence</a></li>
+                        <li class="mb-2"><a href="digital-identity-security.html" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> Digital Identity &amp; Security</a></li>
+                        <li class="mb-2"><a href="smart-card-technologies.html" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> Smart Card Technologies</a></li>
+                        <li class="mb-2"><a href="blockchain-technology.html" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> Blockchain Technology</a></li>
+                        <li class="mb-2"><a href="about-us.html" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> About Us</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> Our Services</a></li>
+                        <li class="mb-2"><a href="products.html" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> Our Products</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-light text-decoration-none"><i class="fas fa-angle-right me-1 text-warning"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mb-4 footer-col-contact">
+                    <h3 class="text-white mb-3" style="font-size: 1.25rem;">Contact Us</h3>
+                    <p class="text-light mb-2"><i class="fas fa-map-marker-alt me-2 text-warning"></i> 52/1, New Eskaton Road (Hasan Holdings Ltd., 12th Floor), Dhaka-1000, Bangladesh</p>
+                    <p class="text-light mb-2"><i class="fas fa-envelope me-2 text-warning"></i> <a href="mailto:contact@spectrum.com.bd" class="text-light text-decoration-none">contact@spectrum.com.bd</a></p>
+                    <p class="text-light mb-2"><i class="fas fa-phone-alt me-2 text-warning"></i> <a href="tel:+8801615900004" class="text-light text-decoration-none">+880 1615-900004</a></p>
+                </div>
+            </div>
+
+            <!-- Copyright section with same background inside footer-wrapper -->
+            <div class="footer-copyright">
+                <p class="mb-0">Copyright &copy; 2026 <a href="./" style="color: #f26522; text-decoration: none;"><strong>Spectrum IT Solutions Ltd.</strong></a> All Rights Reserved.</p>
+                <p class="mb-0 footer-legal"><a href="privacy-policy.html">Privacy Policy</a><span aria-hidden="true">&middot;</span><a href="terms.html">Terms of Use</a></p>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Scripts -->
+    <script src="assets/js/bootstrap.bundle.min.js" defer></script>
+    <script src="assets/js/custom.js?v=20261109i" defer></script>
+</body>
+</html>

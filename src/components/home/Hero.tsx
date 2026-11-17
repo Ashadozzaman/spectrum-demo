@@ -225,17 +225,17 @@ export default function Hero() {
                 {/* Scene 4: Blockchain */}
                 <div className="scene scene--chain">
                   <div className="chain">
-                    <div className="block"><span className="block__id">BLOCK 1042</span><span className="block__name">Land
-                        deed</span><span className="block__hash">#9f3a…c1</span></div>
+                    <div className="chain-block"><span className="chain-block__id">BLOCK 1042</span><span className="chain-block__name">Land
+                        deed</span><span className="chain-block__hash">#9f3a…c1</span></div>
                     <div className="link"></div>
-                    <div className="block"><span className="block__id">BLOCK 1043</span><span
-                        className="block__name">Certificate</span><span className="block__hash">#47be…08</span></div>
+                    <div className="chain-block"><span className="chain-block__id">BLOCK 1043</span><span
+                        className="chain-block__name">Certificate</span><span className="chain-block__hash">#47be…08</span></div>
                     <div className="link"></div>
-                    <div className="block"><span className="block__id">BLOCK 1044</span><span
-                        className="block__name">Shipment</span><span className="block__hash">#d21f…7e</span></div>
+                    <div className="chain-block"><span className="chain-block__id">BLOCK 1044</span><span
+                        className="chain-block__name">Shipment</span><span className="chain-block__hash">#d21f…7e</span></div>
                     <div className="link link--new"></div>
-                    <div className="block block--new"><span className="block__id">BLOCK 1045</span><span className="block__name">New
-                        record</span><span className="block__hash">#08c4…b9</span></div>
+                    <div className="chain-block chain-block--new"><span className="chain-block__id">BLOCK 1045</span><span className="chain-block__name">New
+                        record</span><span className="chain-block__hash">#08c4…b9</span></div>
                   </div>
                   <div className="seal-row">
                     <div className="pill-ok"><span className="pill-ok__icon">✓</span>Chain intact · 4 of 4 nodes agree</div>
