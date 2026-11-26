@@ -1,0 +1,221 @@
+{
+  "seo": {
+    "title": "Blockchain Technology in Bangladesh",
+    "description": "A plain guide to blockchain: how it works, when you need one and when you don't. Plus Spectrum's tamper-proof record systems.",
+    "image": "/images/og/blockchain.jpg"
+  },
+  "hero": {
+    "eyebrow": "Service guide",
+    "title": "Blockchain *technology*",
+    "lead": "What blockchain is, how it keeps records from being changed, and when it is the right tool and when it is not. Then, how Spectrum builds tamper-proof records for documents, certificates and shared ledgers.",
+    "chips": [
+      { "label": "Tamper-proof records", "icon": "Lock" },
+      { "label": "Verify by QR in seconds", "icon": "QrCode" },
+      { "label": "Shared between organisations", "icon": "Network" },
+      { "label": "No personal data on the chain", "icon": "ShieldCheck" }
+    ]
+  },
+  "intro": [
+    "A land record changed by one corrupt clerk. A university certificate printed at a shop down the road. A shipment record edited after the goods went missing. These problems share one cause: someone could change a record without anyone noticing. Blockchain is one way to make that impossible. This guide explains what blockchain is in plain words, how it works, where it helps, where it does not, and the simpler tools that often do the job just as well."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "id": "what-is",
+      "eyebrow": "The basics",
+      "title": "Blockchain in simple terms",
+      "body": [
+        "A blockchain is a shared record book that many organisations keep a copy of. New entries are added in batches, called blocks, and each block is locked to the one before it. Once an entry is in, it cannot be quietly changed or deleted, because every copy would have to be changed at the same time, and the lock between blocks would break.",
+        "In a normal database, whoever runs the server can change any record. That is fine when everyone trusts that one owner. Blockchain is useful when several parties, such as a land office, banks and courts, all need to rely on the same records, but no single one of them should be able to rewrite history.",
+        "A simple way to think about it: a normal database says \"trust the owner\". A blockchain says \"*check for yourself*\"."
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "How a blockchain works",
+      "lead": "Four ideas do almost all the work:",
+      "items": [
+        { "title": "Hash", "text": "A short digital fingerprint of any data. Change one letter in a document and its fingerprint changes completely.", "icon": "FingerprintPattern" },
+        { "title": "Chain of blocks", "text": "Each block includes the fingerprint of the block before it. Altering an old block breaks every link after it.", "icon": "Blocks" },
+        { "title": "Digital signature", "text": "Every entry is signed by whoever made it, so it is always clear which office added what, and when.", "icon": "PenLine" },
+        { "title": "Agreement", "text": "The organisations holding copies agree on each new block before it is added. No one can add entries alone.", "icon": "Users" }
+      ],
+      "after": ["Some blockchains also run **smart contracts**: small programs that act automatically when conditions are met, for example releasing a payment once a shipment is confirmed as delivered."]
+    },
+    {
+      "type": "cards",
+      "id": "types",
+      "eyebrow": "Two kinds",
+      "title": "Public and private blockchains",
+      "lead": "There are two very different kinds, and they suit different jobs:",
+      "columns": 2,
+      "items": [
+        { "title": "Public blockchains", "text": "Anyone can join and read them, such as Bitcoin and Ethereum. They power cryptocurrencies. They are open to the world, which makes them a poor place for government or personal records.", "icon": "Globe" },
+        { "title": "Private (permissioned) blockchains", "text": "Only approved organisations take part, such as the ministries, banks or companies involved. There is no cryptocurrency, they use little energy and the data stays inside the group.", "icon": "Lock" }
+      ],
+      "after": ["Almost every serious government and business use today runs on a **private blockchain**. Blockchain is not the same thing as Bitcoin. Bitcoin is just one application of it."]
+    },
+    {
+      "type": "list",
+      "id": "uses",
+      "eyebrow": "Use cases",
+      "title": "Where blockchain helps",
+      "items": [
+        { "title": "Land records.", "text": "Each change of ownership is recorded and signed, so the history of a plot cannot be rewritten, and a buyer can check it before paying." },
+        { "title": "Certificates.", "text": "Universities, education boards and licensing offices record each certificate they issue. An employer scans a QR code and sees straight away whether it is real." },
+        { "title": "Supply chains.", "text": "Garment buyers increasingly want to see where materials came from. Each step, from fabric to factory to port, can be recorded and checked." },
+        { "title": "Trade documents.", "text": "Banks, exporters and shipping lines share letters of credit and bills of lading without emailing copies that can be edited." },
+        { "title": "Aid and benefits.", "text": "Organisations can share one record of who received what, so the same family is not paid twice by different programmes." }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "when-not",
+      "eyebrow": "Honest advice",
+      "title": "When you do not need a blockchain",
+      "intro": "Blockchain is often suggested where it is not needed. Before choosing it, ask: are there several organisations that need to share records but do not fully trust each other? If one office owns the records and everyone trusts it, a well-built normal system is simpler, faster and cheaper. Often, the real need is just to make records **tamper-evident**, so any change shows. That can be done without a full blockchain:",
+      "items": [
+        { "title": "Sealing documents", "text": "by storing each page's hash when it is issued. Any later change shows up straight away." },
+        { "title": "Digitally signing", "text": "each certificate and printing a QR code that leads to the original record." },
+        { "title": "An append-only log,", "text": "where entries can be added but never edited or removed." }
+      ],
+      "after": ["Blockchain also cannot fix bad input. If false information is entered at the start, the blockchain will faithfully protect the false record. Checking documents and identities at the point of entry still matters."]
+    },
+    {
+      "type": "text",
+      "id": "bangladesh",
+      "eyebrow": "Local context",
+      "title": "Blockchain in Bangladesh",
+      "body": [
+        "The problems blockchain is good at are common in Bangladesh: forged land records behind long-running disputes, fake academic and professional certificates, and export buyers asking garment factories to prove where their materials came from.",
+        "It is worth knowing one distinction. **Cryptocurrency is not the same as blockchain**. Bangladesh Bank has warned the public that dealing in cryptocurrencies such as Bitcoin is not authorised in the country. Private blockchains for records involve no cryptocurrency at all, so they are not affected by that warning."
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "benefits-risks",
+      "eyebrow": "Honest view",
+      "title": "Benefits and risks",
+      "columns": [
+        {
+          "title": "Benefits",
+          "tone": "good",
+          "items": [
+            { "title": "Records cannot be quietly changed.", "text": "Every change is visible and signed." },
+            { "title": "Anyone allowed can check.", "text": "A buyer, bank or employer can verify in seconds, without phoning the issuing office." },
+            { "title": "No single point of failure.", "text": "Copies are held by several organisations." },
+            { "title": "Clear history.", "text": "A full record of who did what, and when, for audits and courts." }
+          ]
+        },
+        {
+          "title": "Risks",
+          "tone": "bad",
+          "items": [
+            { "title": "Personal data cannot be deleted.", "text": "So it should never be stored on the chain itself. Store only fingerprints (hashes)." },
+            { "title": "Garbage in, garbage out.", "text": "A false record entered at the start stays false." },
+            { "title": "Over-engineering.", "text": "Used where a simpler system would do, it adds cost and complexity." },
+            { "title": "Lost keys.", "text": "If an office loses its signing key, it cannot add records until it is replaced." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Is blockchain the same as Bitcoin?", "a": "No. Bitcoin is one application built on a public blockchain. Blockchain is the underlying record-keeping method, and private blockchains used for records have no cryptocurrency at all." },
+        { "q": "Can data on a blockchain ever be changed?", "a": "Not quietly. A correction is added as a new, signed entry, and the original stays visible. That is the point: the full history is always there to check." },
+        { "q": "Is my personal data public on a blockchain?", "a": "It should not be. In a well-designed system, personal data stays in a normal, protected database, and only a fingerprint (hash) of it goes on the chain. The fingerprint proves the record has not changed without revealing what it says." },
+        { "q": "Does blockchain use a lot of electricity?", "a": "Bitcoin does, because of the way it reaches agreement among strangers. Private blockchains, where the members are known organisations, use about as much power as an ordinary database server." },
+        { "q": "How does someone check a certificate on a blockchain?", "a": "Usually by scanning a QR code on the certificate. The phone shows the original record and confirms whether the document matches it, with no account or special software needed." },
+        { "q": "Do we need a blockchain, or something simpler?", "a": "If only your organisation writes the records and others just need to check them, signed records and document sealing are usually enough. If several organisations must all write to and rely on the same records, a private blockchain is worth considering." }
+      ]
+    },
+    { "type": "divider", "text": "Now that you know how blockchain works, here is how *Spectrum* builds tamper-proof records." },
+    {
+      "type": "feature",
+      "id": "spectrum",
+      "eyebrow": "Tamper-proof records",
+      "title": "Records nobody can *quietly change*",
+      "body": [
+        "Spectrum builds record systems where every document is sealed when it is issued, every change is signed, and anyone you allow can check a record in seconds by scanning a QR code.",
+        "We start with the simplest design that does the job. Where several organisations need to share the same records, we add a private blockchain, run on servers you and your partners control."
+      ],
+      "image": { "src": "/images/pages/blockchain-hero.webp", "alt": "Hands on a laptop with a network of linked blocks drawn above the keyboard" },
+      "actions": [
+        { "label": "Discuss your records", "href": "contact:Blockchain Technology" },
+        { "label": "See how it works", "href": "#steps" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "steps",
+      "eyebrow": "How it works",
+      "title": "Seal, record, verify",
+      "lead": "The same three steps, whether it is a land record, a certificate or a shipment.",
+      "items": [
+        { "title": "Seal at issue", "text": "When a document is issued, each page's fingerprint is calculated and the record is signed by the issuing office." },
+        { "title": "Record every change", "text": "Each later change, such as a transfer of ownership, is added as a new signed entry. Nothing is overwritten." },
+        { "title": "Verify anywhere", "text": "A buyer, bank or employer scans the QR code or uploads the document, and sees at once whether it matches the original." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "what-we-build",
+      "eyebrow": "What we build",
+      "title": "The right level of protection",
+      "items": [
+        { "title": "Document sealing", "text": "Page-by-page fingerprints for land records, deeds and contracts, so even one altered page is caught.", "icon": "FileCheck" },
+        { "title": "Signed QR certificates", "text": "Certificates and licences with a digital signature and a QR code that anyone can check in seconds.", "icon": "QrCode" },
+        { "title": "Private blockchain networks", "text": "Shared ledgers for ministries, banks or supply chain partners, with only approved members and no cryptocurrency.", "icon": "Network" },
+        { "title": "Audit trails", "text": "An unchangeable log of who viewed or changed each record, ready for audits and court cases.", "icon": "ClipboardCheck" },
+        { "title": "Verification API", "text": "Lets banks, employers and other systems check documents automatically, without manual steps.", "icon": "Code" },
+        { "title": "Privacy by design", "text": "Personal data stays in your protected database. Only fingerprints go on the chain.", "icon": "Lock" }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "proof",
+      "eyebrow": "Already in use",
+      "title": "Tamper-proof records in our live systems",
+      "body": [
+        "[Upokari](product:upokari) seals land records page by page, so a single altered page in a Nokol, Khatian or deed is caught. Licences from the [National e-Licensing portal](project:e-licensing) carry a digital signature and a QR code that anyone can check online."
+      ],
+      "actions": [
+        { "label": "About Upokari", "href": "product:upokari" },
+        { "label": "Read the e-Licensing case study", "href": "project:e-licensing" }
+      ],
+      "stats": [
+        { "value": "1 page", "label": "Is enough to flag an altered land record" },
+        { "value": "QR", "label": "On every licence, for anyone to check" },
+        { "value": "PKI", "label": "Digital signatures on every licence" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "sectors",
+      "eyebrow": "Who uses it",
+      "title": "Built for these sectors",
+      "items": [
+        { "title": "Land offices", "text": "A record of each plot's ownership history that buyers and courts can rely on.", "icon": "Landmark" },
+        { "title": "Education boards and universities", "text": "Certificates and transcripts that employers and foreign universities can check in seconds.", "icon": "GraduationCap" },
+        { "title": "Licensing authorities", "text": "Licences and permits with a QR code, so fake or expired ones are caught on the spot.", "icon": "FileCheck" },
+        { "title": "Exporters and garment factories", "text": "Proof for buyers of where materials came from and how goods were made.", "icon": "Factory" },
+        { "title": "Banks and trade finance", "text": "Shared, signed trade documents instead of emailed copies that can be edited.", "icon": "Banknote" },
+        { "title": "Aid programmes and NGOs", "text": "One shared record of who received support, across programmes and organisations.", "icon": "HandHelping" }
+      ]
+    }
+  ],
+  "relatedProjects": ["e-licensing", "industrial-e-court"],
+  "cta": {
+    "eyebrow": "Make your records tamper-proof",
+    "title": "Which records get forged or disputed?",
+    "text": "Tell us which records get forged or disputed. We will tell you honestly whether you need a blockchain or something simpler, and show you how verification would work.",
+    "action": "Talk to our team",
+    "href": "contact:Blockchain Technology"
+  }
+}

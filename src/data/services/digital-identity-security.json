@@ -1,0 +1,342 @@
+{
+  "seo": {
+    "title": "Digital Identity and e-KYC in Bangladesh",
+    "description": "A plain guide to digital identity in Bangladesh: NID, e-KYC, verification and safety tips. Plus Spectrum's automated ID verification.",
+    "image": "/images/og/digital-identity.jpg"
+  },
+  "hero": {
+    "eyebrow": "Service guide",
+    "title": "Digital identity and *security*",
+    "lead": "What digital identity is, how it works in Bangladesh and how to keep it safe. Then, how our automated ID verification checks a card and the person holding it in seconds, with the data on your own servers.",
+    "chips": [
+      { "label": "Smart NID, old NID & e-Passport", "icon": "IdCard" },
+      { "label": "Reads Bangla & English", "icon": "Languages" },
+      { "label": "Face & fingerprint matching", "icon": "ScanFace" },
+      { "label": "Runs on your own servers", "icon": "Server" }
+    ]
+  },
+  "intro": [
+    "Every time you open a bank account, buy a SIM card or collect a government benefit, someone has to answer one simple question: are you really who you say you are? For a long time the answer was a paper document and a person looking at it. Today, more and more of that check happens digitally. This guide explains what digital identity is, how it is checked, how it works in Bangladesh, how it protects important documents, and how to keep it safe."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "id": "what-is",
+      "eyebrow": "The basics",
+      "title": "Digital identity in simple terms",
+      "body": [
+        "A digital identity is the information that represents you in digital systems and lets those systems recognise you. It includes facts about you, such as your name and date of birth, and the proof that links those facts to you, such as your face or fingerprint.",
+        "Your ID card and your digital identity are related, but they are not the same thing. The card is an object you carry. Your digital identity is the record behind it: your entry in the national database, the data stored on the card's chip, and the checks an organisation runs to confirm that the card, and the person holding it, are genuine.",
+        "A simple way to think about it: a physical ID card says \"this is who I am\". A digital identity lets a system *confirm* it, quickly and without relying on someone's eye."
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "parts",
+      "eyebrow": "The parts",
+      "title": "What a digital identity is made of",
+      "lead": "Most digital identities are built from four kinds of information:",
+      "items": [
+        { "title": "Identifiers", "text": "A unique number that points to exactly one person, such as your NID number.", "icon": "IdCard" },
+        { "title": "Personal details", "text": "Facts about you: your name, your parents' names, your date of birth and your address.", "icon": "Users" },
+        { "title": "Credentials", "text": "Things you hold that carry or unlock your identity: a smart card, a PIN, or a one-time password (OTP) sent to your phone.", "icon": "KeyRound" },
+        { "title": "Biometrics", "text": "Parts of your body that are hard to copy: your face, your fingerprints and your iris.", "icon": "FingerprintPattern" }
+      ],
+      "after": [
+        "Strong identity checks combine at least two of these: **something you have**, like your card, and **something you are**, like your face or fingerprint. That way, a stolen card on its own is not enough."
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "verification",
+      "eyebrow": "Verification",
+      "title": "How identity is verified",
+      "lead": "Verification is the moment a system decides whether to trust a claimed identity. Whether it happens at a bank counter or on a phone, it comes down to three questions:",
+      "items": [
+        { "title": "Is the card genuine?", "text": "Real ID cards carry fine print, line patterns and chip data that are hard to copy. A check looks for signs of printing, editing or a swapped photo." },
+        { "title": "Is the person really there?", "text": "This is called a liveness check. It makes sure a real person is in front of the camera, not a printed photo, a video on a screen, a mask or a deepfake." },
+        { "title": "Is it the same person?", "text": "The live face or fingerprint is compared with the photo on the card or the official record. A borrowed or stolen card fails here." }
+      ],
+      "after": [
+        "In Bangladesh, one more step makes verification much stronger: **checking the details against the official NID records**. A fake card can look convincing, but its details will not match the national record."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "forgeries",
+      "eyebrow": "Know the tricks",
+      "title": "Common ways documents are faked",
+      "lead": "Most forgeries fall into one of four types. A good check is built to catch each of them:",
+      "items": [
+        { "title": "Counterfeit.", "text": "A new card or document made from scratch to look like the real one. The fonts, layout and fine line patterns are usually slightly wrong." },
+        { "title": "Photocopy or scan.", "text": "A copy passed off as the original. Copying blurs fine print, shifts colours and softens edges." },
+        { "title": "Screen replay.", "text": "A photo of a card shown on another phone or monitor. The screen leaves tell-tale stripes, glare and pixel patterns." },
+        { "title": "Edited genuine document.", "text": "The most dangerous kind: a real card or record with a swapped photo or changed details. It passes a quick look, so the details must be checked against the official record." }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "bangladesh",
+      "eyebrow": "Local context",
+      "title": "Digital identity in Bangladesh",
+      "lead": "Bangladesh runs one of the largest national identity systems in the region. A few building blocks shape how identity works today:",
+      "items": [
+        { "title": "The national ID (NID).", "text": "It covers more than 126 million people. Each has a unique NID number, with a photo and fingerprints on record." },
+        { "title": "The Smart NID card.", "text": "Newer cards carry a chip that stores the holder's data, alongside printed security features. Many people still use the older laminated card, so any identity system has to handle both." },
+        { "title": "Biometric SIM registration.", "text": "Every mobile SIM is registered against its owner's NID with a fingerprint check, which made the NID part of everyday life." },
+        { "title": "e-KYC in banking.", "text": "The Bangladesh Financial Intelligence Unit (BFIU) has issued e-KYC guidelines that let banks and mobile financial services open accounts digitally, with the customer's ID checked against NID records." },
+        { "title": "Social safety nets.", "text": "Food and cash support programmes use NID checks so that each family registers only once and help reaches the people it is meant for." }
+      ],
+      "after": ["Together, these make the NID the backbone of identity in the country. That is also why protecting it matters so much."]
+    },
+    {
+      "type": "list",
+      "id": "documents",
+      "eyebrow": "Beyond ID cards",
+      "title": "Documents that depend on identity",
+      "lead": "Digital identity is not only about ID cards. Many important documents are only worth something because they are tied to a real person, and they are forged for the same reasons.",
+      "items": [
+        { "title": "Land records.", "text": "In Bangladesh, land documents such as the Nokol, Khatian and deeds are among the most forged papers. A fake or edited record can be used to sell land that the seller does not own." },
+        { "title": "Benefit cards.", "text": "Cards such as the TCB smart card decide who receives subsidised goods. Cloned or altered cards take help away from the families it is meant for." },
+        { "title": "Licences and certificates.", "text": "Driving licences, trade licences, and birth and death certificates are checked by banks, employers and government offices every day." }
+      ],
+      "after": [
+        "A strong way to protect such documents is to **seal** them when they are issued. Each page gets a digital fingerprint, called a hash, calculated from its exact contents. Change a single letter or number and the fingerprint no longer matches, so anyone checking the document can see straight away whether it has been altered, and on which page."
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "benefits-risks",
+      "eyebrow": "Honest view",
+      "title": "Benefits and risks",
+      "lead": "Digital identity brings real gains, but it also creates new risks that have to be managed.",
+      "columns": [
+        {
+          "title": "Benefits",
+          "tone": "good",
+          "items": [
+            { "title": "Faster services.", "text": "Accounts and SIM cards can be opened in minutes, without photocopies." },
+            { "title": "Less fraud.", "text": "Fake, edited and borrowed IDs are caught before any damage is done." },
+            { "title": "Wider access.", "text": "People far from a branch can verify themselves on a phone." },
+            { "title": "Fairer support.", "text": "Each person receives a benefit once, and there is a clear record of who received what." }
+          ]
+        },
+        {
+          "title": "Risks",
+          "tone": "bad",
+          "items": [
+            { "title": "Data leaks.", "text": "A large identity database is a valuable target, and poorly secured systems have exposed citizens' NID details in the past." },
+            { "title": "Misuse.", "text": "Data collected for one purpose can be used for another without the person's consent." },
+            { "title": "Exclusion.", "text": "Worn fingerprints, a damaged card or a weak connection can lock people out. Good systems always offer another way through." },
+            { "title": "Deepfakes.", "text": "AI-made faces and videos keep getting better, so liveness checks have to keep up." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "safety",
+      "eyebrow": "Stay safe",
+      "title": "Keeping digital identity safe",
+      "columns": [
+        {
+          "title": "For organisations",
+          "items": [
+            { "title": "Collect only what you need,", "text": "and keep it only as long as you need it." },
+            { "title": "Encrypt data from the moment it is captured,", "text": "so nothing readable travels over the network." },
+            { "title": "Keep identity data on servers you control,", "text": "with access limited to the people who need it." },
+            { "title": "Log every check", "text": "in a record that cannot be changed, so any misuse can be traced." },
+            { "title": "Offer a fallback,", "text": "such as review by staff, for people the automated check cannot handle." }
+          ]
+        },
+        {
+          "title": "For citizens",
+          "items": [
+            { "title": "Do not hand out NID photocopies freely.", "text": "When you must, write the purpose and the date across the copy." },
+            { "title": "Never share an OTP or PIN,", "text": "even with someone who says they are calling from your bank or mobile operator." },
+            { "title": "Be careful with apps that ask for a photo of your NID and a selfie.", "text": "Use only official apps from organisations you trust." },
+            { "title": "Report a lost or stolen card quickly,", "text": "so it cannot be used in your name." },
+            { "title": "Before buying land, verify the documents", "text": "with the official registry, not just the copies the seller gives you." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "future",
+      "eyebrow": "Looking ahead",
+      "title": "What comes next",
+      "items": [
+        { "title": "Offline verification", "text": "Today, most identity checks need an internet connection to reach the NID records. Verifying people offline, at a remote dealer or a border post without a signal, means holding the right data securely on the device itself. With records for more than 126 million people, doing that safely takes careful, step-by-step work.", "icon": "Wifi" },
+        { "title": "Digital ID wallets", "text": "Your ID may soon live on your phone, letting you share only what a service needs. For example, you could prove you are over 18 without showing your date of birth.", "icon": "Smartphone" },
+        { "title": "Stronger defences against deepfakes", "text": "As fake faces and voices improve, verification will rely more on checks that are hard to fake together: the card, the live face, the fingerprint and the official record.", "icon": "ShieldCheck" }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Is my NID number enough to prove who I am?", "a": "No. The number only points to a record. Anyone who knows it could type it in. Proof needs the card and something only you have, such as your face or fingerprint." },
+        { "q": "What is e-KYC?", "a": "e-KYC means electronic Know Your Customer. It lets banks, mobile financial services and other organisations confirm your identity digitally instead of with paper forms and photocopies." },
+        { "q": "Can a photo or video of my face fool a verification system?", "a": "A good system blocks this with a liveness check, which confirms that a real person is in front of the camera and not a printed photo, a screen or a mask." },
+        { "q": "What if my fingerprints are worn?", "a": "This is common among older people and manual workers. A well-designed system falls back to face matching or a review by staff, so nobody is turned away for it." },
+        { "q": "How accurate are automated identity checks?", "a": "Accuracy is measured with two numbers. The false accept rate is how often a fake gets through, and the false reject rate is how often a genuine person is wrongly turned away. Lowering one tends to raise the other, so a good system is tuned for its use and always offers a review by staff when it is unsure." },
+        { "q": "Does identity verification need the internet?", "a": "In Bangladesh, most checks do today, because the details are confirmed against NID records online. Offline verification is being developed, but it has to be done carefully because of the size of the records." }
+      ]
+    },
+    { "type": "divider", "text": "Now that you know how digital identity works, here is how *Spectrum* puts it into practice." },
+    {
+      "type": "feature",
+      "id": "spectrum",
+      "eyebrow": "Automated ID verification",
+      "title": "Know exactly *who you are dealing with*",
+      "body": [
+        "Spectrum's automated ID verification turns the checks described above into one step. It reads a national ID card, checks that it is genuine, confirms the person holding it is live and matches the card, and checks the details against NID records.",
+        "It runs on a phone, a tablet or a POS terminal at the counter, and is built for banks, telecom operators and government programmes that open accounts, register SIM cards or deliver benefits."
+      ],
+      "image": { "src": "/images/digital-identity/hero-biometric-verify.webp", "alt": "Customer in a Dhaka bank branch verifies her face on a phone, with a SPECIMEN national ID card on the desk" },
+      "actions": [
+        { "label": "Book a demo", "href": "contact:Digital Identity & Security" },
+        { "label": "See how it works", "href": "#steps" }
+      ],
+      "stats": [
+        { "value": "10M+", "label": "Families enrolled" },
+        { "value": "0.1s", "label": "To read a card" },
+        { "value": "<2s", "label": "Card + face check" },
+        { "value": "126M+", "label": "NID records behind every check" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "steps",
+      "eyebrow": "How it works",
+      "title": "Three steps, under two seconds",
+      "lead": "This is what happens from the moment a customer shows their card to the moment they are approved.",
+      "items": [
+        {
+          "title": "Scan the card, skip the typing",
+          "text": "The customer or officer points a phone camera at the card. The app finds the card edges, straightens the image and removes glare by itself. In about **0.1 seconds**, the system reads the card in Bangla and English and fills in the form:",
+          "bullets": [
+            "Name in Bangla and English",
+            "Father's and mother's name",
+            "Date of birth",
+            "NID number",
+            "Gender and nationality",
+            "Document number and expiry",
+            "Issuing authority",
+            "Barcode and passport MRZ data"
+          ],
+          "image": { "src": "/images/digital-identity/step1-document-scan.webp", "alt": "SPECIMEN national ID card on a bank counter next to a phone showing Card scanned in 0.1 s" }
+        },
+        {
+          "title": "Make sure the card is genuine",
+          "text": "A good colour printout on plastic can fool the eye. The system looks closer, at three things a fake rarely gets right:",
+          "bullets": [
+            "**Fine print and line patterns.** Real cards carry tiny text and fine lines that blur when a card is copied or reprinted.",
+            "**Chip and barcode.** The data stored in the chip and barcode must match the printed details exactly.",
+            "**Official NID records.** The card details are checked online against the national NID records. A fake card with invented details will not match."
+          ],
+          "image": { "src": "/images/digital-identity/step2-forensic-card-analysis.webp", "alt": "SPECIMEN national ID card under a magnifier lamp, with a checklist for microprint, chip data and NID records" }
+        },
+        {
+          "title": "Confirm a live person who matches the card",
+          "text": "The customer looks at the camera for a moment. They do not need to blink, smile or turn their head. The system checks that the face has real depth, then matches it with the photo on the card. Where a camera is not enough, the customer places a finger on a scanner instead, and the fingerprint is matched against the NID records in the same check. For sites that need extra security, or for people whose fingerprints are worn, an iris scanner can be added as a third option.",
+          "bullets": [
+            "**Blocks common tricks:** printed photos, videos played on a phone or tablet, masks and AI-generated deepfakes.",
+            "Face or fingerprint",
+            "No blinking or head-turning",
+            "Iris scanning supported"
+          ],
+          "image": { "src": "/images/digital-identity/step3-biometric-liveness-antispoof.webp", "alt": "A live person passes the face check, while a printed photo held to the camera is blocked as a spoof" },
+          "note": "**Result:** the customer is approved straight away, or the case is flagged with the reason, such as details that do not match the NID records or a face mismatch, for staff to review."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "architecture",
+      "eyebrow": "Under the hood",
+      "title": "How the system fits together",
+      "body": [
+        "Three parts, each with one job. Data is encrypted from the moment it is captured and stays on servers you control. The engine checks details online against NID records and connects to your core banking, CRM or registry system through a REST API."
+      ],
+      "image": { "src": "/images/digital-identity/architecture-ecosystem.webp", "alt": "How the ID verification system works: capture devices send encrypted data to the verification engine, which keeps keys and audit logs in a secure vault on your own servers" }
+    },
+    {
+      "type": "cards",
+      "id": "benefits",
+      "eyebrow": "Benefits",
+      "title": "What your organisation gets",
+      "lead": "Faster sign-up for customers, less manual work for staff, and fewer losses to fraud.",
+      "items": [
+        { "title": "Fewer fraud losses", "text": "Forged cards, borrowed IDs, photos, masks and deepfakes are stopped before an account is opened or a payment is made.", "icon": "ShieldCheck" },
+        { "title": "Faster sign-up", "text": "Customers finish in seconds, on their own phone or at the counter, so fewer give up halfway.", "icon": "Zap" },
+        { "title": "Less manual work", "text": "Staff no longer type card details, compare photos by eye or file photocopies.", "icon": "ClipboardCheck" },
+        { "title": "Built for Bangladesh Bank e‑KYC", "text": "Follows the BFIU e-KYC Guidelines for banks and MFS, with AML screening and a sealed record of every check, ready for audit.", "icon": "Landmark" },
+        { "title": "Reads Bangla properly", "text": "Built for Bangla script, including joined letters and worn, older cards.", "icon": "Languages" },
+        { "title": "Works on any channel", "text": "Android and iOS SDKs, Flutter, React Native, web camera, REST API and SMS links.", "icon": "Code" }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "tcb",
+      "eyebrow": "Proven at national scale",
+      "title": "TCB Smart Card: *10M+ families*",
+      "body": [
+        "For the **Trading Corporation of Bangladesh (TCB)**, Spectrum enrolled **more than 10 million low-income families** across all 64 districts. Each family was checked against the NID database so it could only register once, then given a smart card that more than 10,000 dealers verify on POS terminals before handing over subsidised goods."
+      ],
+      "actions": [
+        { "label": "Read the TCB case study", "href": "project:tcb-smart-card" },
+        { "label": "See the live system", "href": "https://digital.tcbsheba.com/" }
+      ],
+      "stats": [
+        { "value": "64", "label": "Districts covered, all of Bangladesh" },
+        { "value": "10,000+", "label": "Dealers verifying cards on POS terminals" },
+        { "value": "99.8%", "label": "Fewer duplicate claims" }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "upokari",
+      "eyebrow": "Live now · upokari.ai",
+      "title": "Upokari: spot forged documents *in seconds*",
+      "body": [
+        "[Upokari](product:upokari) is Spectrum's AI verification engine for the documents people are most often cheated with: **land records** (Nokol, Khatian and deeds), **TCB smart cards** and **NID cards**. It catches counterfeits, photocopies, photos taken of a screen and edited genuine cards, then cross-checks each document against the issuing registry. Land records are sealed page by page, so even one altered page is caught."
+      ],
+      "actions": [
+        { "label": "About Upokari", "href": "product:upokari" },
+        { "label": "Visit upokari.ai", "href": "https://upokari.ai/" }
+      ],
+      "stats": [
+        { "value": "3", "label": "Document types live: land records, TCB cards and NID" },
+        { "value": "<0.1%", "label": "False accept rate" },
+        { "value": "5", "label": "Clear verdicts: genuine, counterfeit, screen replay, copy or spoof" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "sectors",
+      "eyebrow": "Who uses it",
+      "title": "Built for these sectors",
+      "lead": "The same engine, set up for each sector's rules and daily workflow.",
+      "items": [
+        { "title": "Banks & mobile financial services", "text": "Open accounts, issue cards and approve loans with e-KYC, in a branch or on the customer's own phone.", "icon": "Banknote" },
+        { "title": "Telecom", "text": "Register SIM cards and eSIMs with a fingerprint check at the retail counter, in seconds.", "icon": "Wifi" },
+        { "title": "Government", "text": "Civil registration, social programme enrolment and staff identity checks, with one record per person.", "icon": "Landmark" },
+        { "title": "Police & border control", "text": "Identity checks at checkpoints and border points, matching face and fingerprint to the card in seconds.", "icon": "ShieldCheck" },
+        { "title": "Healthcare & education", "text": "Hospitals keep one record per patient, so test results and insurance claims follow the right person. Exam halls verify each candidate, so nobody sits a test for someone else.", "icon": "Hospital" },
+        { "title": "Social safety nets & NGOs", "text": "Food aid, relief payments and other benefits reach each person once, with a clear record of who received what. Proven with TCB's 10M+ families.", "icon": "HandHelping" }
+      ]
+    }
+  ],
+  "relatedProjects": ["tcb-smart-card", "smart-card-issuance"],
+  "cta": {
+    "eyebrow": "Book a demo",
+    "title": "See it work on your own ID cards.",
+    "text": "Bring your own cards. We will run a live check in front of you and talk through what you need: e-KYC for banks and MFS, SIM registration, or a citizen registry on your own servers.",
+    "action": "Book a demo",
+    "href": "contact:Digital Identity & Security"
+  }
+}

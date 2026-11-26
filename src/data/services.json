@@ -1,0 +1,129 @@
+{
+  "core": [
+    {
+      "slug": "digital-identity-security",
+      "title": "Digital Identity & Security",
+      "description": "Check that people and documents are real, from NID checks to face matching.",
+      "image": "/assets/ic-identity.png"
+    },
+    {
+      "slug": "smart-card-technologies",
+      "title": "Smart Card Technologies",
+      "description": "Design, print and manage secure ID, staff and service cards.",
+      "image": "/assets/ic-card.png"
+    },
+    {
+      "slug": "artificial-intelligence",
+      "title": "Artificial Intelligence",
+      "description": "Practical AI that reads documents, matches faces and flags fraud.",
+      "image": "/assets/ic-ai.png"
+    },
+    {
+      "slug": "blockchain-technology",
+      "title": "Blockchain Technology",
+      "description": "Records and certificates that cannot be secretly changed later.",
+      "image": "/assets/ic-chain.png"
+    },
+    {
+      "slug": "anti-counterfeit",
+      "title": "Anti-Counterfeit Solutions",
+      "description": "Stop fake documents, cards and certificates, and catch them in seconds.",
+      "image": "/assets/ic-anti.png"
+    },
+    {
+      "slug": "brand-protection",
+      "title": "Brand Protection",
+      "description": "Unique codes and quick checks so customers know a product is genuine.",
+      "icon": "Award"
+    },
+    {
+      "slug": "business-automation",
+      "title": "Business Automation",
+      "description": "Turn slow, paper-based office work into online workflows.",
+      "icon": "Cog"
+    },
+    {
+      "slug": "ai-contact-center",
+      "title": "AI Contact Center",
+      "description": "Calls, chats and complaints answered 24/7 on phone, WhatsApp and web.",
+      "icon": "Headset"
+    },
+    {
+      "slug": "mobile-apps",
+      "title": "Mobile Apps",
+      "description": "Android and iOS apps: 8 published, with more than 110,000 downloads.",
+      "more": "See our apps",
+      "icon": "Smartphone"
+    },
+    {
+      "title": "Custom Software & e-Government",
+      "description": "Websites, portals and online public services, built to order.",
+      "href": "page:projects",
+      "more": "See our work",
+      "icon": "Code"
+    }
+  ],
+  "systems": [
+    {
+      "title": "Biometric Systems",
+      "description": "Fingerprint, face and iris scanners, plus software that stops one person registering twice.",
+      "href": "product:biometric-devices",
+      "icon": "FingerprintPattern"
+    },
+    {
+      "title": "Access Control",
+      "description": "Gates, turnstiles and door locks that let in only the right people.",
+      "href": "product:access-control",
+      "icon": "UserLock"
+    },
+    {
+      "title": "Time Attendance",
+      "description": "Face and fingerprint machines that record staff hours and feed payroll.",
+      "href": "product:time-attendance",
+      "icon": "Clock"
+    },
+    {
+      "title": "CCTV and Alarms",
+      "description": "Cameras, alarms and server room sensors, with alerts when something is wrong.",
+      "href": "product:cctv-cameras",
+      "icon": "Video"
+    },
+    {
+      "title": "Vehicle Tracking",
+      "description": "Live location, fuel alerts and remote engine stop for your fleet.",
+      "href": "product:gps-trackers",
+      "icon": "MapPin"
+    },
+    {
+      "title": "Self-Service Kiosks",
+      "description": "Touch screens for tokens, payments and printing, without queuing at a counter.",
+      "href": "product:self-service-kiosks",
+      "icon": "Pointer"
+    },
+    {
+      "title": "ERP Systems",
+      "description": "One system for accounts, purchasing, staff, payroll and stock.",
+      "href": "product:enterprise-erp",
+      "icon": "ChartLine"
+    },
+    {
+      "title": "Smart City Systems",
+      "description": "One control room for street lights, traffic and environment sensors.",
+      "href": "product:smart-city-platform",
+      "icon": "Building"
+    },
+    {
+      "title": "Cyber Security",
+      "description": "Security checks, penetration testing and ISO 27001 advice for your systems and network.",
+      "href": "contact:Cyber Security",
+      "more": "Ask us",
+      "icon": "ShieldCheck"
+    }
+  ],
+  "workSteps": [
+    { "title": "Understand", "text": "We learn how your work is done today, and what needs to change." },
+    { "title": "Plan", "text": "We agree what to build, the cost and the timeline, in plain words." },
+    { "title": "Build and test", "text": "We build in stages and test with your own staff before going live." },
+    { "title": "Support", "text": "We train your team, keep the system running and improve it over time." }
+  ]
+}

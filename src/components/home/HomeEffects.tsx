@@ -42,16 +42,7 @@ export default function HomeEffects() {
     const $$ = <T extends Element = HTMLElement>(sel: string, root: ParentNode = document) =>
       Array.from(root.querySelectorAll<T>(sel));
 
-    /* ---------- Mobile menu ---------- */
-    const menuBtn = $("[data-menu-open]");
-    const menu = document.getElementById("mobile-menu");
-    const setMenu = (open: boolean) => {
-      page.classList.toggle("menu-open", open);
-      menuBtn?.setAttribute("aria-expanded", String(open));
-      menu?.setAttribute("aria-hidden", String(!open));
-    };
-    menuBtn?.addEventListener("click", () => setMenu(true), on);
-    $$("[data-menu-close]").forEach((el) => el.addEventListener("click", () => setMenu(false), on));
+    /* Mobile menu, magnetic buttons and scroll reveal live in components/site/SiteEffects.tsx. */
 
     /* ---------- Hero: rotating solutions ---------- */
     const hero = document.getElementById("top");
@@ -157,60 +148,8 @@ export default function HomeEffects() {
       observers.push(ro);
     }
 
-    /* ---------- Magnetic buttons ---------- */
-    $$("[data-magnetic]").forEach((el) => {
-      el.addEventListener("mousemove", (e) => {
-        if (!fine || reduce) return;
-        const r = el.getBoundingClientRect();
-        const x = ((e.clientX - r.left) / r.width - 0.5) * 12;
-        const y = ((e.clientY - r.top) / r.height - 0.5) * 10;
-        el.style.transform = "translate(" + x + "px," + y + "px)";
-      }, on);
-      el.addEventListener("mouseleave", () => { el.style.transform = ""; }, on);
-    });
-
-    /* ---------- Service cards: 3D tilt + spotlight border ---------- */
-    $$("[data-tilt]").forEach((el) => {
-      el.addEventListener("mousemove", (e) => {
-        if (!fine || reduce) return;
-        const r = el.getBoundingClientRect();
-        const x = (e.clientX - r.left) / r.width;
-        const y = (e.clientY - r.top) / r.height;
-        el.style.transform =
-          "perspective(900px) rotateX(" + (0.5 - y) * 6 + "deg) rotateY(" + (x - 0.5) * 8 + "deg) translateY(-6px)";
-        el.style.setProperty("--mx", x * 100 + "%");
-        el.style.setProperty("--my", y * 100 + "%");
-        el.classList.add("is-tilting");
-      }, on);
-      el.addEventListener("mouseleave", () => {
-        el.style.transform = "";
-        el.classList.remove("is-tilting");
-      }, on);
-    });
-
-    /* ---------- Scroll reveal + count-up numbers ---------- */
+    /* ---------- Count-up numbers ---------- */
     if (!reduce) {
-      const io = new IntersectionObserver((entries) =>
-        entries.forEach((e) => {
-          if (!e.isIntersecting) return;
-          const el = e.target as HTMLElement;
-          el.style.opacity = "1";
-          el.style.transform = "none";
-          io.unobserve(el);
-        }), { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
-      observers.push(io);
-
-      $$("[data-reveal]").forEach((el) => {
-        const r = el.getBoundingClientRect();
-        if (r.top < innerHeight && r.bottom > 0) return; // already in view on load
-        const d = +(el.dataset.reveal || 0) || 0;
-        el.style.opacity = "0";
-        el.style.transform = "translateY(28px)";
-        el.style.transition =
-          "opacity .8s cubic-bezier(.2,.7,.2,1) " + d + "ms, transform .9s cubic-bezier(.2,.7,.2,1) " + d + "ms";
-        io.observe(el);
-      });
-
       const cio = new IntersectionObserver((entries) =>
         entries.forEach((e) => {
           if (!e.isIntersecting) return;

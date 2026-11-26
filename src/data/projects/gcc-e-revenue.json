@@ -1,0 +1,134 @@
+{
+  "seo": {
+    "title": "Gazipur City Corporation e-Revenue: Case Study",
+    "description": "How Spectrum built Gazipur City Corporation’s e-Revenue system: an online portal and the My GCC app for holding tax and trade licences, with tax calculation by zone, renewals and dashboards.",
+    "image": "/images/og/cs-gcc.jpg"
+  },
+  "hero": {
+    "eyebrow": "Case study",
+    "title": "Gazipur City Corporation *e-Revenue*",
+    "lead": "How Spectrum built the online portal and the My GCC app that let citizens and businesses in Gazipur handle holding tax and trade licences without visiting the city corporation office.",
+    "chips": [
+      { "label": "Holding tax and trade licences online", "icon": "Landmark" },
+      { "label": "Tax calculator by zone", "icon": "MapPin" },
+      { "label": "My GCC Android app", "icon": "Smartphone" },
+      { "label": "Tax and dues dashboards", "icon": "LayoutDashboard" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "facts",
+      "id": "overview",
+      "eyebrow": "Overview",
+      "title": "At a glance",
+      "body": [
+        "Gazipur City Corporation collects holding tax and issues trade licences for one of Bangladesh’s largest industrial cities. Spectrum built its e-Revenue system: an online service portal and the My GCC app, where citizens and businesses check, calculate, renew and keep track of what they owe."
+      ],
+      "items": [
+        { "label": "Client", "value": "Gazipur City Corporation (GCC)" },
+        { "label": "Sector", "value": "City corporation revenue and citizen services" },
+        { "label": "What we built", "value": "The e-Revenue online portal and the My GCC app" },
+        { "label": "Live system", "value": "Gazipur City Corporation e-Revenue portal" },
+        { "label": "Mobile apps", "value": "Google Play", "href": "https://play.google.com/store/apps/details?id=com.spectrum.gcc_portal" }
+      ],
+      "image": { "src": "/images/projects/gcc/logo.png", "alt": "Gazipur City Corporation logo" }
+    },
+    {
+      "type": "text",
+      "id": "problem",
+      "eyebrow": "The challenge",
+      "title": "The problem",
+      "body": [
+        "Holding tax and trade licences are a city corporation’s main sources of revenue, and they touch thousands of homes, shops and factories.",
+        "Without an online system, people have to visit the office to find out what they owe, to renew a licence or to check an application, and the city has no quick view of assessments, payments and dues across its zones."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "solution",
+      "eyebrow": "The solution",
+      "title": "What we built",
+      "intro": "One e-Revenue system on the web and on Android:",
+      "items": [
+        { "title": "An online service portal", "text": "in Bangla, where citizens see their application information, check and verify details for trade licences and holding tax, renew services, and read notices." },
+        { "title": "Holding tax and trade licence online management,", "text": "with a login for citizens and businesses." },
+        { "title": "A holding tax calculator", "text": "that works out the tax from the building’s use (own, rented or partly rented), its type (industrial, commercial, residential or government) and its tax zone." },
+        { "title": "All tax zones covered:", "text": "Tongi, Pubail, Gacha, Joydebpur, Kaultia, Basan, Konabari and Kashimpur, plus the BSCIC industrial areas in Tongi and Konabari." },
+        { "title": "A fee calculator", "text": "for every citizen service the city corporation provides." },
+        { "title": "The My GCC Android app,", "text": "with registration using NID and mobile number, OTP verification, and a dashboard of tax amounts, assessments and dues by year, and trade licences by zone." },
+        { "title": "One front door", "text": "that also links to the city’s water connection and complaint portal and its market lease and shop rent system." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "portal",
+      "eyebrow": "Web portal",
+      "title": "The online service portal",
+      "items": [
+        { "src": "/images/projects/gcc/home.webp", "caption": "Home page: water connection and complaints, holding tax and trade licence, and market lease and shop rent" },
+        { "src": "/images/projects/gcc/holding.webp", "caption": "Holding tax calculator: building use, holding type, tax zone and loan status" },
+        { "src": "/images/projects/gcc/login.webp", "caption": "Log in to holding tax and trade licence online management" }
+      ]
+    },
+    {
+      "type": "app",
+      "id": "app",
+      "eyebrow": "Mobile app",
+      "title": "The My GCC app",
+      "app": {
+        "name": "My GCC",
+        "icon": "/images/apps/my-gcc-icon.png",
+        "platforms": "Android",
+        "stores": { "google": "https://play.google.com/store/apps/details?id=com.spectrum.gcc_portal" },
+        "screenshots": [
+          { "src": "/images/apps/my-gcc/screen-1.webp", "caption": "Registration with NID and mobile number" },
+          { "src": "/images/apps/my-gcc/screen-2.webp", "caption": "OTP verification" },
+          { "src": "/images/apps/my-gcc/screen-3.webp", "caption": "Password recovery" },
+          { "src": "/images/apps/my-gcc/screen-4.webp", "caption": "Dashboard: tax, assessment and dues by year, and trade licences by zone" }
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "Register, check, renew, track",
+      "items": [
+        { "title": "Register", "text": "The citizen or business registers with their NID and mobile number and confirms with an OTP." },
+        { "title": "Check and calculate", "text": "They check their holding or licence details and see the tax or fee due." },
+        { "title": "Apply or renew", "text": "They apply for or renew a trade licence or other service online." },
+        { "title": "Track it", "text": "They follow their application, and the city sees assessments and dues on dashboards." }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "results",
+      "eyebrow": "Impact",
+      "title": "Results",
+      "items": [
+        { "value": "10", "label": "Tax zones and industrial areas" },
+        { "value": "2", "label": "Main revenues online: holding tax and trade licences" },
+        { "value": "Web + app", "label": "Portal and My GCC" }
+      ],
+      "bullets": [
+        "Citizens and businesses can check what they owe and renew services without visiting the office.",
+        "Holding tax is calculated the same way for everyone, by building use, type and zone.",
+        "The city corporation sees tax, assessments and dues by year and trade licences by zone on its dashboards.",
+        "Water, market rent, holding tax and trade licence services are reachable from one portal."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "technology",
+      "eyebrow": "Under the hood",
+      "title": "The technology, in plain words",
+      "items": [
+        { "title": "Bangla-first portal:", "text": "every screen in Bangla for the city’s residents." },
+        { "title": "Rule-based tax calculator:", "text": "the same rules for every holding, by use, type and zone." },
+        { "title": "NID and OTP sign-up:", "text": "confirms who is registering before they see their records." },
+        { "title": "Dashboards:", "text": "charts of tax, assessments and dues by year, and licences by zone." }
+      ]
+    }
+  ],
+  "relatedServices": ["business-automation", "mobile-apps"]
+}

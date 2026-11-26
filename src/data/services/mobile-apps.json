@@ -1,0 +1,151 @@
+{
+  "seo": {
+    "title": "Mobile Apps for Android and iOS",
+    "description": "Android and iOS apps built and published by Spectrum: TCB Card Sheba (100K+ downloads), Upokari, Novotheatre eTicket, Officers’ Club Dhaka and more.",
+    "image": "/images/og/mobile-apps.jpg"
+  },
+  "hero": {
+    "eyebrow": "Service",
+    "title": "Mobile *apps*",
+    "lead": "Android and iOS apps we have built and published for government programmes, a city corporation, ministries, a members’ club, a science centre and our own Upokari products, with more than 110,000 downloads on Google Play.",
+    "chips": [
+      { "label": "8 apps published", "icon": "Smartphone" },
+      { "label": "110K+ downloads", "icon": "Users" },
+      { "label": "Android and iOS", "icon": "Layers" },
+      { "label": "Bangla and English", "icon": "Languages" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "apps",
+      "id": "apps",
+      "eyebrow": "Our apps",
+      "title": "Apps people use every day",
+      "lead": "All of these are published by Spectrum IT Solutions Ltd. on Google Play, and three are also on the App Store.",
+      "items": [
+        {
+          "name": "TCB Card Sheba",
+          "icon": "/images/apps/tcb-card-sheba-icon.png",
+          "platforms": "Android",
+          "downloads": "100K+ downloads",
+          "rating": "4.2 from 876 reviews",
+          "text": "For TCB dealers and authorised staff to scan, verify and activate TCB smart cards before goods are handed over. Beneficiaries can now activate their own cards too.",
+          "stores": { "google": "https://play.google.com/store/apps/details?id=com.spectrum.tcbapp" },
+          "more": { "label": "Read the TCB case study", "href": "project:tcb-smart-card" }
+        },
+        {
+          "name": "Upokari",
+          "icon": "/images/apps/upokari-icon.png",
+          "platforms": "Android and iOS",
+          "downloads": "10K+ downloads",
+          "rating": "3.6 from 81 reviews",
+          "text": "A secure digital mailbox and document vault. Approved organisations send signed, QR-coded notices and invoices, and people keep their documents safe, in Bangla or English.",
+          "stores": {
+            "google": "https://play.google.com/store/apps/details?id=com.spectrum.upokari",
+            "apple": "https://apps.apple.com/app/upokari/id6822746182"
+          },
+          "more": { "label": "About Upokari", "href": "product:upokari" }
+        },
+        {
+          "name": "Novotheatre eTicket",
+          "icon": "/images/apps/novotheatre-icon.png",
+          "platforms": "Android",
+          "downloads": "500+ downloads",
+          "rating": "3.8 from 10 reviews",
+          "text": "Buy Novotheatre tickets on your phone: pick a date, choose a show such as a 5D movie, VR or the exhibits, and pay online.",
+          "stores": { "google": "https://play.google.com/store/apps/details?id=com.spectrum.novotheatre_official" },
+          "more": { "label": "Read the Novotheatre case study", "href": "project:novotheatre-eticket" }
+        },
+        {
+          "name": "Officers’ Club Dhaka",
+          "icon": "/images/apps/ocd-app-icon.png",
+          "platforms": "Android and iOS",
+          "downloads": "100+ downloads",
+          "rating": "4.2",
+          "text": "The club in members’ pockets: facilities, notices and events, hall, guest house and salon booking, dues and payments, and food ordering.",
+          "stores": {
+            "google": "https://play.google.com/store/apps/details?id=com.spectrum.officers_club_dhaka",
+            "apple": "https://apps.apple.com/app/officers-club-dhaka/id6818748608"
+          },
+          "more": { "label": "Read the OCD case study", "href": "project:officers-club-dhaka" }
+        },
+        {
+          "name": "Automated Presence & Feedback",
+          "icon": "/images/apps/apfs-icon.png",
+          "platforms": "Android and iOS",
+          "downloads": "100+ downloads",
+          "rating": "4.6 from 5 reviews",
+          "text": "Office attendance with location and photo check-in, leave requests and balances, feedback and issue reporting, helplines and a staff directory. Used by 6 government bodies.",
+          "stores": {
+            "google": "https://play.google.com/store/apps/details?id=com.spectrumit.afs",
+            "apple": "https://apps.apple.com/app/automated-presence-feedback/id6816930139"
+          },
+          "more": { "label": "Read the APFS case study", "href": "project:presence-feedback" }
+        },
+        {
+          "name": "Upokari eCom Seller",
+          "icon": "/images/apps/upokari-ecom-seller-icon.png",
+          "platforms": "Android",
+          "downloads": "50+ downloads",
+          "rating": "4.2",
+          "text": "Lets sellers on the Upokari eCom marketplace run their shop from a phone: products and stock, a point of sale, orders and a sales dashboard.",
+          "stores": { "google": "https://play.google.com/store/apps/details?id=com.spectrum.ecom_seller_app" },
+          "more": { "label": "About Upokari eCom", "href": "product:upokari#ecom" }
+        },
+        {
+          "name": "My GCC",
+          "icon": "/images/apps/my-gcc-icon.png",
+          "platforms": "Android",
+          "downloads": "10+ downloads",
+          "rating": "4.2",
+          "text": "Gazipur City Corporation’s app for holding tax and trade licences: register with NID and OTP, and see tax, assessments and dues on a dashboard.",
+          "stores": { "google": "https://play.google.com/store/apps/details?id=com.spectrum.gcc_portal" },
+          "more": { "label": "Read the GCC case study", "href": "project:gcc-e-revenue" }
+        },
+        {
+          "name": "GSB Library",
+          "icon": "/images/apps/gsb-library-icon.png",
+          "platforms": "Android",
+          "downloads": "10+ downloads",
+          "rating": "4.2",
+          "text": "The smart library app for the Geological Survey of Bangladesh (GSB), bringing its digital library services to a phone.",
+          "stores": { "google": "https://play.google.com/store/apps/details?id=com.spectrum.gsb_library" }
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "features",
+      "eyebrow": "What we build in",
+      "title": "What our apps can do",
+      "items": [
+        { "title": "Android and iOS", "text": "Apps for both platforms, published and kept up to date on Google Play and the App Store.", "icon": "Smartphone" },
+        { "title": "Bangla and English", "text": "Interfaces in Bangla, English or both, so everyone can use them.", "icon": "Languages" },
+        { "title": "Secure sign-in", "text": "Log in with a password, PIN, fingerprint or Face ID, with data protected on the phone.", "icon": "Lock" },
+        { "title": "Payments", "text": "Pay dues, tickets and orders inside the app.", "icon": "HandCoins" },
+        { "title": "Scanning and verification", "text": "Scan cards and QR codes to check them on the spot, even with a weak connection.", "icon": "ScanLine" },
+        { "title": "Connected to your systems", "text": "Apps work with your website, portal and back office, so everything stays in step.", "icon": "Plug" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "steps",
+      "eyebrow": "How we work",
+      "title": "From idea to app store",
+      "items": [
+        { "title": "Plan", "text": "We agree who will use the app, what it must do, and how it connects to your systems." },
+        { "title": "Design", "text": "We design simple screens in Bangla and English, and test them with real users." },
+        { "title": "Build and test", "text": "We build for Android and iOS and test on the phones your users have." },
+        { "title": "Publish and support", "text": "We publish on Google Play and the App Store, and keep updating the app." }
+      ]
+    }
+  ],
+  "relatedProjects": ["tcb-smart-card", "officers-club-dhaka", "presence-feedback"],
+  "cta": {
+    "eyebrow": "Need an app?",
+    "title": "Tell us who will use it.",
+    "text": "Tell us who will use it and what it must do. We will suggest the simplest way to build it for Android, iOS or both.",
+    "action": "Talk to our team",
+    "href": "contact:Mobile Apps"
+  }
+}

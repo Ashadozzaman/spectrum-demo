@@ -1,0 +1,45 @@
+{
+  "intro": [
+    "Analyses every recorded call and groups questions by category. Dashboards show top concerns, the category split and repeat questions, by day, week or month, down to each call.",
+    "Part of Spectrum’s [AI Contact Center](service:ai-contact-center): take the whole seven-part system, or only the parts you need. Every part shares one customer record."
+  ],
+  "sections": [
+    {
+      "type": "table",
+      "id": "measure",
+      "eyebrow": "Measure it",
+      "title": "Numbers to watch",
+      "lead": "Measure these before and after a pilot, so the numbers come from your own data:",
+      "columns": [
+        "Benefit",
+        "What changes",
+        "How to measure it"
+      ],
+      "rows": [
+        [
+          "Lower cost per contact",
+          "AI handles routine contacts, agents handle complex ones",
+          "Cost per contact, agent hours"
+        ],
+        [
+          "Always available, no wait",
+          "Service 24/7 with no time on hold",
+          "Answered calls, abandoned calls"
+        ],
+        [
+          "Consistent quality",
+          "The same knowledge base every time",
+          "Answer accuracy, repeat contacts"
+        ],
+        [
+          "Fixing root causes",
+          "Top questions grouped by category",
+          "Trend of the top question categories"
+        ]
+      ]
+    }
+  ],
+  "relatedProjects": [
+    "tcb-ai-contact-center"
+  ]
+}

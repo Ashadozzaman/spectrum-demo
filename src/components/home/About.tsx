@@ -1,4 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
+import { routes } from "@/lib/routes";
+
 export default function About() {
   return (
     <>
@@ -38,8 +41,8 @@ export default function About() {
                 <dd className="stat__value" data-count="115">115</dd>
               </div>
             </dl>
-            <a href="#" className="btn-outline" data-reveal="420">Read more about us<span aria-hidden="true"
-                className="arrow-accent">→</span></a>
+            <Link href={routes.about} className="btn-outline" data-reveal="420">Read more about us<span aria-hidden="true"
+                className="arrow-accent">→</span></Link>
           </div>
         </div>
       </section>

@@ -1,0 +1,78 @@
+{
+  "seo": {
+    "title": "Spectrum e-KYC: NID and Face Verification",
+    "description": "Spectrum e-KYC reads a national ID card, checks it is genuine, confirms a live person who matches the card and checks the details against NID records, in under two seconds."
+  },
+  "hero": {
+    "title": "Spectrum *e-KYC*",
+    "lead": "Check a customer’s NID and face online in seconds, with no paper forms to fill in. It reads the card, checks that it is genuine, confirms the person holding it is live and matches the card, and checks the details against NID records.",
+    "chips": [
+      { "label": "Smart NID, old NID & e-Passport", "icon": "IdCard" },
+      { "label": "Reads Bangla & English", "icon": "Languages" },
+      { "label": "Face & fingerprint matching", "icon": "ScanFace" },
+      { "label": "Runs on your own servers", "icon": "Server" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "steps",
+      "id": "steps",
+      "eyebrow": "How it works",
+      "title": "Three steps, under two seconds",
+      "lead": "This is what happens from the moment a customer shows their card to the moment they are approved.",
+      "items": [
+        {
+          "title": "Scan the card, skip the typing",
+          "text": "The customer or officer points a phone camera at the card. The app finds the card edges, straightens the image and removes glare by itself. In about **0.1 seconds**, the system reads the card in Bangla and English and fills in the form.",
+          "bullets": ["Name in Bangla and English", "Father's and mother's name", "Date of birth and NID number", "Barcode and passport MRZ data"],
+          "image": { "src": "/images/digital-identity/step1-document-scan.webp", "alt": "SPECIMEN national ID card on a bank counter next to a phone showing Card scanned in 0.1 s" }
+        },
+        {
+          "title": "Make sure the card is genuine",
+          "text": "A good colour printout on plastic can fool the eye. The system looks closer, at three things a fake rarely gets right:",
+          "bullets": [
+            "**Fine print and line patterns** that blur when a card is copied or reprinted.",
+            "**Chip and barcode** data that must match the printed details exactly.",
+            "**Official NID records:** a fake card with invented details will not match."
+          ],
+          "image": { "src": "/images/digital-identity/step2-forensic-card-analysis.webp", "alt": "SPECIMEN national ID card under a magnifier lamp, with a checklist for microprint, chip data and NID records" }
+        },
+        {
+          "title": "Confirm a live person who matches the card",
+          "text": "The customer looks at the camera for a moment. They do not need to blink, smile or turn their head. The system checks that the face has real depth, then matches it with the photo on the card. A fingerprint or iris scanner can be used instead.",
+          "bullets": ["Blocks printed photos, screens, masks and deepfakes", "Face or fingerprint", "Iris scanning supported"],
+          "image": { "src": "/images/digital-identity/step3-biometric-liveness-antispoof.webp", "alt": "A live person passes the face check, while a printed photo held to the camera is blocked as a spoof" },
+          "note": "**Result:** the customer is approved straight away, or the case is flagged with the reason for staff to review."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "benefits",
+      "eyebrow": "Benefits",
+      "title": "What your organisation gets",
+      "items": [
+        { "title": "Fewer fraud losses", "text": "Forged cards, borrowed IDs, photos, masks and deepfakes are stopped before an account is opened or a payment is made.", "icon": "ShieldCheck" },
+        { "title": "Faster sign-up", "text": "Customers finish in seconds, on their own phone or at the counter, so fewer give up halfway.", "icon": "Zap" },
+        { "title": "Less manual work", "text": "Staff no longer type card details, compare photos by eye or file photocopies.", "icon": "ClipboardCheck" },
+        { "title": "Built for Bangladesh Bank e‑KYC", "text": "Follows the BFIU e-KYC Guidelines for banks and MFS, with AML screening and a sealed record of every check, ready for audit.", "icon": "Landmark" },
+        { "title": "Reads Bangla properly", "text": "Built for Bangla script, including joined letters and worn, older cards.", "icon": "Languages" },
+        { "title": "Works on any channel", "text": "Android and iOS SDKs, Flutter, React Native, web camera, REST API and SMS links.", "icon": "Code" }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "architecture",
+      "eyebrow": "Under the hood",
+      "title": "How the system fits together",
+      "body": ["Data is encrypted from the moment it is captured and stays on servers you control. The engine checks details online against NID records and connects to your core banking, CRM or registry system through a REST API."],
+      "image": { "src": "/images/digital-identity/architecture-ecosystem.webp", "alt": "How the ID verification system works: capture devices send encrypted data to the verification engine, which keeps keys and audit logs in a secure vault on your own servers" },
+      "stats": [
+        { "value": "0.1s", "label": "To read a card" },
+        { "value": "<2s", "label": "Card + face check" },
+        { "value": "126M+", "label": "NID records behind every check" }
+      ]
+    }
+  ],
+  "relatedProjects": ["tcb-smart-card"]
+}

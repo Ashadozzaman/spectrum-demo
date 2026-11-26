@@ -1,0 +1,20 @@
+{
+  "intro": [
+    "Text chat on your own website or app. Shares the same AI brain, knowledge base and customer record as the voice agent, and hands over to a person when needed.",
+    "Part of Spectrum’s [AI Contact Center](service:ai-contact-center): take the whole seven-part system, or only the parts you need. Every part shares one customer record."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "id": "one-record",
+      "eyebrow": "One customer record",
+      "title": "The same person, on every channel",
+      "body": [
+        "A caller who first asked a question by phone and later writes in the chat is recognised as the same person, with the earlier conversation already on screen."
+      ]
+    }
+  ],
+  "relatedProjects": [
+    "tcb-ai-contact-center"
+  ]
+}

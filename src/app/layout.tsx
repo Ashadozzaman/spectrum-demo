@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Spectrum IT Solutions — Digital Identity, Smart Card & AI Systems for Bangladesh",
+  metadataBase: new URL("https://spectrum.com.bd"),
+  title: {
+    default: "Spectrum IT Solutions — Digital Identity, Smart Card & AI Systems for Bangladesh",
+    template: "%s | Spectrum IT Solutions",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

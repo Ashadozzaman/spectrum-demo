@@ -1,0 +1,35 @@
+{
+  "intro": [
+    "Runs each complaint from start to finish: takes the details, opens a numbered ticket, creates a PDF report and sends it on WhatsApp to the caller and the authority, then follows up and escalates until it is resolved.",
+    "Part of Spectrum’s [AI Contact Center](service:ai-contact-center): take the whole seven-part system, or only the parts you need. Every part shares one customer record."
+  ],
+  "sections": [
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "From complaint to resolution",
+      "items": [
+        {
+          "title": "The caller gets through",
+          "text": "By phone or WhatsApp. The menu asks who they are and what the problem is."
+        },
+        {
+          "title": "The AI listens",
+          "text": "It writes down what is said and works out whether it is a question or a complaint."
+        },
+        {
+          "title": "A ticket and report",
+          "text": "For a complaint, a ticket opens (for example TKT-20261109-0001) and a PDF report goes on WhatsApp to the caller and the authority."
+        },
+        {
+          "title": "Follow-up until solved",
+          "text": "Timed reminders and escalation continue until the case is closed and the caller is told."
+        }
+      ]
+    }
+  ],
+  "relatedProjects": [
+    "tcb-ai-contact-center"
+  ]
+}

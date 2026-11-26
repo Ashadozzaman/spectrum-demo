@@ -1,0 +1,257 @@
+{
+  "seo": {
+    "title": "Smart Card Technologies in Bangladesh",
+    "description": "A plain guide to smart cards: chips, card security, how cards are issued and smart cards in Bangladesh. Plus Spectrum's card programmes.",
+    "image": "/images/og/smart-card.jpg"
+  },
+  "hero": {
+    "eyebrow": "Service guide",
+    "title": "Smart card *technologies*",
+    "lead": "What a smart card is, how the chip keeps it secure and how cards are made and issued. Then, how Spectrum designs, personalises and issues smart cards at national scale.",
+    "chips": [
+      { "label": "Contact & contactless chips", "icon": "IdCard" },
+      { "label": "Keys kept in an HSM", "icon": "KeyRound" },
+      { "label": "Laser engraving & encoding", "icon": "Printer" },
+      { "label": "Verified on POS & phones", "icon": "Smartphone" }
+    ]
+  },
+  "intro": [
+    "The national ID in your wallet, the card you tap at a metro gate and the bank card you use at a shop all have something in common: a tiny computer inside. That chip is what makes them smart cards, and it is why they are much harder to fake than a printed card. This guide explains what a smart card is, how the chip protects it, how cards are made and issued, and what to think about before launching a card programme."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "id": "what-is",
+      "eyebrow": "The basics",
+      "title": "Smart cards in simple terms",
+      "body": [
+        "A smart card is a plastic card with a microchip built into it. The chip can store information, such as your name, photo and fingerprints, and, on most modern cards, it can also run small programs and do cryptography: the maths behind digital locks and signatures.",
+        "That second part is what matters. A magnetic stripe or a barcode simply holds data, and anyone with the right reader can copy it. A secure chip can prove it is genuine without ever revealing its secret keys, so a copy of the data alone is not enough to make a working clone.",
+        "A simple way to think about it: a printed card shows information. A smart card can *prove* it."
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "types",
+      "eyebrow": "Card types",
+      "title": "Contact, contactless and dual-interface cards",
+      "lead": "Smart cards differ mainly in how the chip talks to a reader:",
+      "items": [
+        { "title": "Contact", "text": "The gold contact pad on the front touches the reader. Used for ID cards, bank cards and SIM cards. The standard is ISO/IEC 7816." },
+        { "title": "Contactless", "text": "A hidden antenna lets the card work when tapped, within a few centimetres. Used for transport and access cards. The standard is ISO/IEC 14443." },
+        { "title": "Dual-interface", "text": "One chip that works both ways: insert it at a counter or tap it at a gate. Common on modern ID and bank cards." },
+        { "title": "Memory-only", "text": "Cheaper chips that store data but cannot do cryptography. Fine for low-risk uses, but some older ones can be copied easily." }
+      ],
+      "after": [
+        "Phones can read contactless cards too, using **NFC** (near-field communication), which is built on the same standard. That means an officer in the field can check a card with an ordinary Android phone instead of special equipment."
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "chip",
+      "eyebrow": "Inside the chip",
+      "title": "How the chip keeps a card secure",
+      "lead": "When a card is placed on a reader, three things usually happen in a fraction of a second:",
+      "items": [
+        { "title": "The card and reader trust each other", "text": "Each side proves it holds the right secret key without sending the key itself. A fake card, or a fake reader trying to steal data, fails here." },
+        { "title": "The data is checked for tampering", "text": "The issuer signs the data on the chip when the card is made. If anyone changes a single detail, the signature no longer matches." },
+        { "title": "Private data stays locked", "text": "Sensitive data, such as fingerprints, can be kept behind a PIN or an extra key, so only authorised readers can see it." }
+      ],
+      "after": [
+        "Because the issuer's signature can be checked without a network connection, a well-designed smart card can be **verified offline**: at a remote dealer, on a bus or at a checkpoint with no signal. That is one of the biggest advantages of a chip over a printed card.",
+        "**Where the keys live.** The whole system is only as safe as its keys. The master keys used to make cards should be kept in a **hardware security module (HSM)**, a sealed device built to hold keys and never let them out. Readers in the field often use a small secure chip of their own, called a **SAM** (secure access module), so that a stolen reader does not give away the keys either."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "physical",
+      "eyebrow": "Visible security",
+      "title": "Security you can see and touch",
+      "lead": "Not every check uses a reader. A good card can also be checked by eye and by hand:",
+      "items": [
+        { "title": "Laser engraving.", "text": "On polycarbonate cards, the photo and details are burned into the inner layers with a laser. They cannot be peeled off or printed over." },
+        { "title": "Fine-line patterns and microtext.", "text": "Wavy background lines and tiny text that blur or break up when a card is scanned and reprinted." },
+        { "title": "Changing images.", "text": "A small window shows a different image or number as the card is tilted (known as MLI or CLI)." },
+        { "title": "Ghost image.", "text": "A second, faint copy of the holder's photo, so swapping the main photo is easy to spot." },
+        { "title": "UV ink and tactile marks.", "text": "Patterns that only appear under ultraviolet light, and raised details you can feel with a finger." }
+      ],
+      "after": [
+        "The card material matters too. **PVC** is cheap and fine for short-life cards. **Polycarbonate** costs more but lasts around ten years, survives heat and bending, and supports laser engraving, which is why most national ID cards use it."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "lifecycle",
+      "eyebrow": "Card lifecycle",
+      "title": "How a card is made and issued",
+      "lead": "Every smart card goes through the same journey, and each step has to be controlled:",
+      "ordered": true,
+      "items": [
+        { "title": "Enrolment.", "text": "The person's details, photo and, where needed, fingerprints are collected and checked, for example against NID records, so each person gets only one card." },
+        { "title": "Card body.", "text": "Blank cards with the chip, antenna and printed security background are made in a secure factory." },
+        { "title": "Personalisation.", "text": "The holder's data and keys are written to the chip (electrical personalisation), and the photo and details are printed or laser engraved (graphical personalisation)." },
+        { "title": "Quality check.", "text": "Each card is read back to confirm the chip and the print match the record before it leaves the line." },
+        { "title": "Issuance.", "text": "The card is handed over, often only after the holder confirms their fingerprint, and is then activated." },
+        { "title": "Use and verification.", "text": "Readers, POS terminals and phones check the card every time it is used." },
+        { "title": "Renewal and blocking.", "text": "Lost, stolen or expired cards are blocked so they cannot be used, and a replacement is issued." }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "bangladesh",
+      "eyebrow": "Local context",
+      "title": "Smart cards in Bangladesh",
+      "lead": "Smart cards are already part of daily life in Bangladesh:",
+      "items": [
+        { "title": "Smart NID.", "text": "Newer national ID cards carry a chip alongside printed security features. Many people still use the older laminated card, so systems have to handle both." },
+        { "title": "Driving licences.", "text": "Licences are issued as smart cards that police can check at the roadside." },
+        { "title": "e-Passports.", "text": "The passport booklet has a chip in the cover that holds the holder's data and photo." },
+        { "title": "Metro rail.", "text": "Dhaka metro passengers tap contactless cards at the gates instead of buying a ticket for every trip." },
+        { "title": "Bank cards.", "text": "Debit and credit cards now carry chips, which made copying them far harder than with magnetic stripes alone." },
+        { "title": "Benefit cards.", "text": "The [TCB smart card](project:tcb-smart-card) gives each registered low-income family a card that dealers check before handing over subsidised goods." }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "benefits-risks",
+      "eyebrow": "Honest view",
+      "title": "Benefits and risks",
+      "lead": "Smart cards solve real problems, but only when the whole system around them is designed well.",
+      "columns": [
+        {
+          "title": "Benefits",
+          "tone": "good",
+          "items": [
+            { "title": "Hard to fake.", "text": "A secure chip cannot be copied by scanning or photocopying the card." },
+            { "title": "Works offline.", "text": "Signed data can be checked with no network connection." },
+            { "title": "Fast.", "text": "A tap or insert takes a second, so queues move quicker." },
+            { "title": "One card, many uses.", "text": "One chip can hold separate, walled-off applications, such as ID, transport and payments." }
+          ]
+        },
+        {
+          "title": "Risks",
+          "tone": "bad",
+          "items": [
+            { "title": "Weak chips.", "text": "Cheap or old memory-only cards can be cloned in seconds." },
+            { "title": "Poor key handling.", "text": "If master keys leak, every card in the programme is at risk." },
+            { "title": "Lost cards.", "text": "Without a quick way to block a card, a lost card can be misused." },
+            { "title": "Bad enrolment.", "text": "A secure card issued to the wrong person is still a problem. The check at enrolment matters as much as the chip." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "planning",
+      "eyebrow": "Before you order",
+      "title": "Planning a card programme",
+      "lead": "Before ordering a single card, it helps to answer a few questions:",
+      "items": [
+        { "title": "Who checks the card, and where?", "text": "Counters, gates, POS terminals or officers with phones. This decides between contact, contactless or dual-interface." },
+        { "title": "Does it need to work offline?", "text": "If yes, the data must be signed on the chip, and readers need the issuer's public key." },
+        { "title": "How long should it last?", "text": "Two years suits PVC. Ten years needs polycarbonate." },
+        { "title": "How many cards, how fast?", "text": "This decides between desktop card printers and high-volume personalisation lines." },
+        { "title": "Who holds the keys?", "text": "The issuing organisation should own its keys, kept in an HSM on its own premises." },
+        { "title": "What happens when a card is lost?", "text": "Plan blocking, replacement and the cost of reissuing from day one." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Can a smart card be cloned?", "a": "A card with a secure, cryptographic chip is very hard to clone, because its secret keys never leave the chip. Cheap memory-only cards and old 125 kHz access cards are a different story: some can be copied in seconds, so they should not be used where security matters." },
+        { "q": "Is it safe to tap a contactless card?", "a": "Yes. Contactless cards only work within a few centimetres, and secure cards encrypt what they send. Someone standing nearby cannot simply read your card from across the room." },
+        { "q": "Does a smart card have a battery?", "a": "No. A contact card gets power from the reader through the gold pad, and a contactless card gets power from the reader's radio field through its antenna." },
+        { "q": "What is the difference between a smart card and an RFID card?", "a": "RFID is a broad term for any card or tag read by radio. Many RFID cards only hold a number. A contactless smart card also uses radio, but has a secure chip that can do cryptography and protect its data." },
+        { "q": "How long does a smart card last?", "a": "A PVC card usually lasts two to three years of daily use. A polycarbonate card with a laser-engraved photo can last ten years, which is why it is used for national ID cards and driving licences." },
+        { "q": "Can a smart card be checked without the internet?", "a": "Yes, if it is designed for it. When the issuer signs the data on the chip, a reader or phone can check that signature with no connection. Lost-card lists are then updated whenever the reader next comes online." }
+      ]
+    },
+    { "type": "divider", "text": "Now that you know how smart cards work, here is how *Spectrum* designs and issues them." },
+    {
+      "type": "feature",
+      "id": "spectrum",
+      "eyebrow": "Smart card programmes",
+      "title": "From enrolment to the card *in their hand*",
+      "body": [
+        "Spectrum runs the whole card programme: checking who should get a card, designing the card and its security, personalising and issuing it, and giving dealers, officers and staff a quick way to check it.",
+        "We work with government programmes, banks and large employers, and the keys and data stay on servers the issuing organisation controls."
+      ],
+      "image": { "src": "/images/pages/smart-card-hero.webp", "alt": "A TCB smart card held up next to a phone, with other Bangladeshi smart cards below" },
+      "actions": [
+        { "label": "Plan your card programme", "href": "contact:Smart Card Technologies" },
+        { "label": "See how it works", "href": "#steps" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "steps",
+      "eyebrow": "How it works",
+      "title": "Four steps, one accountable team",
+      "lead": "One team is responsible from the first enrolment to the last card check, so nothing falls between suppliers.",
+      "items": [
+        { "title": "Enrol and check", "text": "Collect each person's details, photo and fingerprints, and check them against NID records so nobody gets two cards." },
+        { "title": "Design the card", "text": "Choose the chip, the material and the visible security features, and set up the keys in an HSM you own." },
+        { "title": "Personalise and issue", "text": "Encode the chip, print or laser engrave the card, check every card, then hand it over against the holder's fingerprint." },
+        { "title": "Check every use", "text": "POS terminals, readers and phone apps confirm the card is genuine and belongs to the person, online or offline." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "what-we-supply",
+      "eyebrow": "What we supply",
+      "title": "Everything a card programme needs",
+      "lead": "Software, hardware and people, supplied and supported from Dhaka.",
+      "items": [
+        { "title": "Card management software", "text": "Tracks every card from enrolment to blocking, with a full record of who did what and when.", "icon": "Database" },
+        { "title": "Chip encoding and key management", "text": "Chip data is signed and written using keys held in an HSM, with SAM modules for readers in the field.", "icon": "KeyRound" },
+        { "title": "Card printers and laser engraving", "text": "From desktop printers for an office to high-volume lines for national programmes, on PVC or polycarbonate.", "icon": "Printer" },
+        { "title": "POS and phone verification", "text": "Apps for POS terminals and Android phones that read the card, check the holder's fingerprint and record the transaction.", "icon": "Smartphone" },
+        { "title": "Self-service kiosks", "text": "Kiosks where people can check their details, renew a card or pick up a replacement without waiting at a counter.", "icon": "Pointer" },
+        { "title": "Support across Bangladesh", "text": "Installation, staff training and maintenance by our own engineers, with spare devices ready in Dhaka.", "icon": "Wrench" }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "tcb",
+      "eyebrow": "Proven at national scale",
+      "title": "TCB Smart Card: *10M+ families*",
+      "body": [
+        "For the **Trading Corporation of Bangladesh (TCB)**, Spectrum enrolled **more than 10 million low-income families** across all 64 districts, checked each one against the NID database, and issued each family a smart card. More than 10,000 dealers check the card on POS terminals before handing over subsidised goods."
+      ],
+      "actions": [
+        { "label": "Read the TCB case study", "href": "project:tcb-smart-card" },
+        { "label": "See the live system", "href": "https://digital.tcbsheba.com/" }
+      ],
+      "stats": [
+        { "value": "10M+", "label": "Families with a smart card" },
+        { "value": "64", "label": "Districts covered, all of Bangladesh" },
+        { "value": "10,000+", "label": "Dealers checking cards on POS terminals" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "programmes",
+      "eyebrow": "Who uses it",
+      "title": "Card programmes we build",
+      "items": [
+        { "title": "Benefit and ration cards", "text": "One card per family, checked at the dealer, so support reaches the right people once.", "icon": "HandHelping" },
+        { "title": "Licences and permits", "text": "Driving, trade and professional licences that officers can check at the roadside or on site.", "icon": "Car" },
+        { "title": "Staff ID and access", "text": "One card for the door, the attendance machine and the canteen, blocked the moment it is reported lost.", "icon": "UserLock" },
+        { "title": "Banks and MFS", "text": "Instant card issuance in the branch, so customers leave with a working card.", "icon": "Banknote" },
+        { "title": "Universities and schools", "text": "Student cards for library, exam halls, hostels and fee payment.", "icon": "GraduationCap" },
+        { "title": "Health cards", "text": "Patient cards that bring up the right record at any hospital counter.", "icon": "Hospital" }
+      ]
+    }
+  ],
+  "relatedProjects": ["tcb-smart-card", "smart-card-issuance"],
+  "cta": {
+    "eyebrow": "Plan your smart card programme",
+    "title": "Who are the cards for?",
+    "text": "Tell us who the cards are for, how many you need and where they will be checked. We will suggest the right chip, card and setup, and show you sample cards and readers.",
+    "action": "Talk to our team",
+    "href": "contact:Smart Card Technologies"
+  }
+}

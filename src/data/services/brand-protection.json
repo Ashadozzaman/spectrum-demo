@@ -1,0 +1,195 @@
+{
+  "seo": {
+    "title": "Brand Protection Solutions in Bangladesh",
+    "description": "A plain guide to brand protection: how fake products reach customers and how unique codes, secure labels and supply-chain tracking stop them. Plus how Spectrum can help.",
+    "image": "/images/og/brand-protection.jpg"
+  },
+  "hero": {
+    "eyebrow": "Service guide",
+    "title": "Brand *protection*",
+    "lead": "How fake products reach your customers, and how to stop them: unique codes, secure labels, a quick check for buyers, and tracking through the supply chain. Then, how Spectrum can help.",
+    "chips": [
+      { "label": "A unique code on every product", "icon": "QrCode" },
+      { "label": "Customers check in seconds", "icon": "Smartphone" },
+      { "label": "Track through the supply chain", "icon": "Truck" },
+      { "label": "See where fakes appear", "icon": "ChartBar" }
+    ]
+  },
+  "intro": [
+    "A customer buys a medicine, a cosmetic or a spare part with your name on it. It is fake. It does not work, or it causes harm, and the customer blames your brand. Brand protection is the set of tools that make fakes hard to sell and easy to catch. This guide explains how it works in plain words."
+  ],
+  "sections": [
+    {
+      "type": "cards",
+      "id": "what-is",
+      "eyebrow": "The basics",
+      "title": "Brand protection in simple terms",
+      "lead": "Brand protection means making sure that products sold under your name really are yours. It deals with three common problems:",
+      "items": [
+        { "title": "Fake products", "text": "Copies made to look like your product and sold as the real thing." },
+        { "title": "Diverted stock", "text": "Genuine goods sold outside the market or channel they were meant for." },
+        { "title": "Refilled or relabelled goods", "text": "Old or empty packaging refilled, or expired stock relabelled and sold again." }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "The building blocks",
+      "lead": "Most brand protection systems use the same building blocks:",
+      "items": [
+        { "title": "A unique code on every item.", "text": "Each product, or each box, gets its own serial number and QR code, not one code for the whole batch." },
+        { "title": "Labels that are hard to copy or move.", "text": "Tamper-evident labels break if someone tries to peel them off and reuse them." },
+        { "title": "A quick check for customers.", "text": "The buyer scans the code with a phone camera and sees at once whether the product is genuine." },
+        { "title": "Tracking through the supply chain.", "text": "The code is scanned at the factory, warehouse and distributor, so you know where each item should be." },
+        { "title": "Alerts and reports.", "text": "If one code is scanned many times or in the wrong place, it is flagged as a likely copy." }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "bangladesh",
+      "eyebrow": "Local context",
+      "title": "Brand protection in Bangladesh",
+      "body": [
+        "Products that are often faked include medicines, cosmetics, electronics and their accessories, spare parts, and farm inputs such as seeds and fertiliser. For some of these, a fake is not just a lost sale: it can harm health, crops or safety.",
+        "Smartphones are now common across the country, so a QR check that works in an ordinary phone browser reaches most buyers without them installing anything."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "start",
+      "eyebrow": "Getting started",
+      "title": "Where to start",
+      "ordered": true,
+      "items": [
+        { "title": "Start with the products that are faked most,", "text": "or where a fake does the most harm." },
+        { "title": "Make the check easy.", "text": "If checking takes more than a few seconds, customers will not do it." },
+        { "title": "Tell customers to check.", "text": "A short message on the pack and in your advertising makes a big difference." },
+        { "title": "Use the data.", "text": "Scans show where your products are sold and where fakes appear, which helps both sales and enforcement." }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "benefits-limits",
+      "eyebrow": "Honest view",
+      "title": "What it can and cannot do",
+      "columns": [
+        {
+          "title": "Benefits",
+          "tone": "good",
+          "items": [
+            { "title": "Customers can check", "text": "before they buy or use a product." },
+            { "title": "Copied codes are caught,", "text": "because the same code cannot be genuine in many places." },
+            { "title": "You see where fakes appear,", "text": "so you can act on real information." },
+            { "title": "You learn about your market", "text": "from where and when genuine products are scanned." }
+          ]
+        },
+        {
+          "title": "Limits to know",
+          "tone": "bad",
+          "items": [
+            { "title": "It does not stop copying by itself.", "text": "It makes fakes easy to catch, and harder to sell." },
+            { "title": "Labels add a small cost", "text": "to each item." },
+            { "title": "Customers must be told", "text": "to check, or the codes go unused." },
+            { "title": "Enforcement is still needed", "text": "to act on the fakes the system finds." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Can a counterfeiter copy our QR codes?", "a": "They can copy a code, but every item has its own code. When one code is scanned many times, or in places it was never shipped to, the system flags it as a copy and the customer sees a warning." },
+        { "q": "Do customers need to install an app?", "a": "No. The check opens in the phone's normal web browser after scanning the QR code. An SMS check can be added for basic phones." },
+        { "q": "Does it work for small, low-cost products?", "a": "Yes. For low-cost items, the code is usually printed on the pack or a small label, which keeps the cost per item low." },
+        { "q": "Can it connect to our warranty or loyalty programme?", "a": "Yes. The same scan can register a warranty or add loyalty points, which gives customers another reason to check." },
+        { "q": "How long does it take to set up?", "a": "It depends on your production line and how codes are printed. We start with one product as a pilot, then add more." }
+      ]
+    },
+    { "type": "divider", "text": "Now that you know how brand protection works, here is how *Spectrum* can set it up for you." },
+    {
+      "type": "feature",
+      "id": "spectrum",
+      "eyebrow": "Brand protection",
+      "title": "Let customers check it’s *really yours*",
+      "body": [
+        "Spectrum builds the system behind brand protection: unique secure codes for each item, a check page for customers, tracking through your supply chain, and reports that show where fakes turn up.",
+        "It uses the same tools as our live systems for licences and ID cards, where a QR code links each item to a record that cannot be faked."
+      ],
+      "image": { "src": "/images/pages/brand-protection-hero.webp", "alt": "A hand holding a smart card with a QR code next to a smartphone" },
+      "actions": [
+        { "label": "Discuss your products", "href": "contact:Brand Protection" },
+        { "label": "See how it works", "href": "#steps" }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "steps",
+      "eyebrow": "How it works",
+      "title": "Tag, track, check",
+      "lead": "Three steps from the factory to the customer.",
+      "items": [
+        { "title": "Tag", "text": "Every item gets its own code, printed on the pack or a tamper-evident label." },
+        { "title": "Track", "text": "Codes are scanned at the factory, warehouse and distributor, so each item's route is known." },
+        { "title": "Check", "text": "The customer scans the code and sees straight away whether the product is genuine." }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "what-we-build",
+      "eyebrow": "What we build",
+      "title": "Everything you need to fight fakes",
+      "items": [
+        { "title": "Unique secure codes", "text": "A different code for every item, generated so it cannot be guessed.", "icon": "QrCode" },
+        { "title": "Customer check page", "text": "Opens in any phone browser after a scan. SMS check available for basic phones.", "icon": "Smartphone" },
+        { "title": "Supply chain tracking", "text": "Scans at each step show where every item is and where it should be.", "icon": "Truck" },
+        { "title": "Fake hotspot reports", "text": "A dashboard that shows where copied codes and suspicious scans appear.", "icon": "ChartBar" },
+        { "title": "Warranty and loyalty", "text": "Turn each genuine scan into a warranty registration or reward points.", "icon": "Award" },
+        { "title": "Connects to your systems", "text": "Links with your ERP and distributor systems, so codes and stock stay in step.", "icon": "Plug" }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "proof",
+      "eyebrow": "Built on proven tools",
+      "title": "The same checks we run for licences and ID cards",
+      "body": [
+        "Licences from our [National e-Licensing portal](project:e-licensing) carry a QR code that anyone can scan, and [TCB smart cards](project:tcb-smart-card) carry a secure QR code that more than 10,000 dealers check before every sale. Brand protection uses the same approach for your products."
+      ],
+      "actions": [
+        { "label": "Read the e-Licensing case study", "href": "project:e-licensing" },
+        { "label": "Read the TCB case study", "href": "project:tcb-smart-card" }
+      ],
+      "stats": [
+        { "value": "1 code", "label": "Per item, not per batch" },
+        { "value": "Seconds", "label": "For a customer to check" },
+        { "value": "Live", "label": "Reports on where fakes appear" }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "sectors",
+      "eyebrow": "Who uses it",
+      "title": "Built for these sectors",
+      "items": [
+        { "title": "Medicine makers", "text": "Help patients and pharmacies make sure a medicine is genuine.", "icon": "Pill" },
+        { "title": "Cosmetics and personal care", "text": "Protect customers from fake creams, shampoos and perfumes.", "icon": "Sparkles" },
+        { "title": "Electronics", "text": "Stop fake chargers, batteries and accessories carrying your name.", "icon": "Zap" },
+        { "title": "Seeds and farm inputs", "text": "Help farmers avoid fake seeds, fertiliser and pesticides.", "icon": "Wheat" },
+        { "title": "Spare parts", "text": "Make sure workshops fit genuine parts.", "icon": "Wrench" },
+        { "title": "Exporters and garments", "text": "Show buyers that goods are genuine and where they came from.", "icon": "Shirt" }
+      ]
+    }
+  ],
+  "relatedProjects": ["e-licensing", "tcb-smart-card"],
+  "cta": {
+    "eyebrow": "Are fakes hurting your brand?",
+    "title": "Let’s protect your products.",
+    "text": "Tell us which products get copied and where they are sold. We will suggest a simple pilot to show how checking would work.",
+    "action": "Talk to our team",
+    "href": "contact:Brand Protection"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "categories": [
+    { "id": "identity", "label": "Identity & Cards", "icon": "IdCard" },
+    { "id": "governance", "label": "Government", "icon": "Landmark" },
+    { "id": "portal", "label": "Portals and Apps", "icon": "Ticket" }
+  ],
+  "stats": [
+    { "value": "10M+", "label": "Families on TCB cards", "accent": true },
+    { "value": "64", "label": "Districts covered" },
+    { "value": "100,000+", "label": "Licences issued online" },
+    { "value": "15,000+", "label": "Smart cards a day" }
+  ],
+  "projects": [
+    {
+      "slug": "tcb-smart-card",
+      "title": "TCB Smart Card",
+      "category": "identity",
+      "icon": "IdCard",
+      "badge": "Social Safety Net",
+      "client": "Trading Corporation of Bangladesh (TCB)",
+      "description": "Smart cards for more than 10 million families, checked by dealers in the TCB Card Sheba app before every sale.",
+      "tags": ["NID Check", "Smart Cards", "TCB Card Sheba App", "Live Tracking"],
+      "secondary": { "label": "Live portal", "href": "https://digital.tcbsheba.com/" },
+      "flagship": true
+    },
+    {
+      "slug": "tcb-ai-contact-center",
+      "title": "TCB AI Contact Center",
+      "category": "governance",
+      "icon": "Headset",
+      "badge": "AI Contact Center",
+      "client": "Trading Corporation of Bangladesh (TCB)",
+      "description": "An AI voice agent, chat and WhatsApp that answer dealers and beneficiaries 24/7, with every complaint ticketed, reported and followed up.",
+      "tags": ["AI Voice Agent", "WhatsApp", "Auto Tickets", "Call Analytics"],
+      "secondary": { "label": "How it works", "href": "service:ai-contact-center" }
+    },
+    {
+      "slug": "e-licensing",
+      "title": "National e-Licensing",
+      "category": "governance",
+      "icon": "FileText",
+      "badge": "Government Licensing",
+      "client": "Government Regulatory Authorities",
+      "description": "One online portal to apply for, pay for and receive government licences, each with a QR code anyone can check.",
+      "tags": ["Apply Online", "e-Challan", "QR Check", "Audit Trail"],
+      "secondary": { "label": "Live portal", "href": "https://licence.gov.bd/" }
+    },
+    {
+      "slug": "gcc-e-revenue",
+      "title": "Gazipur City Corporation e-Revenue",
+      "category": "governance",
+      "icon": "Landmark",
+      "badge": "City Corporation",
+      "client": "Gazipur City Corporation",
+      "description": "Holding tax and trade licences online: a citizen portal, a tax calculator for every zone, and the My GCC app.",
+      "tags": ["Online Portal", "Tax Calculator", "My GCC App", "Dashboards"],
+      "secondary": { "label": "Get the app", "href": "https://play.google.com/store/apps/details?id=com.spectrum.gcc_portal" }
+    },
+    {
+      "slug": "presence-feedback",
+      "title": "Automated Presence & Feedback",
+      "category": "governance",
+      "icon": "Clock",
+      "badge": "Government Workplaces",
+      "client": "6 government bodies",
+      "description": "Attendance by location and photo, leave and feedback on the phone, used by the Ministry of Land, Ministry of Agriculture and more.",
+      "tags": ["Location Check-In", "Leave", "Feedback", "Android and iOS"],
+      "secondary": { "label": "Get the app", "href": "https://play.google.com/store/apps/details?id=com.spectrumit.afs" }
+    },
+    {
+      "slug": "smart-card-issuance",
+      "title": "Smart Card Issuance",
+      "category": "identity",
+      "icon": "Printer",
+      "badge": "Secure Cards",
+      "client": "National Transport Authorities",
+      "description": "Driving licences and transport cards printed, encoded and issued in large numbers, with chip keys kept in secure hardware.",
+      "tags": ["Chip Cards", "Laser Engraving", "Secure Keys", "Handheld Checks"],
+      "secondary": { "label": "Card tech", "href": "service:smart-card-technologies" }
+    },
+    {
+      "slug": "officers-club-dhaka",
+      "title": "Officers’ Club Dhaka",
+      "category": "portal",
+      "icon": "CalendarCheck",
+      "badge": "Members’ Club",
+      "client": "Officers’ Club Dhaka",
+      "description": "The club website, member portal and Android and iOS apps, where members book and pay for halls, guest house rooms and the salon.",
+      "tags": ["Member Portal", "Booking Calendars", "Online Payment", "Android and iOS"],
+      "secondary": { "label": "Live portal", "href": "https://ocd.org.bd/" }
+    },
+    {
+      "slug": "novotheatre-eticket",
+      "title": "Novotheatre eTicket",
+      "category": "portal",
+      "icon": "Ticket",
+      "badge": "Online Ticketing",
+      "client": "Novotheatre",
+      "description": "Online tickets for Novotheatre on the web and in the Novotheatre eTicket Android app (500+ downloads), with barcode entry at the gates.",
+      "tags": ["Online Booking", "Android App", "Barcode Gates", "Sales Reports"],
+      "secondary": { "label": "Live portal", "href": "https://novo.spectrum.com.bd/" }
+    },
+    {
+      "slug": "upokari",
+      "title": "Upokari",
+      "category": "portal",
+      "icon": "ShieldCheck",
+      "badge": "Our Own Product",
+      "client": "Spectrum IT Solutions",
+      "description": "AI that catches forged land records, TCB cards and NIDs, plus the Upokari app (10K+ downloads) for signed notices and a secure document vault.",
+      "tags": ["AI Verification", "Document Vault", "Android and iOS", "eCom Seller App"],
+      "primary": { "label": "See Upokari", "href": "product:upokari" },
+      "secondary": { "label": "upokari.ai", "href": "https://upokari.ai/" }
+    },
+    {
+      "slug": "industrial-e-court",
+      "title": "Industrial e-Court",
+      "category": "governance",
+      "icon": "Gavel",
+      "badge": "Courts and Justice",
+      "client": "Ministry of Labour and Employment",
+      "description": "Labour court cases filed, scheduled and followed online, with the daily cause list published automatically and SMS alerts for hearing dates.",
+      "tags": ["Online Filing", "Digital Signatures", "Cause Lists", "SMS Alerts"],
+      "secondary": { "label": "Live portal", "href": "http://www.ecourt.gov.bd/" },
+      "hidden": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "intro": [
+    "The core behind every channel. It identifies the contact, understands the need, and routes it to the right AI flow or person by caller type and category, with one shared history.",
+    "Part of Spectrum’s [AI Contact Center](service:ai-contact-center): take the whole seven-part system, or only the parts you need. Every part shares one customer record."
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "id": "example",
+      "eyebrow": "In practice",
+      "title": "Routing at TCB",
+      "body": [
+        "At [TCB](project:tcb-ai-contact-center), the phone menu first asks whether the caller is a dealer or a beneficiary, and what the problem is. Dealer and beneficiary cases then reach the right AI flow or the right person, and phone, chat and WhatsApp conversations with the same person are linked."
+      ]
+    }
+  ],
+  "relatedProjects": [
+    "tcb-ai-contact-center"
+  ]
+}

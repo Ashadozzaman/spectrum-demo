@@ -1,0 +1,102 @@
+{
+  "seo": {
+    "title": "TCB AI Contact Center: Case Study",
+    "description": "How Spectrum built an AI contact centre for TCB: an AI voice agent and chat that answer dealers and beneficiaries 24/7, with complaints ticketed, reported on WhatsApp and followed up until resolved.",
+    "image": "/images/og/cs-tcb-contact-center.jpg"
+  },
+  "hero": {
+    "eyebrow": "Case study",
+    "title": "TCB AI *Contact Center*",
+    "lead": "How Spectrum gave TCB a contact centre that answers dealers and beneficiaries around the clock, and tracks every complaint until it is resolved.",
+    "chips": [
+      { "label": "Answers 24/7, no queue", "icon": "Clock" },
+      { "label": "Dealers and beneficiaries", "icon": "Users" },
+      { "label": "Every complaint ticketed", "icon": "ClipboardCheck" },
+      { "label": "Insight on every call", "icon": "ChartBar" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "facts",
+      "id": "overview",
+      "eyebrow": "Overview",
+      "title": "At a glance",
+      "body": [
+        "TCB serves millions of families through more than 10,000 dealers, so it hears from a very large number of people. Spectrum built an AI contact centre that answers dealers and beneficiaries at any hour, on the phone and in messages, and follows every complaint through to the end."
+      ],
+      "items": [
+        { "label": "Client", "value": "Trading Corporation of Bangladesh (TCB), Ministry of Commerce" },
+        { "label": "Sector", "value": "Public service and complaint handling" },
+        { "label": "What we built", "value": "An AI contact centre for calls, chat and WhatsApp" },
+        { "label": "Live system", "value": "Runs on TCB’s own phone line and channels" }
+      ],
+      "image": { "src": "/assets/cs-aicc.webp", "alt": "TCB AI Contact Center dashboard" }
+    },
+    {
+      "type": "text",
+      "id": "problem",
+      "eyebrow": "The challenge",
+      "title": "The problem",
+      "body": [
+        "Like most public services, TCB handled calls the traditional way. Complaints came in by phone and were noted by hand, reports to the responsible officers were often late, and follow-up depended on individual staff.",
+        "Callers waited in a queue during office hours only, and nobody could easily see which problems people called about most."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "solution",
+      "eyebrow": "The solution",
+      "title": "What we built",
+      "intro": "All seven parts of Spectrum’s [AI Contact Center](service:ai-contact-center), set up for TCB’s callers:",
+      "items": [
+        { "title": "A call centre for TCB’s agents,", "text": "where the phone menu first asks whether the caller is a dealer or a beneficiary (upokarvogi), and what the problem is." },
+        { "title": "An AI voice agent", "text": "that answers 24/7 with no queue, finds the answer in TCB’s FAQs and documents, and replies by voice." },
+        { "title": "A chatbot and a WhatsApp assistant", "text": "that use the same AI and the same record of each caller." },
+        { "title": "Routing by caller type and category,", "text": "so dealer and beneficiary cases reach the right AI flow or the right person." },
+        { "title": "Complaint handling from start to finish:", "text": "a numbered ticket, a PDF report sent on WhatsApp to the caller and the responsible authority, then timed follow-ups and escalation until it is resolved." },
+        { "title": "Dashboards", "text": "that group every call by topic, so TCB sees the top concerns and repeat questions." }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "From the first ring to a solved case",
+      "items": [
+        { "title": "The caller gets through", "text": "By phone or WhatsApp. The menu asks if they are a dealer or a beneficiary." },
+        { "title": "The AI listens", "text": "It writes down what is said and works out whether it is a question or a complaint." },
+        { "title": "A ticket and report", "text": "For a complaint, a ticket opens and a PDF report goes on WhatsApp to the caller and the authority." },
+        { "title": "Follow-up until solved", "text": "Timed reminders and escalation continue until the case is closed and the caller is told." }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "results",
+      "eyebrow": "Impact",
+      "title": "Results",
+      "items": [
+        { "value": "24/7", "label": "Answers with no queue" },
+        { "value": "2", "label": "Caller types: dealers and beneficiaries" },
+        { "value": "1", "label": "Ticket and report for every complaint" }
+      ],
+      "bullets": [
+        "Dealers and beneficiaries get an answer at any hour, without waiting in a queue.",
+        "Every complaint has a ticket, a report sent to the responsible authority, and a follow-up until it is resolved.",
+        "TCB can see what people call about most, and fix recurring problems at the source."
+      ]
+    },
+    {
+      "type": "list",
+      "id": "technology",
+      "eyebrow": "Under the hood",
+      "title": "The technology, in plain words",
+      "items": [
+        { "title": "Speech to text and text to speech:", "text": "the AI hears the caller and answers by voice, live on the call." },
+        { "title": "One customer record:", "text": "phone, chat and WhatsApp conversations with the same person are linked." },
+        { "title": "Automatic tickets and PDF reports:", "text": "each complaint is numbered (for example TKT-20261109-0001) and reported on WhatsApp." },
+        { "title": "Call analytics:", "text": "every recorded call is grouped by topic for the dashboards." }
+      ]
+    }
+  ],
+  "relatedServices": ["ai-contact-center", "artificial-intelligence"]
+}

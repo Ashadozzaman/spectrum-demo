@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "title": "Terms of Use",
+    "description": "The terms for using the Spectrum IT Solutions website: use of content, accuracy of information, quotes, third-party links, liability and Bangladesh law."
+  },
+  "hero": {
+    "eyebrow": "Legal",
+    "title": "Terms of *Use*",
+    "lead": "The rules for using this website, in plain words: what you can do with our content, what we are and are not responsible for, and which law applies.",
+    "chips": [
+      { "label": "Last updated 10 November 2026", "icon": "CalendarCheck" },
+      { "label": "Questions: contact@spectrum.com.bd", "icon": "Mail" }
+    ]
+  },
+  "title": "Terms of Use",
+  "updated": "10 November 2026",
+  "intro": [
+    "These terms apply to everyone who visits spectrum.com.bd, the website of Spectrum IT Solutions Ltd. (“Spectrum”, “we”, “us”). By using the website you agree to them. If you do not agree, please do not use the website."
+  ],
+  "sections": [
+    {
+      "id": "about-this-website",
+      "title": "About this website",
+      "body": [
+        "This website tells you about Spectrum, our services, products, projects and apps, and lets you contact us. It is provided for general information. Using it does not create a contract or a client relationship with us."
+      ]
+    },
+    {
+      "id": "information",
+      "title": "Information on the website",
+      "body": [
+        "We work hard to keep the website accurate and up to date, but:",
+        {
+          "list": [
+            "Information may change without notice, and some details may be out of date.",
+            "Product descriptions, features and figures are a general guide. Exact specifications depend on the model, supplier and project.",
+            "Figures in case studies describe results for that client and project. Your results will depend on your own situation.",
+            "Guides on this website, such as our pages on digital identity, AI and blockchain, are general information and not professional, legal or financial advice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quotes",
+      "title": "Quotes, orders and projects",
+      "body": [
+        "Prices, quotes and project terms are agreed only in a written proposal or contract signed by Spectrum. Sending a message or asking for a quote through the website does not create an order or a commitment on either side. If a signed contract says something different from these terms, the contract applies."
+      ]
+    },
+    {
+      "id": "our-content",
+      "title": "Our content",
+      "body": [
+        "The text, design, graphics, logos and images on this website belong to Spectrum or are used with permission. You may view and print pages for your own information, and you may share links to our pages. You may not copy, republish, sell or change our content, or use our name or logo, without our written permission."
+      ]
+    },
+    {
+      "id": "trademarks",
+      "title": "Names and logos of others",
+      "body": [
+        "Client names and logos, app store names and other trademarks shown on this website belong to their owners. We show them to describe work we have done or to point you to where our apps are available. Their appearance does not mean those owners endorse this website."
+      ]
+    },
+    {
+      "id": "proper-use",
+      "title": "Using the website properly",
+      "body": [
+        "Please do not:",
+        {
+          "list": [
+            "Try to break into, overload or disrupt the website or the services behind it.",
+            "Send spam, harmful code or false information through the contact form.",
+            "Copy large parts of the website automatically, for example with scrapers.",
+            "Use the website for anything unlawful."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "links",
+      "title": "Links to other websites and apps",
+      "body": [
+        "Our pages link to other websites and apps, including client portals, Google Play, the App Store and social media. We do not control them and are not responsible for their content, availability or privacy practices. Each of our apps has its own terms and privacy policy in its store listing."
+      ]
+    },
+    {
+      "id": "responsibility",
+      "title": "Our responsibility",
+      "body": [
+        "We provide the website “as it is”. We do not promise that it will always be available or free of errors. As far as the law allows, Spectrum is not responsible for any loss that comes from using, or not being able to use, the website or the information on it. Nothing in these terms limits any responsibility that cannot be limited under the law of Bangladesh."
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy",
+      "body": [
+        "How we handle personal information is explained in our [Privacy Policy](page:privacy)."
+      ]
+    },
+    {
+      "id": "law",
+      "title": "Which law applies",
+      "body": [
+        "These terms are governed by the laws of Bangladesh. Any dispute about the website or these terms will be handled by the courts of Dhaka, Bangladesh."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Changes to these terms",
+      "body": [
+        "We may update these terms from time to time. The date at the top shows when they were last changed. Please check this page now and then; continuing to use the website means you accept the updated terms."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact us",
+      "body": [
+        "If you have a question about these terms:",
+        {
+          "list": [
+            "**Spectrum IT Solutions Ltd.**, 52/1, New Eskaton Road (Hasan Holdings Ltd., 12th Floor), Dhaka-1000, Bangladesh",
+            "Email: [contact@spectrum.com.bd](mailto:contact@spectrum.com.bd)",
+            "Phone: [+880 1615-900004](tel:+8801615900004)"
+          ]
+        }
+      ]
+    }
+  ]
+}

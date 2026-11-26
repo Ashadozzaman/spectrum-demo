@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { routes } from "@/lib/routes";
  
 export default function Cta() {
   return (
@@ -14,8 +16,8 @@ export default function Cta() {
               time and cost.</p>
           </div>
           <div className="cta__actions">
-            <a href="#" className="btn-cta-lg" data-magnetic="">Book a free consultation<span aria-hidden="true"
-                className="mono">→</span></a>
+            <Link href={routes.contact} className="btn-cta-lg" data-magnetic="">Book a free consultation<span aria-hidden="true"
+                className="mono">→</span></Link>
             <div className="cta__row">
               <a href="https://wa.me/8801615900004" className="btn-glass">WhatsApp</a>
               <a href="tel:+8801615900004" className="btn-glass">Call us</a>

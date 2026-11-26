@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
+import { routes } from "@/lib/routes";
 export default function Services() {
   return (
     <>
@@ -14,7 +16,7 @@ export default function Services() {
             </div>
           </div>
           <div className="services__grid">
-            <a href="#" className="svc-card" data-reveal="0" data-tilt="">
+            <Link href={routes.service.digitalIdentity} className="svc-card" data-reveal="0" data-tilt="">
               <div className="svc-card__glow" aria-hidden="true"></div>
               <div className="svc-card__border" aria-hidden="true"></div>
               <div className="svc-card__top">
@@ -25,8 +27,8 @@ export default function Services() {
               <p className="svc-card__desc">Check that people and documents are real, from NID checks and face matching to
                 smart cards.</p>
               <span className="svc-card__more">Explore solutions<span aria-hidden="true" className="mono">→</span></span>
-            </a>
-            <a href="#" className="svc-card" data-reveal="70" data-tilt="">
+            </Link>
+            <Link href={routes.service.smartCards} className="svc-card" data-reveal="70" data-tilt="">
               <div className="svc-card__glow" aria-hidden="true"></div>
               <div className="svc-card__border" aria-hidden="true"></div>
               <div className="svc-card__top">
@@ -36,8 +38,8 @@ export default function Services() {
               <h3 className="svc-card__title">Smart Card Technologies</h3>
               <p className="svc-card__desc">Design, print, encode and check secure ID, staff and service cards.</p>
               <span className="svc-card__more">Explore solutions<span aria-hidden="true" className="mono">→</span></span>
-            </a>
-            <a href="#" className="svc-card" data-reveal="140" data-tilt="">
+            </Link>
+            <Link href={routes.service.ai} className="svc-card" data-reveal="140" data-tilt="">
               <div className="svc-card__glow" aria-hidden="true"></div>
               <div className="svc-card__border" aria-hidden="true"></div>
               <div className="svc-card__top">
@@ -48,8 +50,8 @@ export default function Services() {
               <p className="svc-card__desc">Practical AI that reads Bangla and English documents, matches faces and flags
                 fraud.</p>
               <span className="svc-card__more">Explore solutions<span aria-hidden="true" className="mono">→</span></span>
-            </a>
-            <a href="#" className="svc-card" data-reveal="210" data-tilt="">
+            </Link>
+            <Link href={routes.service.antiCounterfeit} className="svc-card" data-reveal="210" data-tilt="">
               <div className="svc-card__glow" aria-hidden="true"></div>
               <div className="svc-card__border" aria-hidden="true"></div>
               <div className="svc-card__top">
@@ -60,8 +62,8 @@ export default function Services() {
               <p className="svc-card__desc">Stop fake documents, cards and certificates, and catch them in seconds with QR
                 checks and AI.</p>
               <span className="svc-card__more">Explore solutions<span aria-hidden="true" className="mono">→</span></span>
-            </a>
-            <a href="#" className="svc-card" data-reveal="280" data-tilt="">
+            </Link>
+            <Link href={routes.service.blockchain} className="svc-card" data-reveal="280" data-tilt="">
               <div className="svc-card__glow" aria-hidden="true"></div>
               <div className="svc-card__border" aria-hidden="true"></div>
               <div className="svc-card__top">
@@ -72,15 +74,15 @@ export default function Services() {
               <p className="svc-card__desc">Tamper-proof records for land, certificates and supply chains, with QR
                 verification and private blockchain networks.</p>
               <span className="svc-card__more">Explore solutions<span aria-hidden="true" className="mono">→</span></span>
-            </a>
-            <a href="#" className="svc-all" data-reveal="400">
+            </Link>
+            <Link href={routes.services} className="svc-all" data-reveal="400">
               <span className="svc-all__label">SEE EVERYTHING WE DO</span>
               <div>
                 <div className="svc-all__count">19</div>
                 <div className="svc-all__caption">Services and systems</div>
               </div>
               <span className="svc-all__foot">View all services<span aria-hidden="true" className="mono">→</span></span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

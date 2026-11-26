@@ -1,0 +1,62 @@
+{
+  "intro": [
+    "Answers 24/7 with no queue. It notices when the caller stops, turns speech into text, finds the answer in FAQs, documents and other systems, and replies by voice on the call.",
+    "Part of Spectrum’s [AI Contact Center](service:ai-contact-center): take the whole seven-part system, or only the parts you need. Every part shares one customer record."
+  ],
+  "sections": [
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How it works",
+      "title": "Every call, the same simple steps",
+      "items": [
+        {
+          "title": "Contact arrives",
+          "text": "By phone, WhatsApp, website chat or a social media message."
+        },
+        {
+          "title": "AI listens",
+          "text": "It notices when the caller has stopped speaking."
+        },
+        {
+          "title": "Speech to text",
+          "text": "What the caller says is written down as they speak."
+        },
+        {
+          "title": "Understands the need",
+          "text": "A question, a complaint, an order, or a request to talk to a person."
+        },
+        {
+          "title": "Checks the records",
+          "text": "The caller's record, past contacts and the knowledge base."
+        },
+        {
+          "title": "Acts and replies",
+          "text": "Answers, opens a ticket, sends a report, or hands over to a person with a summary."
+        }
+      ],
+      "after": [
+        "Afterwards, the AI writes the ticket and summary, the recording is saved, and the contact is added to the dashboard."
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "eyebrow": "FAQ",
+      "title": "Questions about the voice agent",
+      "items": [
+        {
+          "q": "Does it replace human agents?",
+          "a": "No. The AI handles routine questions and the paperwork around each contact. When a case needs a person, it hands over with a full summary, so the caller does not have to repeat themselves."
+        },
+        {
+          "q": "Where should we start?",
+          "a": "With one channel and your most common questions. Humans monitor the pilot and can take over at any time."
+        }
+      ]
+    }
+  ],
+  "relatedProjects": [
+    "tcb-ai-contact-center"
+  ]
+}
